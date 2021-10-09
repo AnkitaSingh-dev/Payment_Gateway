@@ -1,0 +1,40 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutBase.cshtml";
+}
+
+@{
+    String controllerName = ViewBag.Controller;
+    String actionName = ViewBag.SubmitAction;
+}
+
+@using (Html.BeginForm(actionName, controllerName, null, FormMethod.Post, new { id = "form", @class = "form-horizontal form-validate" }))
+{
+    <div class="box-title">
+        <div class="span9">
+            <h3><i class="icon-table"></i> @ViewBag.BoxTitle</h3>
+        </div>
+        <div class="span2">
+            <a href="@Url.Action(ViewBag.Index, ViewBag.Controller)" rel="tooltip" title="Back to List" class="btn btn-satblue pull-right">
+                <i class="icon-circle-arrow-left large"></i> Back to list
+            </a>
+        </div>
+        <div class="span1">
+            <a href="#" onclick="$(this).closest('form').submit()" rel="tooltip" title="Save" class="btn btn-teal pull-right">
+                <i class="icon-save"></i><span>  Save</span>
+            </a>
+        </div>
+    </div>
+    <div class="box-content">
+        @Html.AntiForgeryToken()
+        @RenderBody()
+        <hr />
+        <div class="control-group">
+            <a href="@Url.Action(ViewBag.Index, ViewBag.Controller)" rel="tooltip" title="Back to List" class="btn btn-satblue pull-left">
+                <i class="icon-circle-arrow-left large"></i> Back to list
+            </a>
+            <a href="#" onclick="$(this).closest('form').submit()" rel="tooltip" title="Save" class="btn btn-teal pull-right">
+                <i class="icon-save"></i><span>  Save</span>
+            </a>
+        </div>
+    </div>
+}

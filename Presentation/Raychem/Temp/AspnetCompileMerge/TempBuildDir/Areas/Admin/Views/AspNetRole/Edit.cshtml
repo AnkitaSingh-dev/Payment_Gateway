@@ -1,0 +1,31 @@
+﻿@model Corno.Raychem.CustomerPortal.Areas.Admin.Models.AspNetRole
+
+@{
+    Layout = "~/Views/Shared/_LayoutEdit.cshtml";
+}
+
+@{
+    ViewBag.Index = "Index";
+    ViewBag.Create = "Create";
+    ViewBag.Edit = "Edit";
+    ViewBag.Details = "Details";
+    ViewBag.Delete = "Delete";
+}
+
+@{
+    Page.Title = "Edit Role";
+    ViewBag.MainMenu = "Transactions";
+    ViewBag.CurrentSitemap = "Roles";
+    ViewBag.BoxTitle = "Edit Role : " + Model.Name;
+
+    ViewBag.Controller = "AspNetRole";
+
+    ViewBag.SubmitAction = ViewBag.Edit;
+}
+
+<div class="control-group">
+    <label for="Name" class="control-label">Role Name <span style="color: red">*</span>:</label>
+    <div class="controls">
+        @Html.TextBoxFor(m => m.Name, new { id = "Name", placeholder = "Enter Role Name", @class = "input-xlarge", data_rule_required = "true", data_rule_minlength = "2" })
+    </div>
+</div>

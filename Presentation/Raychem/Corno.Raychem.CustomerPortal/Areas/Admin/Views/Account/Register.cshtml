@@ -1,0 +1,73 @@
+﻿@model Corno.Raychem.CustomerPortal.Areas.Admin.Models.RegisterViewModel
+
+@{
+    Layout = "~/Views/Shared/_LayoutCreate.cshtml";
+}
+
+@{
+    ViewBag.Index = "Index";
+    ViewBag.Create = "Register";
+    ViewBag.Edit = "Edit";
+    ViewBag.Details = "Details";
+    ViewBag.Delete = "Delete";
+}
+
+@{
+    Page.Title = "Roles";
+    ViewBag.MainMenu = "Administration";
+    ViewBag.CurrentSitemap = "Roles";
+    ViewBag.BoxTitle = "Create New User";
+
+    ViewBag.Controller = "Account";
+
+    ViewBag.SubmitAction = ViewBag.Create;
+}
+
+<div class="control-group">
+    <label class="control-label">User Name <span style="color: red">*</span>:</label>
+    <div class="controls">
+        @Html.TextBoxFor(m => m.UserName, new {id = "UserName", placeholder = "Enter User Name", @class = "input-xlarge", data_rule_required = "true", data_rule_minlength = "2"})
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label">Password <span style="color: red">*</span>:</label>
+    <div class="controls">
+        @Html.TextBoxFor(m => m.Password, new {id = "Password", type = "password", placeholder = "Enter Password", @class = "input-xlarge", data_rule_required = "true", data_rule_minlength = "2"})
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label">Confirm Password <span style="color: red">*</span>:</label>
+    <div class="controls">
+        @Html.TextBoxFor(m => m.ConfirmPassword, new { id = "ConfirmPassword", type = "password", placeholder = "Enter Confirm Password", @class = "input-xlarge", data_rule_required = "true", data_rule_minlength = "2" })
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label">First Name <span style="color: red">*</span>:</label>
+    <div class="controls">
+        @Html.TextBoxFor(m => m.FirstName, new {id = "FirstName", placeholder = "Enter First Name", @class = "input-xlarge", data_rule_required = "true", data_rule_minlength = "2"})
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label">Last Name <span style="color: red">*</span>:</label>
+    <div class="controls">
+        @Html.TextBoxFor(m => m.LastName, new {id = "LastName", placeholder = "Enter Last Name", @class = "input-xlarge", data_rule_required = "true", data_rule_minlength = "2"})
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label">Mobile <span style="color:red">*</span>:</label>
+    <div class="controls">
+        @Html.TextBoxFor(m => m.PhoneNumber, new { id = "PhoneNumber", placeholder = "Enter Mobile No", @class = "input-xlarge", data_rule_required = "true", data_rule_number = "true", data_rule_maxlength = "10" })
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label">Email <span style="color: red">*</span>:</label>
+    <div class="controls">
+        @Html.TextBoxFor(m => m.Email, new { id = "Email", placeholder = "Enter Email", @class = "input-xlarge", data_rule_required = "true", data_rule_email = "true" })
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label">Account No. :</label>
+    <div class="controls">
+        @Html.TextBoxFor(m => m.AccountNo, new { placeholder = "Enter Account No", @class = "input-xlarge" })
+    </div>
+</div>

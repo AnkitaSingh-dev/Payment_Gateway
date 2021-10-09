@@ -1,0 +1,6 @@
+Initiated by : 
+
+{"EndUserIp": "104.211.179.239","TokenId": "d0e6f1d7-5dc0-43ed-8523-044c3d4e2887", "TraceId": "55f5455a-d9aa-4d45-8627-f960897a5181", "PNR": "E7CHJZ", "BookingId": "1407134", "TripIndicator": "1" ,"username":"+ctkwQRxUeNl/odbHv8yKw==\n","CabinClass":"2"}
+
+{"status":true,"result":"Success","walletbalance":0.0,"transactionid":null,"addionalinfo":null,"datahtml":null,"response":{"Response":{"Error":{"ErrorCode":3,"ErrorMessage":"InValid Session"},"ResponseStatus":3,"TraceId":"55f5455a-d9aa-4d45-8627-f960897a5181"}},"userinfo":null,"isauthenticated":null,"sessionid":null,"conviniencecharges":null,"otp":null,"iskycsubmit":false,"ispansubmit":false,"isadhaarsubmit":false,"isemailconfirmed":false,"agentid":null,"otp_ref_number":null,"aadhaarno":null,"responsecode":null,"kitno":null,"iscarduser":false,"carddetails":null,"cardstatus":null,"cardlist":null,"cardamount":null,"beneficiarylist":null,"fcmtoken":null}
+

@@ -1,0 +1,36 @@
+URL: https://booking.travelboutiqueonline.com/AirAPI_V10/AirService.svc/rest/GetBookingDetails
+
+Initiated by : 
+
+{"EndUserIp":"fe80::48a7:fcc1:a332:1dd4","TokenId":"a417d09c-e68c-4e64-a2ba-67069ec286e6","TraceId":"b64b8639-863c-4bb9-b60b-f37643d44aa7","PNR":"VDIUJK","BookingId":1327737,"TripIndicator":1}
+
+{"status":false,"result":"Cannot perform runtime binding on a null reference","walletbalance":0.0,"transactionid":null,"addionalinfo":null,"datahtml":null,"response":null,"userinfo":null,"isauthenticated":null,"sessionid":null,"conviniencecharges":null,"otp":null,"iskycsubmit":false,"ispansubmit":false,"isadhaarsubmit":false,"isemailconfirmed":false,"agentid":null,"otp_ref_number":null,"aadhaarno":null,"responsecode":null,"kitno":null,"iscarduser":false,"carddetails":null,"pcardid":null,"vcardid":null,"cardstatus":null,"cardlist":null,"cardamount":null,"beneficiarylist":null,"fcmtoken":null}
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://booking.travelboutiqueonline.com/AirAPI_V10/AirService.svc/rest/GetBookingDetails
+
+Initiated by : 
+
+{"EndUserIp":"fe80::48a7:fcc1:a332:1dd4","TokenId":"a417d09c-e68c-4e64-a2ba-67069ec286e6","TraceId":"b64b8639-863c-4bb9-b60b-f37643d44aa7","PNR":"VDIUJK","BookingId":1327737,"TripIndicator":1,"username":"4KnJwiebsaQtxCj+W4kxNg=="}
+
+{"status":false,"result":"String reference not set to an instance of a String.\r\nParameter name: s","walletbalance":0.0,"transactionid":null,"addionalinfo":null,"datahtml":null,"response":null,"userinfo":null,"isauthenticated":null,"sessionid":null,"conviniencecharges":null,"otp":null,"iskycsubmit":false,"ispansubmit":false,"isadhaarsubmit":false,"isemailconfirmed":false,"agentid":null,"otp_ref_number":null,"aadhaarno":null,"responsecode":null,"kitno":null,"iscarduser":false,"carddetails":null,"pcardid":null,"vcardid":null,"cardstatus":null,"cardlist":null,"cardamount":null,"beneficiarylist":null,"fcmtoken":null}
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://booking.travelboutiqueonline.com/AirAPI_V10/AirService.svc/rest/GetBookingDetails
+
+Initiated by : 
+
+{"EndUserIp":"fe80::48a7:fcc1:a332:1dd4","TokenId":"a417d09c-e68c-4e64-a2ba-67069ec286e6","TraceId":"b64b8639-863c-4bb9-b60b-f37643d44aa7","PNR":"VDIUJK","BookingId":1327737,"TripIndicator":1,"username":"4KnJwiebsaQtxCj+W4kxNg=="}
+
+{"status":false,"result":"String reference not set to an instance of a String.\r\nParameter name: s","walletbalance":0.0,"transactionid":null,"addionalinfo":null,"datahtml":null,"response":null,"userinfo":null,"isauthenticated":null,"sessionid":null,"conviniencecharges":null,"otp":null,"iskycsubmit":false,"ispansubmit":false,"isadhaarsubmit":false,"isemailconfirmed":false,"agentid":null,"otp_ref_number":null,"aadhaarno":null,"responsecode":null,"kitno":null,"iscarduser":false,"carddetails":null,"pcardid":null,"vcardid":null,"cardstatus":null,"cardlist":null,"cardamount":null,"beneficiarylist":null,"fcmtoken":null}
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://booking.travelboutiqueonline.com/AirAPI_V10/AirService.svc/rest/GetBookingDetails
+
+Initiated by : 
+
+{"EndUserIp":"fe80::48a7:fcc1:a332:1dd4","TokenId":"a417d09c-e68c-4e64-a2ba-67069ec286e6","TraceId":"b64b8639-863c-4bb9-b60b-f37643d44aa7","PNR":"VDIUJK","BookingId":1327737,"TripIndicator":1,"username":"4KnJwiebsaQtxCj+W4kxNg=="}
+
+{"status":false,"result":"String reference not set to an instance of a String.\r\nParameter name: s","walletbalance":0.0,"transactionid":null,"addionalinfo":null,"datahtml":null,"response":null,"userinfo":null,"isauthenticated":null,"sessionid":null,"conviniencecharges":null,"otp":null,"iskycsubmit":false,"ispansubmit":false,"isadhaarsubmit":false,"isemailconfirmed":false,"agentid":null,"otp_ref_number":null,"aadhaarno":null,"responsecode":null,"kitno":null,"iscarduser":false,"carddetails":null,"pcardid":null,"vcardid":null,"cardstatus":null,"cardlist":null,"cardamount":null,"beneficiarylist":null,"fcmtoken":null}
+
+-----------------------------------------------------------------------------------------------------------------------------------------------

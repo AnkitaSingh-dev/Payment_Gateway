@@ -1,0 +1,93 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div id="main">
+    <div class="container-fluid">
+        <div class="page-header">
+            <div class="pull-left">
+                <h3>@Page.Title</h3>
+            </div>
+            <div class="pull-right">
+                <ul class="stats">
+                    <li class="lightred">
+                        <i class="icon-calendar"></i>
+                        <div class="details">
+                            <span class="big">February 22, 2013</span>
+                            <span>Wednesday, 13:56</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="breadcrumbs">
+            <ul>
+                <li>
+                    <a href="@Url.Action("Index", "Home")">Home</a>
+                    <i class="icon-angle-right"></i>
+                </li>
+                <li>
+                    <a href="#">@ViewBag.MainMenu</a>
+                    <i class="icon-angle-right"></i>
+                </li>
+                <li>
+                    <a href="@Url.Action(ViewBag.CurrentMethod, ViewBag.Controller)">@ViewBag.CurrentLink</a>
+                </li>
+            </ul>
+            <div class="close-bread">
+                <a href="#"><i class="icon-remove"></i></a>
+            </div>
+        </div>
+        @Html.ValidationSummary(false, "", new { style = "color: red" })
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="box box-color box-bordered">
+                    @*<div class="box-title">
+                        <div class="span9">
+                            <h3><i class="icon-table"></i> @ViewBag.BoxTitle</h3>
+                        </div>
+                        <div class="span2">
+                            <a href="@Url.Action(ViewBag.Index, ViewBag.Controller)" rel="tooltip" title="Back to List" class="btn btn-satblue pull-right">
+                                <i class="icon-circle-arrow-left large"></i> Back to list
+                            </a>
+                        </div>
+                        <div class="span1">
+                            <a href="#" onclick="$(this).closest('form').submit()" rel="tooltip" title="Save" class="btn btn-teal pull-right">
+                                <i class="icon-save"></i><span>  Save</span>
+                            </a>
+                        </div>
+                    </div>*@
+                    <div class="box-title">
+                        <div class="span9">
+                            <h3><i class="icon-table"></i> @ViewBag.MainHeader</h3>
+                        </div>
+                        @if (null != ViewBag.Create)
+                        {
+                            <div class="span3">
+                                <p>
+                                    <a href="@Url.Action(ViewBag.Create, ViewBag.Controller)" class="btn btn-success pull-right">
+                                        <i class="icon-plus-sign"></i><span>  Add New</span>
+                                    </a>
+                                </p>
+                            </div>
+                        }
+                    </div>
+                    <div class="box-content">                        
+                        @RenderBody()
+                        @*<hr />
+                        <div class="control-group">
+                            <a href="@Url.Action(ViewBag.Index, ViewBag.Controller)" rel="tooltip" title="Back to List" class="btn btn-satblue pull-left">
+                                <i class="icon-circle-arrow-left large"></i> Back to list
+                            </a>
+                            <a href="#" onclick="$(this).closest('form').submit()" rel="tooltip" title="Save" class="btn btn-teal pull-right">
+                                <i class="icon-save"></i><span>  Save</span>
+                            </a>
+                        </div>*@
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

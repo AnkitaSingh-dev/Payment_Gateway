@@ -1,0 +1,43 @@
+﻿@model List<Corno.Raychem.CustomerPortal.Areas.Wallet.Models.UserDMTAgentRT>
+
+@{
+	Layout = "~/Views/Shared/_LayoutIndex.cshtml";
+}
+
+@{
+	ViewBag.Index = "Index";
+	ViewBag.Create = "Create";
+	ViewBag.Details = "Details";
+}
+
+@{
+	Page.Title = "Agents List";
+
+	ViewBag.MainHeader = "Agents";
+	ViewBag.MainMenu = "Masters";
+	ViewBag.Controller = "DmtAgent";
+	ViewBag.AddNewMethod = "Create";
+	ViewBag.CurrentLink = "Agents";
+}
+
+<table class="table table-bordered dataTable dataTable-scroll-x @*dataTable-grouping*@ dataTable-tools dataTable-colvis">
+    <thead>
+        <tr>
+            <th class="text-center span1 sorting_desc">Agent Id</th>
+            <th class="text-center span10">Username</th>
+            <th class="text-center span10">Permanent Address</th>
+            <th class="text-center span10">Pincode</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td class="text-center">@item.AgentId</td>
+                <td class="text-left">@item.UserName</td>
+                <td class="text-left">@item.PermanentAddress</td>
+                <td class="text-left">@item.PinCode</td>
+            </tr>
+        }
+    </tbody>
+</table>

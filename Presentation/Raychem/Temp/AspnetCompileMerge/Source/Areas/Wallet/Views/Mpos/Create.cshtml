@@ -1,0 +1,52 @@
+﻿@model Corno.Raychem.CustomerPortal.Areas.Wallet.Models.Mpos
+@{
+    Layout = "~/Views/Shared/_LayoutCreate.cshtml";
+}
+
+@{
+    ViewBag.Index = "Index";
+    ViewBag.Create = "Create";
+    ViewBag.Edit = "Edit";
+    ViewBag.Details = "Details";
+    ViewBag.Delete = "Delete";
+}
+
+@{
+    Page.Title = "Devices";
+    ViewBag.MainMenu = "Masters";
+    ViewBag.CurrentSitemap = "Device";
+    ViewBag.BoxTitle = "Create New MPOS device";
+
+    ViewBag.Controller = "Mpos";
+
+    ViewBag.SubmitAction = ViewBag.Create;
+}
+
+@Html.HiddenFor(m => m.Id)
+
+<div class="control-group">
+    <label class="control-label">Serial No <span style="color:red">*</span>:</label>
+    <div class="controls">
+        @Html.TextBoxFor(m => m.MposSerialNo, new { id = "MposSerialNo", placeholder = "Enter Serial No", @class = "input-xlarge", data_rule_required = "true", data_rule_minlength = "2" })
+    </div>
+</div>
+<div class="control-group">
+    <label  class="control-label">MID :</label>
+    <div class="controls">
+        @Html.TextBoxFor(m => m.Mid, new { id = "Mid", placeholder = "Enter MID", @class = "input-xlarge", data_rule_required = "true", data_rule_minlength = "2" })
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label">TID :</label>
+    <div class="controls">
+        @Html.TextBoxFor(m => m.Tid, new { id = "Tid", placeholder = "Enter TID", @class = "input-xlarge", data_rule_required = "true", data_rule_minlength = "2" })
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label">Version :</label>
+    <div class="controls">
+        @Html.TextBoxFor(m => m.Version, new { id = "Version", placeholder = "Enter Version", @class = "input-xlarge", data_rule_required = "true", data_rule_minlength = "2" })
+    </div>
+</div>
+<hr />
+

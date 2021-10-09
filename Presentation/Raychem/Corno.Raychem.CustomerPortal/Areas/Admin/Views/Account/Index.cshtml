@@ -1,0 +1,104 @@
+﻿@model List<Corno.Raychem.CustomerPortal.Areas.Admin.Models.UserViewModel>
+
+@{
+    Layout = "~/Views/Shared/_LayoutIndex.cshtml";
+}
+
+@{
+    ViewBag.Index = "Index";
+    ViewBag.Create = "Register";
+    ViewBag.Edit = "Edit";
+    ViewBag.Details = "Details";
+    ViewBag.Delete = "Delete";
+}
+
+@{
+    Page.Title = "Users";
+
+    ViewBag.MainHeader = "Users";
+    ViewBag.MainMenu = "Transactons";
+    ViewBag.Controller = "Account";
+    ViewBag.AddNewMethod = "Create";
+    ViewBag.CurrentLink = "Users";
+}
+
+<table class="table table-bordered dataTable dataTable-scroll-x @*dataTable-grouping*@ dataTable-tools dataTable-colvis">
+    <thead>
+        <tr>
+            <th>User Name</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Phone No</th>
+            <th>Wallet Balance</th>
+            <th>Card Amount</th>
+            <th>KYC Status</th>
+            <th>Society Member</th>
+            <th>Society Id</th>
+            <th>CP Id</th>
+            <th>Safex Id</th>
+            <th>Created On</th>
+            <th>Lock/Unlock</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>@item.UserName</td>
+            <td>@item.FirstName</td>
+            <td>@item.LastName</td>
+            <td>@item.Email</td>
+            <td>@item.PhoneNumber</td>
+            <td>@item.Wallet</td>
+            <td>@item.CardAmount</td>
+            <td>@item.KYCStatus</td>
+            <td>@item.IsSocietyMember</td>
+            <td>@item.SocietyId</td>
+            <td>@item.MemberId</td>
+            <td>@item.CustId</td>
+            <td>@item.CreatedOn</td>
+
+        <td class="text-center">
+            @if (item.LockoutEnabled)
+    {
+        <a href='@Url.Action("LockUnlockUser", "Account", new {id = item.Id})'>
+            <i class="icon-lock" width="30" height="30"></i>
+            @*<img src='data:image/png;base64,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' width="30" height="30"/>*@
+        </a>
+}
+else
+{
+        <a href='@Url.Action("LockUnlockUser", "Account", new {id = item.Id})'>
+            <i class="icon-unlock" width="30" height="30"></i>
+            @*<img src='data:image/png;base64,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' width="30" height="30"/>*@
+        </a>
+}
+        </td>
+        <td class="text-center">
+            <div class="btn-group">
+                <a href="#" data-toggle="dropdown" class="btn btn-danger dropdown-toggle"><i class="icon-cog"></i> <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="@Url.Action("Edit", "Account", new {id = item.Id})">
+                            <i class="icon-edit"></i> <span>Edit</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("UserRoles", "Account", new {id = item.Id})">
+                            <i class="icon-edit"></i> <span>Roles</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Delete", "Account", new {id = item.Id})">
+                            <i class="icon-remove"></i> <span>Delete</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </td>
+        </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,14 @@
+URL: https://tboapi.travelboutiqueonline.com/AirAPI_V10/AirService.svc/rest/Search
+
+Agent=WIh3ehIm%2FNZobvLCO17ZYg%3D%3D&DeviceId=LwGC9do8yCZnWDN50LI4JMu63l%2Fx9swfuk1fgsgsEnI%3D&UserName=%2BctkwQRxUeNl%2FodbHv8yKw%3D%3D
+
+{"status":false,"result":"Unexpected character encountered while parsing value: A. Path '', line 0, position 0.","walletbalance":0.0,"transactionid":null,"addionalinfo":null,"response":null,"userinfo":null,"isauthenticated":false,"sessionid":null}
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: 
+
+{"IsDomestic":true,"deviceId":"KubpyEaY5wRGYUO+wccdlmNjGMReJfH+GTs56zej+RE=\n","query":"mum","type":"Flight","username":"lMBvDfpQgqwMQYIpWQN6pw==\n"}
+
+[{"airportname":"Mumbai","airportcode":"BOM","cityname":"Mumbai","citycode":"BOM","countryname":"India","countrycode":"IN","nationalty":"Indian","currency":"INR"}]
+
+-----------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,38 @@
+#gmap3-menu {
+    background-color: #FFFFFF;
+    border: 1px;
+    border-bottom: 1px solid #676767;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #676767;
+    border-top: 1px solid #cccccc;
+    cursor: pointer;
+    padding: 0px;
+    width: 170px;
+}
+
+#gmap3-menu .item {
+    background-position: 4px center;
+    background-repeat: no-repeat;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 30px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+#gmap3-menu .item.itemA { background-image: url(../../../img/plugins/gmap/icon_greenA.png); }
+
+#gmap3-menu .item.itemB { background-image: url(../../../img/plugins/gmap/icon_greenB.png); }
+
+#gmap3-menu .item.zoomIn { background-image: url(../../../img/plugins/gmap/zoomin.png); }
+
+#gmap3-menu .item.zoomOut { background-image: url(../../../img/plugins/gmap/zoomout.png); }
+
+#gmap3-menu .item.centerHere { background-image: url(../../../img/plugins/gmap/here.png); }
+
+#gmap3-menu .item.hover { background-color: #d6e9f8; }
+
+#gmap3-menu .item.separator { border-bottom: 1px solid #cccccc; }

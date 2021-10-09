@@ -1,0 +1,1064 @@
+URL: https://in.cyberplat.com/cgi-bin/yb/yb_pay_check.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=13582018155822
+NUMBER=8273044153
+ACCOUNT=
+Authenticator3=
+AMOUNT=100
+AMOUNT_ALL=106
+TERM_ID=
+COMMENT=
+AID=ADMPL0183G
+routingType=
+transRefId=
+otc=9779
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+benBankName=
+benMobile=
+benId=
+Type=14
+Category_id=
+Product_id=
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=14
+PlanOffer=
+KeyKycStatus=
+Rcode=315068
+RequestFor=CUSTREFUND
+originalmerchantTranId=
+transFrom=01-01-2018
+transTo=06-12-2018
+
+
+0000041801SM000000650000006500000217
+inist_in            00000040
+                    00000000
+BEGIN
+DATE=13.06.2018 15:58:22
+SESSION=
+ERROR=0
+RESULT=0
+TRANSID=
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFsg8cYBAVljBACbEBiYgcDamseS2cIVMmu49rGaOGKS4UeBmxxl
+p8wciOIbpLFKmXcy/33/Laa2n8NnE3P1L0CpgtoQlTO5K5OSWsN1JCMJt4YN7VyJ
+k2zHnAEdc2mD9AwUdIFbrZqu80C5HN8/rbmNFz13fKhE19FDz3uoP rVBtc8PxC 
+zaWrBrABxw==
+= yVQ
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://in.cyberplat.com/cgi-bin/yb/yb_pay.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=13582018155822
+NUMBER=8273044153
+ACCOUNT=
+Authenticator3=
+AMOUNT=100
+AMOUNT_ALL=106
+TERM_ID=
+COMMENT=
+AID=ADMPL0183G
+routingType=
+transRefId=
+otc=9779
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+benBankName=
+benMobile=
+benId=
+Type=14
+Category_id=
+Product_id=
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=14
+PlanOffer=
+KeyKycStatus=
+Rcode=315068
+RequestFor=CUSTREFUND
+originalmerchantTranId=
+transFrom=01-01-2018
+transTo=06-12-2018
+
+
+0000045401SM000001010000010100000217
+inist_in            00000040
+                    00000000
+BEGIN
+ERROR=224
+RESULT=1
+DATE=13.06.2018 10:28:27
+errmsg=No transaction found.
+SESSION=13582018155822
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFsg8csBATzuBADDsjcGgwTRvYc or 9VpvQmIvsPGj/J4LupP74
+iLyqn6k FGVtDwKLMsxiojLEWvd75y2qSDEZ vbzuyIMGFy0oxtUjJgEsNaEV39R
+EbE38TUQ6 WpJ0wxavuBM1mnLF7DfBCRZmaGAKPh1JYg7zClSP5mCyjVXiRjqIMI
+SBvaX7ABxw==
+=xXAC
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://in.cyberplat.com/cgi-bin/yb/yb_pay_check.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=13592018155914
+NUMBER=9568556642
+ACCOUNT=
+Authenticator3=
+AMOUNT=100
+AMOUNT_ALL=106
+TERM_ID=
+COMMENT=
+AID=ADMPL0183G
+routingType=
+transRefId=
+otc=9779
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+benBankName=
+benMobile=
+benId=
+Type=14
+Category_id=
+Product_id=
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=14
+PlanOffer=
+KeyKycStatus=
+Rcode=315068
+RequestFor=CUSTREFUND
+originalmerchantTranId=
+transFrom=01-01-2018
+transTo=06-12-2018
+
+
+0000041801SM000000650000006500000217
+inist_in            00000040
+                    00000000
+BEGIN
+DATE=13.06.2018 15:59:13
+SESSION=
+ERROR=0
+RESULT=0
+TRANSID=
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFsg8fkBAQAfA/9pu1lbftOa14zSq4WJrA6LA6aGe5jaaNFmvZaf
+152FjCBH9bMWSrDL3IpX9Ql se1t4AiaEBH3iTmfKl1//7FPEThCgXimmFDS3Qoo
+g/B1VRCqyEA8AhGqxx96kEzv93orufGWtmfy1CWUD vkPJqQvCc51AQD0i10eKjx
+QkbaALABxw==
+=sdRn
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://in.cyberplat.com/cgi-bin/yb/yb_pay.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=13592018155914
+NUMBER=9568556642
+ACCOUNT=
+Authenticator3=
+AMOUNT=100
+AMOUNT_ALL=106
+TERM_ID=
+COMMENT=
+AID=ADMPL0183G
+routingType=
+transRefId=
+otc=9779
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+benBankName=
+benMobile=
+benId=
+Type=14
+Category_id=
+Product_id=
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=14
+PlanOffer=
+KeyKycStatus=
+Rcode=315068
+RequestFor=CUSTREFUND
+originalmerchantTranId=
+transFrom=01-01-2018
+transTo=06-12-2018
+
+
+0000231501SM000019620000196200000217
+inist_in            00000040
+                    00000000
+BEGIN
+ERROR=0
+RESULT=0
+ADDINFO={"RESP_CODE":200,"RESPONSE":"EPMONEY_LIST_TRANSACTION_SUCCESS","RESP_MSG":"Transaction fetch successfully.","DATA":{"TRANSACTION_DETAILS":[{"TXN_ID":904869,"EP_REFERENCE_NO":"EP521824","BANK_REFERENCE_NO":"","CUSTOMER_REFERENCE_NO":"1001527104586","BENE_MOBILENO":"","BENE_NAME":"naushad","BENE_ID":592558,"BENE_NICKNAME":"","BENE_BANKNAME":"STATE BANK OF INDIA","BANK_ADDRESS":"ETAHUTTAR PRADESH","BANK_ACCOUNTNO":"35278407373","BANKIFSC_CODE":"SBIN0001375","BENE_CODE":"","BENE_STATUS":"ACTIVE","BENE_OTP_VERIFIED":true,"PAID_AMOUNT":5000.0,"TRANSFER_AMOUNT":5000.0,"CHARGE_AMOUNT":0.0,"TRANSACTION_DATE":"2018-06-11 08:18:23","TRANSACTION_STATUS":"REFUNDED","TRANSACTION_STATUSMESSAGE":"Timeout waiting for connection-Transaction refund successful","ORDER_ID":"I1528728502650394810","AID":"EWIPS2288J","MID":"EP00009","CP":"CYBPR4211","ST":"REMDOMESTIC","REINIT_TXN_ID":""},{"TXN_ID":904998,"EP_REFERENCE_NO":"EP632683","BANK_REFERENCE_NO":"","CUSTOMER_REFERENCE_NO":"1001527113323","BENE_MOBILENO":"","BENE_NAME":"naushad","BENE_ID":592558,"BENE_NICKNAME":"","BENE_BANKNAME":"STATE BANK OF INDIA","BANK_ADDRESS":"ETAHUTTAR PRADESH","BANK_ACCOUNTNO":"35278407373","BANKIFSC_CODE":"SBIN0001375","BENE_CODE":"","BENE_STATUS":"ACTIVE","BENE_OTP_VERIFIED":true,"PAID_AMOUNT":4900.0,"TRANSFER_AMOUNT":4900.0,"CHARGE_AMOUNT":0.0,"TRANSACTION_DATE":"2018-06-11 08:28:20","TRANSACTION_STATUS":"FAILED","TRANSACTION_STATUSMESSAGE":"Timeout waiting for connection","ORDER_ID":"I1528729099079394810","AID":"EWIPS2288J","MID":"EP00009","CP":"CYBPR4211","ST":"REMDOMESTIC","REINIT_TXN_ID":""}]}}
+DATE=13.06.2018 10:29:17
+SESSION=13592018155914
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFsg8f4BAeTGA/0drpRUWbmAOD1 pkIRHo9zKFZxjRV0jy2EzVNN
+59hpF0uVtCFQjvMp87Q4oDSi7PGzqARtJpbXwAGliRCKi1PCLmxOyfASQ5nyukD1
+HrDe6VGg5OoWQbkL60/q7UxjDRBLdhYOCYtlbyHSLidRa/Xpg/gJkvKeuBDycyMx
+OcP1a7ABxw==
+=yhbq
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://in.cyberplat.com/cgi-bin/yb/yb_pay_check.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=13432018164328
+NUMBER=9568556642
+ACCOUNT=
+Authenticator3=
+AMOUNT=100
+AMOUNT_ALL=106
+TERM_ID=
+COMMENT=
+AID=ADMPL0183G
+routingType=
+transRefId=
+otc=9779
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+benBankName=
+benMobile=
+benId=
+Type=14
+Category_id=
+Product_id=
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=14
+PlanOffer=
+KeyKycStatus=
+Rcode=315068
+RequestFor=CUSTREFUND
+originalmerchantTranId=
+transFrom=01-01-2018
+transTo=06-13-2018
+
+
+0000041801SM000000650000006500000217
+inist_in            00000040
+                    00000000
+BEGIN
+DATE=13.06.2018 16:43:28
+SESSION=
+ERROR=0
+RESULT=0
+TRANSID=
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFsg/FgBAZW7A/9eYh GgDGWNX4u8O48/68TWqicym9GOw61RueI
+DDymbGRLEVmSUQKru3FA MqfbEGq886IvuQx7HHzyXrcyLbnI7cOhng6aKQjGphz
+p55msLTwNZnYKjizOVwXGx/hANWh7olbMNPOdKRtKULuDDGyoIZ4mZgUH7NjXPpj
+iMZH8LABxw==
+=AgFx
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://in.cyberplat.com/cgi-bin/yb/yb_pay.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=13432018164328
+NUMBER=9568556642
+ACCOUNT=
+Authenticator3=
+AMOUNT=100
+AMOUNT_ALL=106
+TERM_ID=
+COMMENT=
+AID=ADMPL0183G
+routingType=
+transRefId=
+otc=9779
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+benBankName=
+benMobile=
+benId=
+Type=14
+Category_id=
+Product_id=
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=14
+PlanOffer=
+KeyKycStatus=
+Rcode=315068
+RequestFor=CUSTREFUND
+originalmerchantTranId=
+transFrom=01-01-2018
+transTo=06-13-2018
+
+
+0000231501SM000019620000196200000217
+inist_in            00000040
+                    00000000
+BEGIN
+ERROR=0
+RESULT=0
+ADDINFO={"RESP_CODE":200,"RESPONSE":"EPMONEY_LIST_TRANSACTION_SUCCESS","RESP_MSG":"Transaction fetch successfully.","DATA":{"TRANSACTION_DETAILS":[{"TXN_ID":904869,"EP_REFERENCE_NO":"EP521824","BANK_REFERENCE_NO":"","CUSTOMER_REFERENCE_NO":"1001527104586","BENE_MOBILENO":"","BENE_NAME":"naushad","BENE_ID":592558,"BENE_NICKNAME":"","BENE_BANKNAME":"STATE BANK OF INDIA","BANK_ADDRESS":"ETAHUTTAR PRADESH","BANK_ACCOUNTNO":"35278407373","BANKIFSC_CODE":"SBIN0001375","BENE_CODE":"","BENE_STATUS":"ACTIVE","BENE_OTP_VERIFIED":true,"PAID_AMOUNT":5000.0,"TRANSFER_AMOUNT":5000.0,"CHARGE_AMOUNT":0.0,"TRANSACTION_DATE":"2018-06-11 08:18:23","TRANSACTION_STATUS":"REFUNDED","TRANSACTION_STATUSMESSAGE":"Timeout waiting for connection-Transaction refund successful","ORDER_ID":"I1528728502650394810","AID":"EWIPS2288J","MID":"EP00009","CP":"CYBPR4211","ST":"REMDOMESTIC","REINIT_TXN_ID":""},{"TXN_ID":904998,"EP_REFERENCE_NO":"EP632683","BANK_REFERENCE_NO":"","CUSTOMER_REFERENCE_NO":"1001527113323","BENE_MOBILENO":"","BENE_NAME":"naushad","BENE_ID":592558,"BENE_NICKNAME":"","BENE_BANKNAME":"STATE BANK OF INDIA","BANK_ADDRESS":"ETAHUTTAR PRADESH","BANK_ACCOUNTNO":"35278407373","BANKIFSC_CODE":"SBIN0001375","BENE_CODE":"","BENE_STATUS":"ACTIVE","BENE_OTP_VERIFIED":true,"PAID_AMOUNT":4900.0,"TRANSFER_AMOUNT":4900.0,"CHARGE_AMOUNT":0.0,"TRANSACTION_DATE":"2018-06-11 08:28:20","TRANSACTION_STATUS":"FAILED","TRANSACTION_STATUSMESSAGE":"Timeout waiting for connection","ORDER_ID":"I1528729099079394810","AID":"EWIPS2288J","MID":"EP00009","CP":"CYBPR4211","ST":"REMDOMESTIC","REINIT_TXN_ID":""}]}}
+DATE=13.06.2018 11:13:31
+SESSION=13432018164328
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFsg/FwBAWw7BACbnRCjySo3LSE gQEq6Ew0v4keaW8MlHsOzjuI
+pnZNlFqViP UnWnoJM2gMvsaRGirVWz3 aWLRwTIuO05jc Di9nBBh29LpRHeYaD
+rmF1 n6lOlYX18zqjR34VtzXNTiVZ88hvxPrT1IqYLoWWSOYzU0uhQVS0rJiwZb7
+s1/5X7ABxw==
+=idrA
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://in.cyberplat.com/cgi-bin/yb/yb_pay_check.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=13472018164744
+NUMBER=8059542034
+ACCOUNT=
+Authenticator3=
+AMOUNT=100
+AMOUNT_ALL=106
+TERM_ID=
+COMMENT=
+AID=ADMPL0183G
+routingType=
+transRefId=
+otc=9779
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+benBankName=
+benMobile=
+benId=
+Type=14
+Category_id=
+Product_id=
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=14
+PlanOffer=
+KeyKycStatus=
+Rcode=315068
+RequestFor=CUSTREFUND
+originalmerchantTranId=
+transFrom=01-01-2018
+transTo=06-13-2018
+
+
+0000041801SM000000650000006500000217
+inist_in            00000040
+                    00000000
+BEGIN
+DATE=13.06.2018 16:47:43
+SESSION=
+ERROR=0
+RESULT=0
+TRANSID=
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFsg/VcBAfgKA/9zXQQlZeYX1C0XDr4B1h OuFZYFuduMZS99/LB
+mK0tWhRuq3WgPvbYWDIdHP4sVOqgOV/205KC4jRAvtUtoXDibCerDYW5PkUygkOO
+6Xe63QKzYz7u9ZVsJOGWRoJ2jNjrzI6qiniSwgGQibknYcOXh9B7gLydqg9aKKEv
+KYfwTbABxw==
+=6/p/
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://in.cyberplat.com/cgi-bin/yb/yb_pay.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=13472018164744
+NUMBER=8059542034
+ACCOUNT=
+Authenticator3=
+AMOUNT=100
+AMOUNT_ALL=106
+TERM_ID=
+COMMENT=
+AID=ADMPL0183G
+routingType=
+transRefId=
+otc=9779
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+benBankName=
+benMobile=
+benId=
+Type=14
+Category_id=
+Product_id=
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=14
+PlanOffer=
+KeyKycStatus=
+Rcode=315068
+RequestFor=CUSTREFUND
+originalmerchantTranId=
+transFrom=01-01-2018
+transTo=06-13-2018
+
+
+0000234801SM000019950000199500000217
+inist_in            00000040
+                    00000000
+BEGIN
+ERROR=0
+RESULT=0
+ADDINFO={"RESP_CODE":200,"RESPONSE":"EPMONEY_LIST_TRANSACTION_SUCCESS","RESP_MSG":"Transaction fetch successfully.","DATA":{"TRANSACTION_DETAILS":[{"TXN_ID":672606,"EP_REFERENCE_NO":"EP531762","BANK_REFERENCE_NO":"813817642268","CUSTOMER_REFERENCE_NO":"1001514798981","BENE_MOBILENO":"","BENE_NAME":"Mr  PADAM  KUMAR","BENE_ID":457231,"BENE_NICKNAME":"","BENE_BANKNAME":"STATE BANK OF INDIA","BANK_ADDRESS":"SHAH PUR BEGU,DISTT.SIRSA125055","BANK_ACCOUNTNO":"33762532478","BANKIFSC_CODE":"SBIN0011875","BENE_CODE":"","BENE_STATUS":"ACTIVE","BENE_OTP_VERIFIED":true,"PAID_AMOUNT":500.0,"TRANSFER_AMOUNT":500.0,"CHARGE_AMOUNT":0.0,"TRANSACTION_DATE":"2018-05-18 05:00:05","TRANSACTION_STATUS":"SUCCESS","TRANSACTION_STATUSMESSAGE":"Transaction successful","ORDER_ID":"I1526643004239220590","AID":"ATMPK0557F","MID":"EP00009","CP":"CYBPR4211","ST":"REMDOMESTIC","REINIT_TXN_ID":""},{"TXN_ID":904623,"EP_REFERENCE_NO":"EP208966","BANK_REFERENCE_NO":"","CUSTOMER_REFERENCE_NO":"1001527084332","BENE_MOBILENO":"","BENE_NAME":"Mr  PADAM  KUMAR","BENE_ID":457231,"BENE_NICKNAME":"","BENE_BANKNAME":"STATE BANK OF INDIA","BANK_ADDRESS":"SHAH PUR BEGU,DISTT.SIRSA125055","BANK_ACCOUNTNO":"33762532478","BANKIFSC_CODE":"SBIN0011875","BENE_CODE":"","BENE_STATUS":"ACTIVE","BENE_OTP_VERIFIED":true,"PAID_AMOUNT":2600.0,"TRANSFER_AMOUNT":2600.0,"CHARGE_AMOUNT":0.0,"TRANSACTION_DATE":"2018-06-11 07:56:45","TRANSACTION_STATUS":"FAILED","TRANSACTION_STATUSMESSAGE":"Timeout waiting for connection","ORDER_ID":"I1528727204262220590","AID":"ATMPK0557F","MID":"EP00009","CP":"CYBPR4211","ST":"REMDOMESTIC","REINIT_TXN_ID":""}]}}
+DATE=13.06.2018 11:17:47
+SESSION=13472018164744
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFsg/VwBAR9 BACMn6NpJFAY3McZsP/grhwUSbKmnuakRJuZMtqn
+B/WqmuiyMHvocY6lMf3PArRf3topqiJlru0RYC9hchZm7Z40PoxiHWttekopWvwl
+OZENDAmvXinTG6Wj6t6kUm0oQqJ7FEPykKYo dlxxzVOrKqVzGM0OeSTKd3GxGB0
+fMlldLABxw==
+=kxeT
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://in.cyberplat.com/cgi-bin/yb/yb_pay_check.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=13572018175703
+NUMBER=8059542034
+ACCOUNT=
+Authenticator3=
+AMOUNT=100
+AMOUNT_ALL=106
+TERM_ID=
+COMMENT=
+AID=ADMPL0183G
+routingType=
+transRefId=
+otc=9779
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+benBankName=
+benMobile=
+benId=
+Type=14
+Category_id=
+Product_id=
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=14
+PlanOffer=
+KeyKycStatus=
+Rcode=315068
+RequestFor=CUSTREFUND
+originalmerchantTranId=
+transFrom=01-01-2018
+transTo=06-13-2018
+
+
+0000041801SM000000650000006500000217
+inist_in            00000040
+                    00000000
+BEGIN
+DATE=13.06.2018 17:57:06
+SESSION=
+ERROR=0
+RESULT=0
+TRANSID=
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFshDZoBAZUbBACAeQDyDWon6cThCGPQezp/MZabTgW7sFLr9Xca
+7D3Ov07sEUwgnCWcP3eISmU8BfhCKwmLAP1/haLUPriPXmmmzN62V4c6qn/30SQ5
+AVOFG3fjNPBEnAjL JwicQSMztIVSftwUj7sRJEtTGcdz4/MMTC1XIaUltUXfrxr
+B7MrBLABxw==
+=1ctr
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://in.cyberplat.com/cgi-bin/yb/yb_pay.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=13572018175703
+NUMBER=8059542034
+ACCOUNT=
+Authenticator3=
+AMOUNT=100
+AMOUNT_ALL=106
+TERM_ID=
+COMMENT=
+AID=ADMPL0183G
+routingType=
+transRefId=
+otc=9779
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+benBankName=
+benMobile=
+benId=
+Type=14
+Category_id=
+Product_id=
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=14
+PlanOffer=
+KeyKycStatus=
+Rcode=315068
+RequestFor=CUSTREFUND
+originalmerchantTranId=
+transFrom=01-01-2018
+transTo=06-13-2018
+
+
+0000234801SM000019950000199500000217
+inist_in            00000040
+                    00000000
+BEGIN
+ERROR=0
+RESULT=0
+ADDINFO={"RESP_CODE":200,"RESPONSE":"EPMONEY_LIST_TRANSACTION_SUCCESS","RESP_MSG":"Transaction fetch successfully.","DATA":{"TRANSACTION_DETAILS":[{"TXN_ID":672606,"EP_REFERENCE_NO":"EP531762","BANK_REFERENCE_NO":"813817642268","CUSTOMER_REFERENCE_NO":"1001514798981","BENE_MOBILENO":"","BENE_NAME":"Mr  PADAM  KUMAR","BENE_ID":457231,"BENE_NICKNAME":"","BENE_BANKNAME":"STATE BANK OF INDIA","BANK_ADDRESS":"SHAH PUR BEGU,DISTT.SIRSA125055","BANK_ACCOUNTNO":"33762532478","BANKIFSC_CODE":"SBIN0011875","BENE_CODE":"","BENE_STATUS":"ACTIVE","BENE_OTP_VERIFIED":true,"PAID_AMOUNT":500.0,"TRANSFER_AMOUNT":500.0,"CHARGE_AMOUNT":0.0,"TRANSACTION_DATE":"2018-05-18 05:00:05","TRANSACTION_STATUS":"SUCCESS","TRANSACTION_STATUSMESSAGE":"Transaction successful","ORDER_ID":"I1526643004239220590","AID":"ATMPK0557F","MID":"EP00009","CP":"CYBPR4211","ST":"REMDOMESTIC","REINIT_TXN_ID":""},{"TXN_ID":904623,"EP_REFERENCE_NO":"EP208966","BANK_REFERENCE_NO":"","CUSTOMER_REFERENCE_NO":"1001527084332","BENE_MOBILENO":"","BENE_NAME":"Mr  PADAM  KUMAR","BENE_ID":457231,"BENE_NICKNAME":"","BENE_BANKNAME":"STATE BANK OF INDIA","BANK_ADDRESS":"SHAH PUR BEGU,DISTT.SIRSA125055","BANK_ACCOUNTNO":"33762532478","BANKIFSC_CODE":"SBIN0011875","BENE_CODE":"","BENE_STATUS":"ACTIVE","BENE_OTP_VERIFIED":true,"PAID_AMOUNT":2600.0,"TRANSFER_AMOUNT":2600.0,"CHARGE_AMOUNT":0.0,"TRANSACTION_DATE":"2018-06-11 07:56:45","TRANSACTION_STATUS":"FAILED","TRANSACTION_STATUSMESSAGE":"Timeout waiting for connection","ORDER_ID":"I1528727204262220590","AID":"ATMPK0557F","MID":"EP00009","CP":"CYBPR4211","ST":"REMDOMESTIC","REINIT_TXN_ID":""}]}}
+DATE=13.06.2018 12:27:10
+SESSION=13572018175703
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFshDZ8BAVX6BACsH890j2MEwp37RLYDylH5kBMsFONGQagGaVNj
+SNsVnU HcC/8AVu5c AouzMP1wuY/Gf28/ozrTvbsAEA4B3dzbP40Xj5xIddlcVs
+9tESTUT7PJqy ELE1foqDaIq9t LhwlTzngrfbobeZtIxhgarYKz1XTVN2UUwo43
+bNyOvLABxw==
+=bnVy
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://in.cyberplat.com/cgi-bin/yb/yb_pay_check.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=13052018180534
+NUMBER=9568556642
+ACCOUNT=
+Authenticator3=
+AMOUNT=100
+AMOUNT_ALL=106
+TERM_ID=
+COMMENT=
+AID=ADMPL0183G
+routingType=
+transRefId=
+otc=9779
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+benBankName=
+benMobile=
+benId=
+Type=14
+Category_id=
+Product_id=
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=14
+PlanOffer=
+KeyKycStatus=
+Rcode=315068
+RequestFor=CUSTREFUND
+originalmerchantTranId=
+transFrom=01-01-2018
+transTo=06-12-2018
+
+
+0000041801SM000000650000006500000217
+inist_in            00000040
+                    00000000
+BEGIN
+DATE=13.06.2018 18:05:36
+SESSION=
+ERROR=0
+RESULT=0
+TRANSID=
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFshD5gBASKDA/9hXf4pQGarS4FYzy9GaEq8HWlEGbxafwNA4YAI
+c80d2fHO8hHI5OBLLFb8gmzGeH iu7Y0w31E48ugqZPPq9RpKQOfhS7IV3MbLwdu
+ 0X6T/bHrIaGNNo1UuluAOl2c3pBPjxzRsQxRJ3PAMtEZbDjOGVMJVK2kNVNcCH/
+5FwdDbABxw==
+=bJ7h
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://in.cyberplat.com/cgi-bin/yb/yb_pay.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=13052018180534
+NUMBER=9568556642
+ACCOUNT=
+Authenticator3=
+AMOUNT=100
+AMOUNT_ALL=106
+TERM_ID=
+COMMENT=
+AID=ADMPL0183G
+routingType=
+transRefId=
+otc=9779
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+benBankName=
+benMobile=
+benId=
+Type=14
+Category_id=
+Product_id=
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=14
+PlanOffer=
+KeyKycStatus=
+Rcode=315068
+RequestFor=CUSTREFUND
+originalmerchantTranId=
+transFrom=01-01-2018
+transTo=06-12-2018
+
+
+0000231501SM000019620000196200000217
+inist_in            00000040
+                    00000000
+BEGIN
+ERROR=0
+RESULT=0
+ADDINFO={"RESP_CODE":200,"RESPONSE":"EPMONEY_LIST_TRANSACTION_SUCCESS","RESP_MSG":"Transaction fetch successfully.","DATA":{"TRANSACTION_DETAILS":[{"TXN_ID":904869,"EP_REFERENCE_NO":"EP521824","BANK_REFERENCE_NO":"","CUSTOMER_REFERENCE_NO":"1001527104586","BENE_MOBILENO":"","BENE_NAME":"naushad","BENE_ID":592558,"BENE_NICKNAME":"","BENE_BANKNAME":"STATE BANK OF INDIA","BANK_ADDRESS":"ETAHUTTAR PRADESH","BANK_ACCOUNTNO":"35278407373","BANKIFSC_CODE":"SBIN0001375","BENE_CODE":"","BENE_STATUS":"ACTIVE","BENE_OTP_VERIFIED":true,"PAID_AMOUNT":5000.0,"TRANSFER_AMOUNT":5000.0,"CHARGE_AMOUNT":0.0,"TRANSACTION_DATE":"2018-06-11 08:18:23","TRANSACTION_STATUS":"REFUNDED","TRANSACTION_STATUSMESSAGE":"Timeout waiting for connection-Transaction refund successful","ORDER_ID":"I1528728502650394810","AID":"EWIPS2288J","MID":"EP00009","CP":"CYBPR4211","ST":"REMDOMESTIC","REINIT_TXN_ID":""},{"TXN_ID":904998,"EP_REFERENCE_NO":"EP632683","BANK_REFERENCE_NO":"","CUSTOMER_REFERENCE_NO":"1001527113323","BENE_MOBILENO":"","BENE_NAME":"naushad","BENE_ID":592558,"BENE_NICKNAME":"","BENE_BANKNAME":"STATE BANK OF INDIA","BANK_ADDRESS":"ETAHUTTAR PRADESH","BANK_ACCOUNTNO":"35278407373","BANKIFSC_CODE":"SBIN0001375","BENE_CODE":"","BENE_STATUS":"ACTIVE","BENE_OTP_VERIFIED":true,"PAID_AMOUNT":4900.0,"TRANSFER_AMOUNT":4900.0,"CHARGE_AMOUNT":0.0,"TRANSACTION_DATE":"2018-06-11 08:28:20","TRANSACTION_STATUS":"FAILED","TRANSACTION_STATUSMESSAGE":"Timeout waiting for connection","ORDER_ID":"I1528729099079394810","AID":"EWIPS2288J","MID":"EP00009","CP":"CYBPR4211","ST":"REMDOMESTIC","REINIT_TXN_ID":""}]}}
+DATE=13.06.2018 12:35:40
+SESSION=13052018180534
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFshD50BAUtdBACUw3XdMyomkKFLg5W2XbPY0Fk343hjOa4le14I
+0O2rQeSmkB29CeX2YVb3V9HjKOEXmYdwvTziXLi/YMJj2yWz AECDnsoH4BOwbpu
+17VKyaYGSQjN0b0DL5f8lm5qTaimAZT2G3tTc7z1pGYitqTmbl5gt3mHLcokn3tW
+Lg2WbLABxw==
+=QzoT
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://in.cyberplat.com/cgi-bin/yb/yb_pay_check.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=13422018184248
+NUMBER=8059542034
+ACCOUNT=
+Authenticator3=
+AMOUNT=100
+AMOUNT_ALL=106
+TERM_ID=
+COMMENT=
+AID=ADMPL0183G
+routingType=
+transRefId=
+otc=9779
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+benBankName=
+benMobile=
+benId=
+Type=14
+Category_id=
+Product_id=
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=14
+PlanOffer=
+KeyKycStatus=
+Rcode=315068
+RequestFor=CUSTREFUND
+originalmerchantTranId=
+transFrom=01-01-2018
+transTo=06-13-2018
+
+
+0000041801SM000000650000006500000217
+inist_in            00000040
+                    00000000
+BEGIN
+DATE=13.06.2018 18:42:51
+SESSION=
+ERROR=0
+RESULT=0
+TRANSID=
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFshGFMBAbc8BACRapBfVM8xEk7V2ZKOVGRQF3rQDyP19ScdgKCF
+rjZ5juUZ3pgAFf5fBOh4/CCWo84MHVNya2Dww06hgLJl4YQVxm8gtm94uUGWM So
+5RciuWV 3lK/X0j0DI21t vDGJ9cetHVS51Gv42isudAM X64Q sl6FkxcGaUyko
+Y56lLbABxw==
+=6f8D
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://in.cyberplat.com/cgi-bin/yb/yb_pay.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=13422018184248
+NUMBER=8059542034
+ACCOUNT=
+Authenticator3=
+AMOUNT=100
+AMOUNT_ALL=106
+TERM_ID=
+COMMENT=
+AID=ADMPL0183G
+routingType=
+transRefId=
+otc=9779
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+benBankName=
+benMobile=
+benId=
+Type=14
+Category_id=
+Product_id=
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=14
+PlanOffer=
+KeyKycStatus=
+Rcode=315068
+RequestFor=CUSTREFUND
+originalmerchantTranId=
+transFrom=01-01-2018
+transTo=06-13-2018
+
+
+0000234801SM000019950000199500000217
+inist_in            00000040
+                    00000000
+BEGIN
+ERROR=0
+RESULT=0
+ADDINFO={"RESP_CODE":200,"RESPONSE":"EPMONEY_LIST_TRANSACTION_SUCCESS","RESP_MSG":"Transaction fetch successfully.","DATA":{"TRANSACTION_DETAILS":[{"TXN_ID":672606,"EP_REFERENCE_NO":"EP531762","BANK_REFERENCE_NO":"813817642268","CUSTOMER_REFERENCE_NO":"1001514798981","BENE_MOBILENO":"","BENE_NAME":"Mr  PADAM  KUMAR","BENE_ID":457231,"BENE_NICKNAME":"","BENE_BANKNAME":"STATE BANK OF INDIA","BANK_ADDRESS":"SHAH PUR BEGU,DISTT.SIRSA125055","BANK_ACCOUNTNO":"33762532478","BANKIFSC_CODE":"SBIN0011875","BENE_CODE":"","BENE_STATUS":"ACTIVE","BENE_OTP_VERIFIED":true,"PAID_AMOUNT":500.0,"TRANSFER_AMOUNT":500.0,"CHARGE_AMOUNT":0.0,"TRANSACTION_DATE":"2018-05-18 05:00:05","TRANSACTION_STATUS":"SUCCESS","TRANSACTION_STATUSMESSAGE":"Transaction successful","ORDER_ID":"I1526643004239220590","AID":"ATMPK0557F","MID":"EP00009","CP":"CYBPR4211","ST":"REMDOMESTIC","REINIT_TXN_ID":""},{"TXN_ID":904623,"EP_REFERENCE_NO":"EP208966","BANK_REFERENCE_NO":"","CUSTOMER_REFERENCE_NO":"1001527084332","BENE_MOBILENO":"","BENE_NAME":"Mr  PADAM  KUMAR","BENE_ID":457231,"BENE_NICKNAME":"","BENE_BANKNAME":"STATE BANK OF INDIA","BANK_ADDRESS":"SHAH PUR BEGU,DISTT.SIRSA125055","BANK_ACCOUNTNO":"33762532478","BANKIFSC_CODE":"SBIN0011875","BENE_CODE":"","BENE_STATUS":"ACTIVE","BENE_OTP_VERIFIED":true,"PAID_AMOUNT":2600.0,"TRANSFER_AMOUNT":2600.0,"CHARGE_AMOUNT":0.0,"TRANSACTION_DATE":"2018-06-11 07:56:45","TRANSACTION_STATUS":"FAILED","TRANSACTION_STATUSMESSAGE":"Timeout waiting for connection","ORDER_ID":"I1528727204262220590","AID":"ATMPK0557F","MID":"EP00009","CP":"CYBPR4211","ST":"REMDOMESTIC","REINIT_TXN_ID":""}]}}
+DATE=13.06.2018 13:12:55
+SESSION=13422018184248
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFshGFgBASjpA/4q00o8hHovgLTG W/Dad5TsizmBYJ6Z3HIRp3P
+9yxJ8VelkwMG5WUIwNZaCSSqk3yPJ8iDF67ek8BsjUZedNYgnRx3rheQA44V8QLV
+P5HB8fFNylefk9DToP/owW89FwzH5RhXvjGsk cH/eqBDPapkFJ/K8HHrsPmPZYo
+pZ6DWrABxw==
+= 3gm
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------

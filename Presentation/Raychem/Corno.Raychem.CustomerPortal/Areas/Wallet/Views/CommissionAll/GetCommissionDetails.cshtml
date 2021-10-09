@@ -1,0 +1,82 @@
+﻿@model IEnumerable<Corno.Raychem.CustomerPortal.Areas.Wallet.Models.MasterTransaction>
+
+@{
+	Layout = "~/Views/Shared/_LayoutIndex.cshtml";
+
+}
+
+@{  
+    ViewBag.Index = "Index";
+    ViewBag.Create = "Create";
+    ViewBag.Details = "Details";
+}
+
+@{
+	Page.Title = "Commission List";
+
+	ViewBag.MainHeader = "Commission";
+	ViewBag.MainMenu = "Masters";
+	ViewBag.Controller = "CommissionAll";
+	ViewBag.AddNewMethod = "Create";
+	ViewBag.CurrentLink = "MasterTransaction";
+}
+<table class="table table-bordered dataTable dataTable-scroll-x @*dataTable-grouping*@ dataTable-tools dataTable-colvis">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Service)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Operator)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MerchantCredit)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MerchantDebit)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ConvinienceCharges)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TDS)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GST)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Service)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Operator)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MerchantCredit)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MerchantDebit)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ConvinienceCharges)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TDS)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.GST)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "EditMasterCommission", new { id = item.Id }) |
+                    @*@Html.ActionLink("Details", "Details", new { id = item.Id })*@
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

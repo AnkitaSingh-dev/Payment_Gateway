@@ -1,0 +1,276 @@
+Initiated by : 
+
+{
+  "Response": {
+    "B2B2BStatus": false,
+    "Error": {
+      "ErrorCode": 0,
+      "ErrorMessage": ""
+    },
+    "ResponseStatus": 1,
+    "TraceId": "4c2b0c51-2a33-47e9-9e5b-1d2dfdd304b3",
+    "Response": {
+      "PNR": "H9PQRT",
+      "BookingId": 20262,
+      "SSRDenied": false,
+      "SSRMessage": null,
+      "Status": 1,
+      "IsPriceChanged": false,
+      "IsTimeChanged": false,
+      "FlightItinerary": {
+        "IssuancePcc": "agenttest",
+        "BookingId": 20262,
+        "IsManual": false,
+        "PNR": "H9PQRT",
+        "IsDomestic": true,
+        "Source": 3,
+        "Origin": "BOM",
+        "Destination": "GOI",
+        "AirlineCode": "SG",
+        "LastTicketDate": "11AUG17",
+        "ValidatingAirlineCode": "SG",
+        "AirlineRemark": "",
+        "IsLCC": true,
+        "NonRefundable": true,
+        "FareType": "PUB",
+        "CreditNoteNo": null,
+        "Fare": {
+          "Currency": "INR",
+          "BaseFare": 1399,
+          "Tax": 410,
+          "TaxBreakup": [
+            {
+              "key": "JNTax",
+              "value": 72.0
+            },
+            {
+              "key": "YR",
+              "value": 50.0
+            },
+            {
+              "key": "PSF",
+              "value": 150.0
+            },
+            {
+              "key": "OtherTaxes",
+              "value": 138.0
+            },
+            {
+              "key": "TotalTax",
+              "value": 410.0
+            }
+          ],
+          "YQTax": 0,
+          "AdditionalTxnFeeOfrd": 0,
+          "AdditionalTxnFeePub": 0,
+          "PGCharge": 0,
+          "OtherCharges": 0,
+          "ChargeBU": [
+            {
+              "key": "TBOMARKUP",
+              "value": 0
+            },
+            {
+              "key": "CONVENIENCECHARGE",
+              "value": 0
+            },
+            {
+              "key": "OTHERCHARGE",
+              "value": 0
+            }
+          ],
+          "Discount": 0.0,
+          "PublishedFare": 1909,
+          "CommissionEarned": 35.67,
+          "PLBEarned": 22.78,
+          "IncentiveEarned": 23.18,
+          "OfferedFare": 1727.37,
+          "TdsOnCommission": 7.13,
+          "TdsOnPLB": 4.56,
+          "TdsOnIncentive": 4.64,
+          "ServiceFee": 100,
+          "TotalBaggageCharges": 0,
+          "TotalMealCharges": 0,
+          "TotalSeatCharges": 0,
+          "TotalSpecialServiceCharges": 0
+        },
+        "CreditNoteCreatedOn": null,
+        "Passenger": [
+          {
+            "PaxId": 33364,
+            "Title": "Mr",
+            "FirstName": "fss",
+            "LastName": "fgh",
+            "PaxType": 1,
+            "Gender": 1,
+            "PassportNo": "",
+            "AddressLine1": "Mumbai",
+            "AddressLine2": "Mumbai",
+            "Fare": {
+              "Currency": "INR",
+              "BaseFare": 1399,
+              "Tax": 410,
+              "TaxBreakup": [
+                {
+                  "key": "JNTax",
+                  "value": 72.0
+                },
+                {
+                  "key": "YR",
+                  "value": 50.0
+                },
+                {
+                  "key": "PSF",
+                  "value": 150.0
+                },
+                {
+                  "key": "OtherTaxes",
+                  "value": 138.0
+                },
+                {
+                  "key": "TotalTax",
+                  "value": 410.0
+                }
+              ],
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0,
+              "PGCharge": 0,
+              "OtherCharges": 0,
+              "ChargeBU": [
+                {
+                  "key": "TBOMARKUP",
+                  "value": 0
+                },
+                {
+                  "key": "CONVENIENCECHARGE",
+                  "value": 0
+                },
+                {
+                  "key": "OTHERCHARGE",
+                  "value": 0
+                }
+              ],
+              "Discount": 0.0,
+              "PublishedFare": 1909,
+              "CommissionEarned": 35.67,
+              "PLBEarned": 22.78,
+              "IncentiveEarned": 23.18,
+              "OfferedFare": 1727.37,
+              "TdsOnCommission": 7.13,
+              "TdsOnPLB": 4.56,
+              "TdsOnIncentive": 4.64,
+              "ServiceFee": 100,
+              "TotalBaggageCharges": 0,
+              "TotalMealCharges": 0,
+              "TotalSeatCharges": 0,
+              "TotalSpecialServiceCharges": 0
+            },
+            "City": "Mumbai",
+            "CountryCode": "IN",
+            "CountryName": "India",
+            "Nationality": "IN",
+            "ContactNo": "9373333210",
+            "Email": "umesh.kale@concsystems.com",
+            "IsLeadPax": true,
+            "FFAirlineCode": null,
+            "FFNumber": "",
+            "Ticket": {
+              "TicketId": 16796,
+              "TicketNumber": "H9PQRT",
+              "IssueDate": "2017-08-11T20:55:25",
+              "ValidatingAirline": "324",
+              "Remarks": "",
+              "ServiceFeeDisplayType": "ShowInTax",
+              "Status": "OK"
+            },
+            "SegmentAdditionalInfo": [
+              {
+                "FareBasis": "CSAVER",
+                "NVA": null,
+                "NVB": null,
+                "Baggage": "10 Kg",
+                "Meal": "0 Platter",
+                "Seat": "",
+                "SpecialService": ""
+              }
+            ]
+          }
+        ],
+        "CancellationCharges": null,
+        "Segments": [
+          {
+            "Baggage": null,
+            "CabinBaggage": null,
+            "TripIndicator": 1,
+            "SegmentIndicator": 1,
+            "Airline": {
+              "AirlineCode": "SG",
+              "AirlineName": "SpiceJet",
+              "FlightNumber": "612",
+              "FareClass": "C",
+              "OperatingCarrier": ""
+            },
+            "AirlinePNR": "",
+            "Origin": {
+              "Airport": {
+                "AirportCode": "BOM",
+                "AirportName": "Mumbai",
+                "Terminal": "1",
+                "CityCode": "BOM",
+                "CityName": "Mumbai",
+                "CountryCode": "IN",
+                "CountryName": "India"
+              },
+              "DepTime": "2017-08-11T23:00:00"
+            },
+            "Destination": {
+              "Airport": {
+                "AirportCode": "GOI",
+                "AirportName": "Dabolim",
+                "Terminal": "1B",
+                "CityCode": "GOI",
+                "CityName": "Goa",
+                "CountryCode": "IN",
+                "CountryName": "India"
+              },
+              "ArrTime": "2017-08-12T00:15:00"
+            },
+            "Duration": 75,
+            "GroundTime": 0,
+            "Mile": 0,
+            "StopOver": false,
+            "StopPoint": "",
+            "StopPointArrivalTime": "2017-08-12T00:15:00",
+            "StopPointDepartureTime": "2017-08-11T23:00:00",
+            "Craft": "737",
+            "Remark": null,
+            "IsETicketEligible": false,
+            "FlightStatus": "Confirmed",
+            "Status": "HK"
+          }
+        ],
+        "FareRules": [
+          {
+            "Origin": "BOM",
+            "Destination": "GOI",
+            "Airline": "SG",
+            "FareBasisCode": "CSAVER",
+            "FareRuleDetail": " \r\n1.    All Guests, including children and infants, must present valid identification at check-in. It is your responsibility to ensure you have the appropriate travel documents at all times.\r\n\r\n2.    Check-in starts \"2 hours\" before scheduled departure, and closes 45 minutes prior to the scheduled departure time. Guests are requested to report at least 2 hours prior to departure time, at SpiceJet Check-in counters.\r\n\r\n3.    Cancellation / Changes within \"2 hours\" of departure or failure to check-in for a SpiceJet flight at least 45 minutes prior to the scheduled departure time will result in the fare being forfeited. We require the request atleast 4 hours prior to departure, After that ticket will be count as a No show.\r\n\r\n4.   Schedule is subject to change and regulatory authority approvals.\r\n\r\n5.   Guests may carry a maximum of one piece of cabin baggage, as defined by BCAS guidelines, with an additional restriction of maximum weight of one piece of 7 kg, not to exceed 55cm + 35cm + 25cm (Total 115 cm). Due to airport security regulations, no cabin baggage is allowed on any flights originating from Jammu and Srinagar airports.\r\n\r\n\r\n6.   SpiceJet allows its Guests to check-in up to 20 kg of luggage, not to exceed 158 cm in overall dimensions (L+W+H), per paying passenger. Baggage in excess of 20 kg is subject to a fee (Rs.200 per Kg) to be paid at the airport at check-in. SpiceJet will accept excess baggage if space permits. SpiceJet may refuse to carry any luggage that does not comply with its policies.\r\n\r\n7.   Any spicy promotional / auction fare purchased in conjunction with return fare cannot be cancelled or changed.\r\n\r\n8.   Where bad weather or instances beyond SpiceJet control has resulted in your flight being cancelled or delayed, SpiceJet will try to assist you to get to your destination, but will not be liable in any way for the delay or cancellation.\r\n\r\n9.   SpiceJet assumes no liability for wear and tear to luggage (scratches, torn zippers, straps, wheels, handles, scuffs, dents, soiling or manufacturer defects).\r\n\r\n10.  SpiceJet does not connect to other airlines; therefore, SpiceJet is not responsible for any losses incurred by our Guests while trying to connect to or from other airlines.\r\n\r\n11.  The consumption of alcohol is prohibited on all SpiceJet domestic flights.\r\n\r\n12.  SpiceJet reserves the right to refuse passage to any passenger that is under the influence of alcohol or drugs, or where SpiceJet believes it is necessary for the safety and comfort of you or other Guests or for the protection of property.\r\n\r\n13.  Smoking is not permitted on any SpiceJet aircraft.\r\nSpiceJet highly recommends that you remove all valuables (cameras, jewelry, money, electronics, perishables, etc.) and medication from your check-in luggage and place them in your carry-on. SpiceJet will not accept responsibility for these items.\r\n\r\nIn case, the passenger decides to carry any valuables in their checked-in baggage against the above advice; they will do this at their own risk and shall not hold SpiceJet responsible for any pilferage / damage / etc. to such valuables. They shall lay no claim against SpiceJet, its employees, agents, successors etc in this regard.\r\n\r\n14.  Guests will be subjected to a security screening prior to boarding the aircraft. This is mandatory per Indian Regulations.\r\n\r\n15.  The company reserves to itself the right, without assigning any reason, to cancel or delay the commencement or continuance of the flight or to alter the stopping place or to deviate from the route of the journey or to change the type of aircraft in use without thereby incurring any liability in damages or otherwise to the passengers or any other person on any ground whatsoever. The Company also reserves to itself the right to refuse to carry any person whom it considers unfit to travel or who in the opinion of the company may constitute risks to the aircraft or to the persons on board.\r\n\r\n16.  If at any stage it is found that the aircraft with the booked load or passengers will be over loaded, the Company will have the right to decide which passengers or articles shall be off-loaded and such decision shall be binding.\r\n\r\n17.  The Company is not liable for any loss or damage occasioned by delay in the carriage by air of passengers or baggage. Receipt without complaint of registered baggage on the termination of the journey shall be prima facie evidence that the baggage has been delivered correctly and in good condition.\r\n\r\n18.  The Carrier liability for loss or damage to baggage is limited to Rs 200 per kg with a maximum of Rs 3000 only. The Carrier assumes no liability for fragile or perishable articles.\r\n\r\n19.  The reservation itinerary issued by the Company shall be subject to rules of cancellation made by the Company for the time being in force, which may be seen at our website www.spicejet.com or at our offices on request.\r\n\r\n20.  In the event of death of a passenger, or any bodily injury or wound suffered by a passenger which results in a permanent disablement incapacitating him from engaging in or being occupied with his usual duties or business occupation, the liability of the Carrier for each passenger shall be Rs 750,000 only if the passenger is 12 years or more of age and Rs 375,000 if the passenger is below 12 years of age on the date of the accident.\r\n\r\n21.  Children under the age of 12 require adult accompaniment at all times. SpiceJet will accept children aged between 5-12 years traveling alone as unaccompanied children (as per UNMR inventory). SpiceJet does not charge any fee for this service. Guests should complete and sign an Unaccompanied Minor Form at the departing airports.\r\n\r\n22.  SpiceJet shall not be liable for any damage(s) resulting from acts of error or omission in timetables or other published schedules, representations made by its employees, agents or representatives with regard to the date and/or time of departure/ arrival or operation of any flight except in cases where it is proved that the intention is to cause such damage.\r\n\r\n23.  SpiceJet sells snacks/refreshments and juices on selected flights.\r\n\r\n24.  Infants under the age of 2 years, and not occupying a seat, are subject to a fee of Rs. 1000.\r\n\r\n25.  The use of wheelchairs is limited to only 4 guests per flight, which needs to be booked in advance through our guest Sales & Service Reservation center. There is no charge for this service. SpiceJet also offers appropriate assistance to blind passengers.\r\n\r\n26.  Sports/Skiing equipment will be treated as a Check-in baggage, and Excess baggage rules apply for any additional weight.\r\n\r\n27.  For every booking on the basic fare there would be fuel charge depending on the sector flown, a Government fee (PSF), a Government service tax and in addition applicable UDF/ADF will be charged. ",
+            "FareRestriction": null
+          }
+        ],
+        "Status": 5,
+        "InvoiceAmount": 1744.0,
+        "InvoiceNo": "DW/1718/10676",
+        "InvoiceStatus": 3,
+        "InvoiceCreatedOn": "2017-08-11T20:55:25",
+        "Remarks": ""
+      },
+      "TicketStatus": 1
+    }
+  }
+}
+
+{"status":false,"result":"The byte array is not a recognized imageformat.","walletbalance":0.0,"transactionid":null,"addionalinfo":null,"datahtml":null,"response":{"Response":{"B2B2BStatus":false,"Error":{"ErrorCode":0,"ErrorMessage":""},"ResponseStatus":1,"TraceId":"4c2b0c51-2a33-47e9-9e5b-1d2dfdd304b3","Response":{"PNR":"H9PQRT","BookingId":20262,"SSRDenied":false,"SSRMessage":null,"Status":1,"IsPriceChanged":false,"IsTimeChanged":false,"FlightItinerary":{"IssuancePcc":"agenttest","BookingId":20262,"IsManual":false,"PNR":"H9PQRT","IsDomestic":true,"Source":3,"Origin":"BOM","Destination":"GOI","AirlineCode":"SG","LastTicketDate":"11AUG17","ValidatingAirlineCode":"SG","AirlineRemark":"","IsLCC":true,"NonRefundable":true,"FareType":"PUB","CreditNoteNo":null,"Fare":{"Currency":"INR","BaseFare":1399,"Tax":410,"TaxBreakup":[{"key":"JNTax","value":72.0},{"key":"YR","value":50.0},{"key":"PSF","value":150.0},{"key":"OtherTaxes","value":138.0},{"key":"TotalTax","value":410.0}],"YQTax":0,"AdditionalTxnFeeOfrd":0,"AdditionalTxnFeePub":0,"PGCharge":0,"OtherCharges":0,"ChargeBU":[{"key":"TBOMARKUP","value":0},{"key":"CONVENIENCECHARGE","value":0},{"key":"OTHERCHARGE","value":0}],"Discount":0.0,"PublishedFare":1909,"CommissionEarned":35.67,"PLBEarned":22.78,"IncentiveEarned":23.18,"OfferedFare":1727.37,"TdsOnCommission":7.13,"TdsOnPLB":4.56,"TdsOnIncentive":4.64,"ServiceFee":100,"TotalBaggageCharges":0,"TotalMealCharges":0,"TotalSeatCharges":0,"TotalSpecialServiceCharges":0},"CreditNoteCreatedOn":null,"Passenger":[{"PaxId":33364,"Title":"Mr","FirstName":"fss","LastName":"fgh","PaxType":1,"Gender":1,"PassportNo":"","AddressLine1":"Mumbai","AddressLine2":"Mumbai","Fare":{"Currency":"INR","BaseFare":1399,"Tax":410,"TaxBreakup":[{"key":"JNTax","value":72.0},{"key":"YR","value":50.0},{"key":"PSF","value":150.0},{"key":"OtherTaxes","value":138.0},{"key":"TotalTax","value":410.0}],"YQTax":0,"AdditionalTxnFeeOfrd":0,"AdditionalTxnFeePub":0,"PGCharge":0,"OtherCharges":0,"ChargeBU":[{"key":"TBOMARKUP","value":0},{"key":"CONVENIENCECHARGE","value":0},{"key":"OTHERCHARGE","value":0}],"Discount":0.0,"PublishedFare":1909,"CommissionEarned":35.67,"PLBEarned":22.78,"IncentiveEarned":23.18,"OfferedFare":1727.37,"TdsOnCommission":7.13,"TdsOnPLB":4.56,"TdsOnIncentive":4.64,"ServiceFee":100,"TotalBaggageCharges":0,"TotalMealCharges":0,"TotalSeatCharges":0,"TotalSpecialServiceCharges":0},"City":"Mumbai","CountryCode":"IN","CountryName":"India","Nationality":"IN","ContactNo":"9373333210","Email":"umesh.kale@concsystems.com","IsLeadPax":true,"FFAirlineCode":null,"FFNumber":"","Ticket":{"TicketId":16796,"TicketNumber":"H9PQRT","IssueDate":"2017-08-11T20:55:25","ValidatingAirline":"324","Remarks":"","ServiceFeeDisplayType":"ShowInTax","Status":"OK"},"SegmentAdditionalInfo":[{"FareBasis":"CSAVER","NVA":null,"NVB":null,"Baggage":"10 Kg","Meal":"0 Platter","Seat":"","SpecialService":""}]}],"CancellationCharges":null,"Segments":[{"Baggage":null,"CabinBaggage":null,"TripIndicator":1,"SegmentIndicator":1,"Airline":{"AirlineCode":"SG","AirlineName":"SpiceJet","FlightNumber":"612","FareClass":"C","OperatingCarrier":""},"AirlinePNR":"","Origin":{"Airport":{"AirportCode":"BOM","AirportName":"Mumbai","Terminal":"1","CityCode":"BOM","CityName":"Mumbai","CountryCode":"IN","CountryName":"India"},"DepTime":"2017-08-11T23:00:00"},"Destination":{"Airport":{"AirportCode":"GOI","AirportName":"Dabolim","Terminal":"1B","CityCode":"GOI","CityName":"Goa","CountryCode":"IN","CountryName":"India"},"ArrTime":"2017-08-12T00:15:00"},"Duration":75,"GroundTime":0,"Mile":0,"StopOver":false,"StopPoint":"","StopPointArrivalTime":"2017-08-12T00:15:00","StopPointDepartureTime":"2017-08-11T23:00:00","Craft":"737","Remark":null,"IsETicketEligible":false,"FlightStatus":"Confirmed","Status":"HK"}],"FareRules":[{"Origin":"BOM","Destination":"GOI","Airline":"SG","FareBasisCode":"CSAVER","FareRuleDetail":" \r\n1.    All Guests, including children and infants, must present valid identification at check-in. It is your responsibility to ensure you have the appropriate travel documents at all times.\r\n\r\n2.    Check-in starts \"2 hours\" before scheduled departure, and closes 45 minutes prior to the scheduled departure time. Guests are requested to report at least 2 hours prior to departure time, at SpiceJet Check-in counters.\r\n\r\n3.    Cancellation / Changes within \"2 hours\" of departure or failure to check-in for a SpiceJet flight at least 45 minutes prior to the scheduled departure time will result in the fare being forfeited. We require the request atleast 4 hours prior to departure, After that ticket will be count as a No show.\r\n\r\n4.   Schedule is subject to change and regulatory authority approvals.\r\n\r\n5.   Guests may carry a maximum of one piece of cabin baggage, as defined by BCAS guidelines, with an additional restriction of maximum weight of one piece of 7 kg, not to exceed 55cm + 35cm + 25cm (Total 115 cm). Due to airport security regulations, no cabin baggage is allowed on any flights originating from Jammu and Srinagar airports.\r\n\r\n\r\n6.   SpiceJet allows its Guests to check-in up to 20 kg of luggage, not to exceed 158 cm in overall dimensions (L+W+H), per paying passenger. Baggage in excess of 20 kg is subject to a fee (Rs.200 per Kg) to be paid at the airport at check-in. SpiceJet will accept excess baggage if space permits. SpiceJet may refuse to carry any luggage that does not comply with its policies.\r\n\r\n7.   Any spicy promotional / auction fare purchased in conjunction with return fare cannot be cancelled or changed.\r\n\r\n8.   Where bad weather or instances beyond SpiceJet control has resulted in your flight being cancelled or delayed, SpiceJet will try to assist you to get to your destination, but will not be liable in any way for the delay or cancellation.\r\n\r\n9.   SpiceJet assumes no liability for wear and tear to luggage (scratches, torn zippers, straps, wheels, handles, scuffs, dents, soiling or manufacturer defects).\r\n\r\n10.  SpiceJet does not connect to other airlines; therefore, SpiceJet is not responsible for any losses incurred by our Guests while trying to connect to or from other airlines.\r\n\r\n11.  The consumption of alcohol is prohibited on all SpiceJet domestic flights.\r\n\r\n12.  SpiceJet reserves the right to refuse passage to any passenger that is under the influence of alcohol or drugs, or where SpiceJet believes it is necessary for the safety and comfort of you or other Guests or for the protection of property.\r\n\r\n13.  Smoking is not permitted on any SpiceJet aircraft.\r\nSpiceJet highly recommends that you remove all valuables (cameras, jewelry, money, electronics, perishables, etc.) and medication from your check-in luggage and place them in your carry-on. SpiceJet will not accept responsibility for these items.\r\n\r\nIn case, the passenger decides to carry any valuables in their checked-in baggage against the above advice; they will do this at their own risk and shall not hold SpiceJet responsible for any pilferage / damage / etc. to such valuables. They shall lay no claim against SpiceJet, its employees, agents, successors etc in this regard.\r\n\r\n14.  Guests will be subjected to a security screening prior to boarding the aircraft. This is mandatory per Indian Regulations.\r\n\r\n15.  The company reserves to itself the right, without assigning any reason, to cancel or delay the commencement or continuance of the flight or to alter the stopping place or to deviate from the route of the journey or to change the type of aircraft in use without thereby incurring any liability in damages or otherwise to the passengers or any other person on any ground whatsoever. The Company also reserves to itself the right to refuse to carry any person whom it considers unfit to travel or who in the opinion of the company may constitute risks to the aircraft or to the persons on board.\r\n\r\n16.  If at any stage it is found that the aircraft with the booked load or passengers will be over loaded, the Company will have the right to decide which passengers or articles shall be off-loaded and such decision shall be binding.\r\n\r\n17.  The Company is not liable for any loss or damage occasioned by delay in the carriage by air of passengers or baggage. Receipt without complaint of registered baggage on the termination of the journey shall be prima facie evidence that the baggage has been delivered correctly and in good condition.\r\n\r\n18.  The Carrier liability for loss or damage to baggage is limited to Rs 200 per kg with a maximum of Rs 3000 only. The Carrier assumes no liability for fragile or perishable articles.\r\n\r\n19.  The reservation itinerary issued by the Company shall be subject to rules of cancellation made by the Company for the time being in force, which may be seen at our website www.spicejet.com or at our offices on request.\r\n\r\n20.  In the event of death of a passenger, or any bodily injury or wound suffered by a passenger which results in a permanent disablement incapacitating him from engaging in or being occupied with his usual duties or business occupation, the liability of the Carrier for each passenger shall be Rs 750,000 only if the passenger is 12 years or more of age and Rs 375,000 if the passenger is below 12 years of age on the date of the accident.\r\n\r\n21.  Children under the age of 12 require adult accompaniment at all times. SpiceJet will accept children aged between 5-12 years traveling alone as unaccompanied children (as per UNMR inventory). SpiceJet does not charge any fee for this service. Guests should complete and sign an Unaccompanied Minor Form at the departing airports.\r\n\r\n22.  SpiceJet shall not be liable for any damage(s) resulting from acts of error or omission in timetables or other published schedules, representations made by its employees, agents or representatives with regard to the date and/or time of departure/ arrival or operation of any flight except in cases where it is proved that the intention is to cause such damage.\r\n\r\n23.  SpiceJet sells snacks/refreshments and juices on selected flights.\r\n\r\n24.  Infants under the age of 2 years, and not occupying a seat, are subject to a fee of Rs. 1000.\r\n\r\n25.  The use of wheelchairs is limited to only 4 guests per flight, which needs to be booked in advance through our guest Sales & Service Reservation center. There is no charge for this service. SpiceJet also offers appropriate assistance to blind passengers.\r\n\r\n26.  Sports/Skiing equipment will be treated as a Check-in baggage, and Excess baggage rules apply for any additional weight.\r\n\r\n27.  For every booking on the basic fare there would be fuel charge depending on the sector flown, a Government fee (PSF), a Government service tax and in addition applicable UDF/ADF will be charged. ","FareRestriction":null}],"Status":5,"InvoiceAmount":1744.0,"InvoiceNo":"DW/1718/10676","InvoiceStatus":3,"InvoiceCreatedOn":"2017-08-11T20:55:25","Remarks":""},"TicketStatus":1}}},"userinfo":null,"isauthenticated":null,"sessionid":null,"conviniencecharges":null,"otp":null,"iskycsubmit":false,"ispansubmit":false,"isadhaarsubmit":false,"isemailconfirmed":false,"agentid":null,"otp_ref_number":null,"aadhaarno":null,"responsecode":null,"kitno":null,"iscarduser":false,"carddetails":null,"pcardid":null,"vcardid":null,"cardstatus":null,"cardlist":null,"cardamount":null,"beneficiarylist":null,"fcmtoken":null}
+

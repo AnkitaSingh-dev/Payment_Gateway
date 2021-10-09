@@ -1,0 +1,26 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutBase.cshtml";
+}
+
+
+<div class="box-title">
+    <div class="span10">
+        <h3><i class="icon-table"></i> @ViewBag.BoxTitle</h3>
+    </div>
+    <div class="span2">
+        <a href="@Url.Action(ViewBag.Index, ViewBag.Controller)" rel="tooltip" title="Back to List" class="btn btn-satblue pull-right">
+            <i class="icon-circle-arrow-left large"></i> Back to list
+        </a>
+    </div>
+</div>
+<div class="box-content">
+    <div class="form-horizontal form-validate">
+        @RenderBody()
+        <hr />
+        <div class="control-group">
+            <a href="@Url.Action(ViewBag.Index, ViewBag.Controller)" rel="tooltip" title="Back to List" class="btn btn-satblue pull-right">
+                <i class="icon-circle-arrow-left large"></i> Back to list
+            </a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+﻿@helper GetStatus(string status)
+{
+    if (status == "Active")
+    {
+        <span class="label label-satgreen">@status</span>
+    }
+    else if (status == "Closed")
+    {
+        <span class="label label-green">@status</span>
+    }
+    else if (status == "Cancelled")
+    {
+        <span class="label label-red">@status</span>
+    }
+    else if (status == "Deleted")
+    {
+        <span class="label label-lightred">@status</span>
+    }
+    else if (status == "On Hold")
+    {
+        <span class="label label-brown">@status</span>
+    }
+    else if (status == "Confirmed")
+    {
+        <span class="label label-blue">@status</span>
+    }
+}

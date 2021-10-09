@@ -1,0 +1,151 @@
+﻿@model Corno.Raychem.CustomerPortal.Areas.Admin.Models.EditUserViewModel
+
+
+@{
+    Layout = "~/Views/Shared/_LayoutDelete.cshtml";
+}
+
+@{
+    ViewBag.Index = "Index";
+    ViewBag.Create = "Create";
+    ViewBag.Edit = "Edit";
+    ViewBag.Details = "Details";
+    ViewBag.Delete = "Delete";
+}
+
+@{
+    Page.Title = "Users";
+    ViewBag.MainMenu = "Administration";
+    ViewBag.CurrentSitemap = "Users";
+    ViewBag.BoxTitle = "Delete User : " + Model.UserName;
+
+    ViewBag.Controller = "Account";
+
+    ViewBag.SubmitAction = ViewBag.Delete;
+}
+
+<div class="control-group">
+    <label class="control-label">User Name :</label>
+    <div class="controls">
+        @Html.DisplayFor(m => m.UserName)
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label">First Name :</label>
+    <div class="controls">
+        @Html.DisplayFor(m => m.FirstName)
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label">Last Name :</label>
+    <div class="controls">
+        @Html.DisplayFor(m => m.LastName)
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label">Email :</label>
+    <div class="controls">
+        @Html.DisplayFor(m => m.Email)
+    </div>
+</div>
+
+
+@*@{
+    ViewBag.Title = "Delete User : " + Model.UserName;
+}
+<div class="row">
+    <div id="breadcrumb" class="col-md-12">
+        <ol class="breadcrumb">
+            <li><a href="#">Admin</a></li>
+            <li><a href="#">User</a></li>
+            <li><a href="#">Delete User</a></li>
+        </ol>
+    </div>
+</div>
+@Html.ValidationSummary()
+<div class="row">
+    <div class="col-xs-12 col-sm-12">
+        <div class="box ui-draggable ui-droppable">
+            <div class="box-header">
+                <div class="box-name">
+                    <i class="fa fa-trash-o large"></i>
+                    <span>Delete User :  @Model.UserName</span>
+                </div>
+                <div class="box-icons">
+                    <a class="collapse-link">
+                        <i class="fa fa-chevron-up"></i>
+                    </a>
+                    <a class="expand-link">
+                        <i class="fa fa-expand"></i>
+                    </a>
+                    <a class="close-link">
+                        <i class="fa fa-times"></i>
+                    </a>
+                </div>
+                <div class="no-move"></div>
+            </div>
+            <div class="box-content">
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary(true)
+                    <div class="form-horizontal">
+                        <div class="form-group has-success has-feedback">
+                            <label class="col-sm-2 control-label">User Name</label>
+                            <div class="col-sm-4">
+                                @Html.TextBoxFor(m => m.UserName, new { @id = "UserName", @class = "form-control", placeholder = "Enter User Name", data_toggle = "tooltip", data_placement = "bottom", title = "User Name" })
+                            </div>
+                            <label class="col-sm-2 control-label">First Name</label>
+                            <div class="col-sm-4">
+                                @Html.TextBoxFor(m => m.FirstName, new { @id = "FirstName", @class = "form-control", placeholder = "Enter First Name", data_toggle = "tooltip", data_placement = "bottom", title = "First Name of User" })
+                            </div>
+                        </div>
+                        <div class="form-group has-success has-feedback">
+                            <label class="col-sm-2 control-label">Email</label>
+                            <div class="col-sm-4">
+                                @Html.TextBoxFor(m => m.Email, new { @id = "Email", @class = "form-control", placeholder = "Enter Email", data_toggle = "tooltip", data_placement = "bottom", title = "Email of User" })
+                                @Html.ValidationMessageFor(m => m.Email)
+                            </div>
+                            <label class="col-sm-2 control-label">Last Name</label>
+                            <div class="col-sm-4">
+                                @Html.TextBoxFor(m => m.LastName, new { @id = "LastName", @class = "form-control", placeholder = "Enter Last Name", data_toggle = "tooltip", data_placement = "bottom", title = "User Last Name" })
+
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-sm-2">
+                                <button type="button" value="Index" class="btn btn-primary btn-label-left pull-left" onclick="location.href = '@Url.Action("Index", "Account")'">
+                                    <span><i class="fa fa-list-ul"></i></span>
+                                    Back to List
+                                </button>
+                            </div>
+                            <div class="col-sm-offset-8 col-sm-2">
+                                <button type="submit" value="Delete" onclick="return confirm('Are you sure you wish to delete this User?')" title=" Delete" class="btn btn-danger btn-label-left pull-right">
+                                    <span><i class="fa fa-trash-o large"></i></span>
+                                    Delete
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+        $('.form-control').tooltip();
+
+        LoadSelect2Script(DemoSelect2);
+
+        //// Load example of form validation
+        LoadBootstrapValidatorScript(DemoFormValidator);
+        //// Add drag-n-drop feature to boxes
+        //WinMove();
+    });
+</script>*@
+

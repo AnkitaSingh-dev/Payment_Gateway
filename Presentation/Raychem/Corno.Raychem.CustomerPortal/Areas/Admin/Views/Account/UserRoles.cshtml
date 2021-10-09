@@ -1,0 +1,164 @@
+﻿@model Corno.Raychem.CustomerPortal.Areas.Admin.Models.SelectUserRolesViewModel
+
+@{
+    Layout = "~/Views/Shared/_LayoutEdit.cshtml";
+}
+
+@{
+    ViewBag.Index = "Index";
+    ViewBag.Create = "Create";
+    ViewBag.Edit = "Edit";
+    ViewBag.Details = "Details";
+    ViewBag.Delete = "Delete";
+    ViewBag.UserRoles = "UserRoles";
+}
+
+@{
+    Page.Title = "User Roles";
+    ViewBag.MainMenu = "Transactions";
+    ViewBag.CurrentSitemap = "User";
+    ViewBag.BoxTitle = "Edit User Roles";
+
+    ViewBag.Controller = "Account";
+
+    ViewBag.SubmitAction = ViewBag.UserRoles;
+}
+
+@Html.HiddenFor(m => m.Id)
+<table class="table table-hover table-nomargin dataTable table-bordered">
+    <thead>
+        <tr>
+            <th class="text-center span1">Select</th>
+            <th class="text-center span1 sorting_desc">Role</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (var index = 0; index < Model.Roles.Count; index++)
+        {
+            <tr>
+                <td class="text-center">
+                    @Html.CheckBoxFor(x => x.Roles[index].Selected)
+                </td>
+                <td>
+                    @Html.LabelFor(x => x.Roles[index].Selected, Model.Roles[index].RoleName)
+                    @Html.HiddenFor(x => x.Roles[index].RoleName)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@*@using BookERP.Helpers
+@{
+    ViewBag.Title = "User Roles";
+}
+<div class="row">
+    <div id="breadcrumb" class="col-md-12">
+        <ol class="breadcrumb">
+            <li><a href="#">Admin</a></li>
+            <li><a href="#">Roles</a></li>
+            <li><a href="#">Assign Roles</a></li>
+        </ol>
+    </div>
+</div>
+@Html.ValidationSummary()
+<div class="row">
+    <div class="col-xs-12 col-sm-12">
+        <div class="box ui-draggable ui-droppable">
+            <div class="box-header">
+                <div class="box-name">
+                    <i class="fa fa-check large"></i>
+                    <span>Select Roles for User : @Model.UserName</span>
+                </div>
+                <div class="box-icons">
+                    <a class="collapse-link">
+                        <i class="fa fa-chevron-up"></i>
+                    </a>
+                    <a class="expand-link">
+                        <i class="fa fa-expand"></i>
+                    </a>
+                    <a class="close-link">
+                        <i class="fa fa-times"></i>
+                    </a>
+                </div>
+                <div class="no-move"></div>
+            </div>
+            <div class="box-content">
+                @using (Html.BeginForm("UserRoles", "Account", FormMethod.Post, new { encType = "multipart/form-data", name = "myform" }))
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary(true)
+                    <div class="form-horizontal">
+                        @Html.HiddenFor(model => model.UserName)
+                        <br />
+                        <div class="box-content no-padding table-responsive">
+                            <table class="table table-bordered table-striped table-responsive table-hover table-heading table-datatable" id="datatable-1">
+                                <thead>
+                                    <tr>
+                                        <th class="text-center">
+                                            Select
+                                        </th>
+                                        <th>
+                                            Role
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @for (int index = 0; index < Model.Roles.Count; index++)
+                                    {
+                                        <tr>
+                                            <td class="text-center">
+                                                @Html.CheckBoxFor(x => x.Roles[index].Selected)
+                                            </td>
+                                            <td>
+                                                @Html.LabelFor(x => x.Roles[index].Selected, Model.Roles[index].RoleName)
+                                                @Html.HiddenFor(x => x.Roles[index].RoleName)
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                            <hr />
+                        </div>
+                        <br />
+                        <div class="form-group">
+                            <div class="col-sm-2">
+                                <button type="button" value="Index" class="btn btn-primary btn-label-left pull-left" onclick="location.href = '@Url.Action("Index", "Account")'">
+                                    <span><i class="fa fa-list-ul"></i></span>
+                                    Back to List
+                                </button>
+                            </div>
+                            <div class="col-sm-offset-8 col-sm-2">
+                                <button type="submit" value="Create" title="Save" class="btn btn-primary btn-label-left pull-right">
+                                    <span><i class="fa fa-save"></i></span>
+                                    Save
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        // Load Datatables and run plugin on tables
+        LoadDataTablesScripts(AllTables);
+        // Add Drag-n-Drop feature
+        WinMove();
+    });
+    // Run Datables plugin and create 3 variants of settings
+    function AllTables() {
+        TestTable1();
+        TestTable2();
+        TestTable3();
+        LoadSelect2Script(MakeSelect2);
+    }
+    function MakeSelect2() {
+        $('select').select2();
+        $('.dataTables_filter').each(function () {
+            $(this).find('label input[type=text]').attr('placeholder', 'Search');
+        });
+    }
+</script>*@

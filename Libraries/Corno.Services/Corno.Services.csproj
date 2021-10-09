@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C41D6C9E-EE7B-4B1A-B6A6-30AE1DFA9360}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Corno.Services</RootNamespace>
+    <AssemblyName>Corno.Services</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\Bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\Bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Advantech.Adam">
+      <HintPath>..\..\..\Bin\External Libraries\Advantech.Adam.DLL</HintPath>
+    </Reference>
+    <Reference Include="agAes, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\hp\Downloads\ag-csharp-plugin (Updated)\ag-csharp-plugin\ag-csharp-plugin-web\Bin\agAes.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Core, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\hp\Downloads\ag-csharp-plugin (Updated)\ag-csharp-plugin\ag-csharp-plugin-web\Bin\IKVM.OpenJDK.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="IronRuby">
+      <HintPath>..\..\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\IronRuby.dll</HintPath>
+    </Reference>
+    <Reference Include="IronRuby.Libraries">
+      <HintPath>..\..\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\IronRuby.Libraries.dll</HintPath>
+    </Reference>
+    <Reference Include="IronRuby.Libraries.Yaml">
+      <HintPath>..\..\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\IronRuby.Libraries.Yaml.dll</HintPath>
+    </Reference>
+    <Reference Include="jose-jwt, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\jose-jwt.2.4.0\lib\net40\jose-jwt.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Bin\Corno.Bharati\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.IdentityModel.Logging, Version=5.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.IdentityModel.Logging.5.2.1\lib\net451\Microsoft.IdentityModel.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Tokens, Version=5.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.IdentityModel.Tokens.5.2.1\lib\net451\Microsoft.IdentityModel.Tokens.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IdentityModel.Tokens.Jwt, Version=5.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.IdentityModel.Tokens.Jwt.5.2.1\lib\net451\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.WinControls, Version=2017.2.502.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\..\lib\RCWF\2017.2.502.40\Telerik.WinControls.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.GridView, Version=2017.2.502.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.UI, Version=2017.2.502.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\..\lib\RCWF\2017.2.502.40\Telerik.WinControls.UI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="TelerikCommon, Version=2017.2.502.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\..\lib\RCWF\2017.2.502.40\TelerikCommon.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Unity.Mvc5, Version=1.2.3.0, Culture=neutral, PublicKeyToken=43da31bc42a85347, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Unity.Mvc5.1.2.3\lib\net45\Unity.Mvc5.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Reporting, Version=11.1.17.503, Culture=neutral, PublicKeyToken=a9d7983dfcc261be">
+      <SpecificVersion>True</SpecificVersion>
+      <HintPath>..\..\Presentation\Raychem\Corno.Raychem.CustomerPortal\Bin\Telerik.Reporting.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\UnityConfig.cs" />
+    <Compile Include="Base\AttributesExtensions.cs" />
+    <Compile Include="Base\GenericRepository.cs" />
+    <Compile Include="Base\Interfaces\IGenericRepository.cs" />
+    <Compile Include="Base\Interfaces\ITransactionService.cs" />
+    <Compile Include="Base\Interfaces\IUnitOfWork.cs" />
+    <Compile Include="Base\TransactionService.cs" />
+    <Compile Include="Bootstrapper\BootStrapper.cs" />
+    <Compile Include="Common\Interfaces\ICityService.cs" />
+    <Compile Include="Common\Interfaces\IStateService.cs" />
+    <Compile Include="Common\CityService.cs" />
+    <Compile Include="Common\StateService.cs" />
+    <Compile Include="Email\Interfaces\IEmailService.cs" />
+    <Compile Include="Email\EmailService.cs" />
+    <Compile Include="Encryption\MyCryptoClass.cs" />
+    <Compile Include="Encryption\Aes256Service.cs" />
+    <Compile Include="Encryption\HttpHelper.cs" />
+    <Compile Include="Encryption\Interfaces\IMyCryptoClass.cs" />
+    <Compile Include="Encryption\Interfaces\IAes256Service.cs" />
+    <Compile Include="Common\Interfaces\ICompanyService.cs" />
+    <Compile Include="Common\CompanyService.cs" />
+    <Compile Include="Base\BaseService.cs" />
+    <Compile Include="Base\Interfaces\IBaseService.cs" />
+    <Compile Include="Base\Interfaces\IMasterService.cs" />
+    <Compile Include="Base\Interfaces\IService.cs" />
+    <Compile Include="Base\MasterService.cs" />
+    <Compile Include="Base\UnitOfWork.cs" />
+    <Compile Include="Encryption\Interfaces\IJWTService.cs" />
+    <Compile Include="Encryption\JWTService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Http\HttpService.cs" />
+    <Compile Include="Http\Interfaces\IHttpService.cs" />
+    <Compile Include="SMS\SmsZoneSmsService.cs" />
+    <Compile Include="SMS\Interfaces\ISmsZoneSmsService.cs" />
+    <Compile Include="SMS\Interfaces\ISmsSettingsService.cs" />
+    <Compile Include="SMS\SmsService.cs" />
+    <Compile Include="SMS\SmsSettingsService.cs" />
+    <Compile Include="SMS\Interfaces\ISmsService.cs" />
+    <Compile Include="SMS\Interfaces\IBhashSmsService.cs" />
+    <Compile Include="SMS\BhashSmsService.cs" />
+    <Compile Include="Telerik\Interfaces\ITelerikReportService.cs" />
+    <Compile Include="Telerik\TelerikReportService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Corno.Data\Corno.Data.csproj">
+      <Project>{c0d7aa89-dedb-493e-a4f7-6075e6d403d2}</Project>
+      <Name>Corno.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Corno.Globals\Corno.Globals.csproj">
+      <Project>{274c71ea-3701-4c3d-827a-1ae5cfb30c40}</Project>
+      <Name>Corno.Globals</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Corno.Logger\Corno.Logger.csproj">
+      <Project>{571a47ca-21c1-41e2-b29c-8af844a3f7ff}</Project>
+      <Name>Corno.Logger</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,6 @@
+Initiated by : 
+
+{"ClientId": "tboprod", "UserName": "BOME329", "Password": "liveapi@@4321@", "EndUserIp": "104.211.179.239" }
+
+{"status":false,"result":"Cannot perform runtime binding on a null reference","walletbalance":0.0,"transactionid":null,"addionalinfo":null,"datahtml":null,"response":null,"userinfo":null,"isauthenticated":null,"sessionid":null,"conviniencecharges":null,"otp":null,"iskycsubmit":false,"ispansubmit":false,"isadhaarsubmit":false,"isemailconfirmed":false,"agentid":null,"otp_ref_number":null,"aadhaarno":null,"responsecode":null,"kitno":null,"iscarduser":false,"carddetails":null,"pcardid":null,"vcardid":null,"cardstatus":null,"cardlist":null,"cardamount":null,"beneficiarylist":null,"fcmtoken":null}
+

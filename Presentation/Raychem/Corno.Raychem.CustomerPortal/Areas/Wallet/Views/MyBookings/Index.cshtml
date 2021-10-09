@@ -1,0 +1,118 @@
+﻿@model IEnumerable<Corno.Raychem.CustomerPortal.Areas.Wallet.Models.WalletTransaction>
+
+@{
+    Layout = "~/Views/Shared/_LayoutIndex.cshtml";
+}
+
+@{
+    ViewBag.Index = "Index";
+    ViewBag.Edit = "Edit";
+    ViewBag.Details = "Details";
+    ViewBag.Delete = "Delete";
+}
+
+@{
+    Page.Title = "My Bookings";
+
+    ViewBag.MainHeader = "My Bookings";
+    ViewBag.MainMenu = "Transactons";
+    ViewBag.Controller = "MyBookings";
+    ViewBag.AddNewMethod = "Create";
+    ViewBag.CurrentLink = "My Bookings";
+}
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#ftext").datepicker({     
+            showAnim: "slide"
+        });
+        
+        $("#ttext").datepicker({            
+            maxDate: new Date(),
+            showAnim: "slide"
+        }); 
+    });
+</script>
+
+@using (Html.BeginForm("Index", "MyBookings", null, FormMethod.Post, new { id = "form", @class = "form-horizontal form-validate" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="control-group">
+    <div style="float: left;"><label><span>From Date :</span><input id="ftext" name="fromText" placeholder="Select Date" autocomplete="off" class="form-control" /></label></div>
+    <div style="float: left;padding-left:15px;"><label><span>To Date :</span><input id="ttext" name="toText" placeholder="Select Date" autocomplete="off" class="form-control" /></label></div>
+    <div style="float: left;padding-left:15px;"><input id="select" type="submit" value="Select" rel="tooltip" class="btn btn-teal" /></div>
+
+    </div>
+    <table class="table table-bordered dataTable dataTable-scroll-x @*dataTable-grouping*@ dataTable-tools dataTable-colvis">
+        <thead>
+            <tr>
+                <th>Transaction Id</th>
+                <th>Date</th>
+                <th>Cyber Plat Trans Id</th>
+                <th>Operator Trans Id</th>
+                <th>Payment Trans Id</th>
+                <th>PNR</th>
+                <th>Booking Id</th>
+                <th>Service</th>
+                <th>Operator</th>
+                <th>Payment Mode</th>
+                <th>Source</th>
+                <th>Destination</th>
+                <th>Opening Balance</th>
+                <th>Credit</th>
+                <th>Debit</th>
+                <th>Amount</th>
+                <th>Closing Balance</th>
+                <th>Commission</th>
+                <th>UserName</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.OrderByDescending(w => w.Id))
+            {
+                <tr>
+                    <td>@item.Id.ToString().PadLeft(6, '0') </td>
+                    <td>
+                        @if (item.TransactionDate != null)
+                        {
+                            @item.TransactionDate.Value.ToString("dd/MM/yyyy")
+                        }
+                    </td>
+                    <td>@item.CyberPlatTransId</td>
+                    <td>@item.OperatorTransId</td>
+                    <td>@item.PaymentTransactionId</td>
+                    <td>@item.Pnr</td>
+                    <td>@item.BookingId</td>
+                    <td>@item.Service </td>
+                    <td>@item.Operator </td>
+                    <td>@item.PaymentMode </td>
+                    <td>@item.Source </td>
+                    <td>@item.Destination</td>
+                    <td>@item.OpeningBalance</td>
+                    <td>@item.Credit</td>
+                    <td>@item.Debit</td>
+                    <td>@item.Amount</td>
+                    <td>@item.ClosingBalance</td>
+                    <td>@item.Commission</td>
+                    <td>@item.UserName</td>
+                    <td>
+                        <div class="btn-group">
+                            <a href="#" data-toggle="dropdown" class="btn btn-danger dropdown-toggle"><i class="icon-cog"></i> <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="@Url.Action("Details", "Order", new {id = item.Id})">
+                                        <i class="icon-file-text"></i><span> View</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+<link rel="stylesheet" href="~/Content/themes/overcast/jquery-ui.css">
+@*<script src="~/Scripts/jquery.js"></script>
+<script src="~/Scripts/jquery-ui.js"></script>*@

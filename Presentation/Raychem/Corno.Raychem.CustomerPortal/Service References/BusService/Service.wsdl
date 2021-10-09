@@ -1,0 +1,1607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://192.168.0.131/TT/BusBookingAPI" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://192.168.0.131/TT/BusBookingAPI" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Search and Book Bus API</wsdl:documentation>
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://192.168.0.131/TT/BusBookingAPI">
+      <s:import namespace="http://www.w3.org/2001/XMLSchema" />
+      <s:element name="GetAllCities">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAllCitiesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllCitiesResult" type="tns:WSGetBusCityListResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WSGetBusCityListResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="WSBusCityList" type="tns:ArrayOfWSBusCityList" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="tns:WSStatus" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfWSBusCityList">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="WSBusCityList" nillable="true" type="tns:WSBusCityList" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="WSBusCityList">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="CityId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="CityName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="RedBusCityCode" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="CountryCode" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="WSStatus">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="StatusCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Category" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="AuthenticationData" type="tns:AuthenticationData" />
+      <s:complexType name="AuthenticationData">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="SiteName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AccountCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+        </s:sequence>
+        <s:anyAttribute />
+      </s:complexType>
+      <s:element name="GetAllSourceDestinationList">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAllSourceDestinationListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllSourceDestinationListResult" type="tns:WSGetBusSourceDestinationResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WSGetBusSourceDestinationResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="WSBusSDList" type="tns:ArrayOfWSBusSourceDestinationList" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="tns:WSStatus" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfWSBusSourceDestinationList">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="WSBusSourceDestinationList" nillable="true" type="tns:WSBusSourceDestinationList" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="WSBusSourceDestinationList">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="RedBusSourceCode" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="RedBusDestinationCode" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetAllBusSourceCities">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAllBusSourceCitiesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllBusSourceCitiesResult" type="tns:WSGetBusCityListResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBusDestinationBySourceCityCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sourceCityCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBusDestinationBySourceCityCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBusDestinationBySourceCityCodeResult" type="tns:WSGetBusCityListResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CancelBooking">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cancellationRequest" type="tns:WSCancellationRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WSCancellationRequest">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="TicketNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Remarks" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="CancelBookingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CancelBookingResult" type="tns:WSCancellationResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WSCancellationResponse">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="IsCancellationSuccess" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="CancellationTaxNo" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="RefundAmount" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="CancellationCharge" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="tns:WSStatus" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Search">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="wsBusSearchRequest" type="tns:WSBusSearchRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WSBusSearchRequest">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="SourceId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DestinationId" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="DateOfJourney" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="SourceName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DestinationName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsDomestic" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="AgencyId" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SearchResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearchResult" type="tns:WSBusSearchResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WSBusSearchResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="BusSearchResult" type="tns:ArrayOfWSBusSearchResult" />
+          <s:element minOccurs="0" maxOccurs="1" name="SourceName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DestinationName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="DateOfJourney" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="SessionId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="tns:WSStatus" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfWSBusSearchResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="WSBusSearchResult" nillable="true" type="tns:WSBusSearchResult" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="WSBusSearchResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="RouteId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BusType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ServiceName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TravelName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Currency" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="DepartureTime" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="ArrivalTime" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="BusSource" type="tns:WSBusSources" />
+          <s:element minOccurs="1" maxOccurs="1" name="AvailableSeats" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="AvailableFares" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CancelPolicy" type="tns:ArrayOfWSCancellationPolicies" />
+          <s:element minOccurs="0" maxOccurs="1" name="BoardingPointsDetails" type="tns:ArrayOfWSCityPointdetails" />
+          <s:element minOccurs="0" maxOccurs="1" name="DroppingPointsDetails" type="tns:ArrayOfWSCityPointdetails" />
+          <s:element minOccurs="0" maxOccurs="1" name="Price" type="tns:WSPriceAccounts" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="WSBusSources">
+        <s:restriction base="s:string">
+          <s:enumeration value="RedBus" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="ArrayOfWSCancellationPolicies">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="WSCancellationPolicies" nillable="true" type="tns:WSCancellationPolicies" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="WSCancellationPolicies">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="BusId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="TimeBeforeDept" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="CancellationChargeType" type="tns:WSCancellationChargeType" />
+          <s:element minOccurs="1" maxOccurs="1" name="CancellationCharge" type="s:decimal" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="WSCancellationChargeType">
+        <s:restriction base="s:string">
+          <s:enumeration value="Fixed" />
+          <s:enumeration value="Percentage" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="ArrayOfWSCityPointdetails">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="WSCityPointdetails" nillable="true" type="tns:WSCityPointdetails" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="WSCityPointdetails">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="CityPointId" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="BusId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="CityPointName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CityPointLocation" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CityPointLandmark" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CityPointAddress" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CityPointContactNumber" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="CityPointTime" type="s:dateTime" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="WSPriceAccounts">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="TdsCommission" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="PriceId" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="PublishedFare" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="AgentCommission" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="SeviceTax" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="Tax" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="Currency" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="RateOfExchange" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="CurrencyCode" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Discount" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="TdsRate" type="s:decimal" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Book">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="wsBookRequest" type="tns:WSBookRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WSBookRequest">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Product">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="BusId" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="SourceId" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DestinationId" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="SourceName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DestinationName" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="DateOfJourney" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="BusSource" type="tns:WSBusSources" />
+              <s:element minOccurs="1" maxOccurs="1" name="IsDomestic" type="s:boolean" />
+              <s:element minOccurs="0" maxOccurs="1" name="RouteId" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="BusType" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="TravelName" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="NoOfSeats" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="DepartureTime" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="ArrivalTime" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="TotalFare" type="s:decimal" />
+              <s:element minOccurs="0" maxOccurs="1" name="BoardingPointdetails" type="tns:WSCityPointdetails" />
+              <s:element minOccurs="0" maxOccurs="1" name="CancelPolicy" type="tns:ArrayOfWSCancellationPolicies" />
+              <s:element minOccurs="0" maxOccurs="1" name="PaxDetail" type="tns:WSPassengerDetails" />
+              <s:element minOccurs="0" maxOccurs="1" name="SeatsDetail" type="tns:ArrayOfWSBusSeatDetail" />
+              <s:element minOccurs="0" maxOccurs="1" name="Currency" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="SessionId" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="AgencyId" type="s:int" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="Product">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ProductTypeId" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="ProductId" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="BookingMode" type="tns:BookingMode" />
+          <s:element minOccurs="1" maxOccurs="1" name="ProductType" type="tns:ProductType" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="BookingMode">
+        <s:restriction base="s:string">
+          <s:enumeration value="NotSet" />
+          <s:enumeration value="Auto" />
+          <s:enumeration value="Manual" />
+          <s:enumeration value="Import" />
+          <s:enumeration value="WhiteLabel" />
+          <s:enumeration value="BookingAPI" />
+          <s:enumeration value="Itimes" />
+          <s:enumeration value="ManualImport" />
+          <s:enumeration value="B2B2B" />
+          <s:enumeration value="TBOMobile" />
+          <s:enumeration value="TBOLite" />
+        </s:restriction>
+      </s:simpleType>
+      <s:simpleType name="ProductType">
+        <s:restriction base="s:string">
+          <s:enumeration value="Flight" />
+          <s:enumeration value="Hotel" />
+          <s:enumeration value="Car" />
+          <s:enumeration value="ICICIInsurance" />
+          <s:enumeration value="Transfers" />
+          <s:enumeration value="SightSeeing" />
+          <s:enumeration value="Train" />
+          <s:enumeration value="SMSPack" />
+          <s:enumeration value="Insurance" />
+          <s:enumeration value="MobileRecharge" />
+          <s:enumeration value="Bus" />
+          <s:enumeration value="Packages" />
+          <s:enumeration value="Cruise" />
+          <s:enumeration value="Miscellaneous" />
+          <s:enumeration value="Marhaba" />
+          <s:enumeration value="SMSServiceCharge" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="WSPassengerDetails">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="BusId" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="PaxId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Title" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LastName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FirstName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Age" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="PhoneNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EMail" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Address" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Gender" type="tns:WSGender" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="WSGender">
+        <s:restriction base="s:string">
+          <s:enumeration value="male" />
+          <s:enumeration value="female" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="ArrayOfWSBusSeatDetail">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="WSBusSeatDetail" type="tns:WSBusSeatDetail" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="WSBusSeatDetail">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="SeatId" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="BusId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="SeatName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SeatType" type="tns:WSBusSeatType" />
+          <s:element minOccurs="0" maxOccurs="1" name="RowNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ColumnNo" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SeatStatus" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="SeatFare" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="priceId" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Width" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Height" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsLadies" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsUpper" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="AgencyId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Price" type="tns:WSPriceAccounts" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="WSBusSeatType">
+        <s:restriction base="s:string">
+          <s:enumeration value="seat" />
+          <s:enumeration value="sleeper" />
+          <s:enumeration value="seatCumSleeper" />
+          <s:enumeration value="UpperBerth" />
+          <s:enumeration value="LowerBerth" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="BookResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="BookResult" type="tns:WSBookResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WSBookResponse">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="BusId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ticketNo" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="status" type="tns:WSBookResponseStatus" />
+          <s:element minOccurs="0" maxOccurs="1" name="travelOperatorPNR" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="message" type="tns:WSStatus" />
+          <s:element minOccurs="0" maxOccurs="1" name="error" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="sessionId" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="WSBookResponseStatus">
+        <s:restriction base="s:string">
+          <s:enumeration value="Successful" />
+          <s:enumeration value="Failed" />
+          <s:enumeration value="OtherFare" />
+          <s:enumeration value="Pending" />
+          <s:enumeration value="BookedOther" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="GetSeatLayOut">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="wsSeatLayoutDetailRequest" type="tns:WSBusDetailRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WSBusDetailRequest">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="WSBusSearchResult" type="tns:WSBusSearchResult" />
+          <s:element minOccurs="1" maxOccurs="1" name="DateOfJourney" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="SessionId" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="AgencyId" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetSeatLayOutResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSeatLayOutResult" type="tns:WSNewSeatLayoutDetailResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WSNewSeatLayoutDetailResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="WSNewSeatLayoutDetails" type="tns:WSNewSeatLayoutDetail" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="tns:WSStatus" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="WSNewSeatLayoutDetail">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="HTMLLayout" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="WSSeatLayoutStructure" type="tns:WSBusSeatLayout" />
+          <s:element minOccurs="0" maxOccurs="1" name="AvailableSeats" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="WSBusSeatLayout">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="NoOfRows" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="NoOfColumns" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="objStructSeatDetails" type="tns:ArrayOfArrayOfWSBusSeatDetail" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfArrayOfWSBusSeatDetail">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ArrayOfWSBusSeatDetail" nillable="true" type="tns:ArrayOfWSBusSeatDetail" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetBusRouteDetail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="wsBusDetailRequest" type="tns:WSBusDetailRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBusRouteDetailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBusRouteDetailResult" type="tns:WSBusRouteDetailResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WSBusRouteDetailResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="BoardingPointdetails" type="tns:ArrayOfWSCityPointdetails" />
+          <s:element minOccurs="0" maxOccurs="1" name="DroppingPointDetails" type="tns:ArrayOfWSCityPointdetails" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="tns:WSStatus" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetBusCancellationDetail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="wsBusDetailRequest" type="tns:WSBusDetailRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBusCancellationDetailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBusCancellationDetailResult" type="tns:WSBusCancellationDetailResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WSBusCancellationDetailResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CancellationPolicies" type="tns:ArrayOfWSCancellationPolicies" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="tns:WSStatus" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetAgencyBalance">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="isAirlineLcc" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAgencyBalanceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAgencyBalanceResult" type="tns:WSAgencyBalanceResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WSAgencyBalanceResponse">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Balance" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="tns:WSStatus" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetBusBookingQueue">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="bookingQueueRequest" type="tns:WSBusBookingQueueRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WSBusBookingQueueRequest">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="AgencyName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BookingMode" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="PageNumber" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="PaxName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="RecordsPerPage" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="RetrieveFailedBookings" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TicketNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TicketStatus" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetBusBookingQueueResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBusBookingQueueResult" type="tns:WSBusBookingQueueResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WSBusBookingQueueResponse">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="TotalBusBookingRecords" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="BusItineraryList" type="tns:ArrayOfBusItinerary" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="tns:WSStatus" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfBusItinerary">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="BusItinerary" nillable="true" type="tns:BusItinerary" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="BusItinerary">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Product">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="BusId" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="TicketNo" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="TravelOperatorPNR" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="SourceId" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DestinationId" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="SourceName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DestinationName" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="DateOfJourney" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="BusSource" type="tns:BusSources" />
+              <s:element minOccurs="1" maxOccurs="1" name="IsDomestic" type="s:boolean" />
+              <s:element minOccurs="0" maxOccurs="1" name="Currency" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="RouteId" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="BusType" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ServiceName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="TravelName" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="BlockDuration" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="NoOfSeats" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="CreatedBy" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="ModifiedBy" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="DepartureTime" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="ArrivalTime" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="TotalFare" type="s:decimal" />
+              <s:element minOccurs="0" maxOccurs="1" name="BoardingPointdetails" type="tns:CityPointdetails" />
+              <s:element minOccurs="0" maxOccurs="1" name="SeatDetail" type="tns:ArrayOfBusSeatDetail" />
+              <s:element minOccurs="0" maxOccurs="1" name="CancelPolicy" type="tns:ArrayOfCancellationPolicies" />
+              <s:element minOccurs="0" maxOccurs="1" name="PaxDetail" type="tns:PassengerDetails" />
+              <s:element minOccurs="1" maxOccurs="1" name="CancellationCharge" type="s:decimal" />
+              <s:element minOccurs="0" maxOccurs="1" name="CancellationTaxNo" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Status" type="tns:BusTicketStatus" />
+              <s:element minOccurs="0" maxOccurs="1" name="ClientParam" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ClientReferenceNo" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="AgencyId" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="B2b2bSubAgencyId" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="B2B2BSubAgencyName" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="CreatedOn" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="BookingId" type="s:int" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:simpleType name="BusSources">
+        <s:restriction base="s:string">
+          <s:enumeration value="RedBus" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="CityPointdetails">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="CityPointId" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="BusId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="CityPointName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CityPointLocation" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CityPointLandmark" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CityPointAddress" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CityPointContactNumber" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="CityPointTime" type="s:dateTime" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfBusSeatDetail">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="BusSeatDetail" type="tns:BusSeatDetail" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="BusSeatDetail">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="SeatId" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="BusId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="SeatName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SeatType" type="tns:BusSeatType" />
+          <s:element minOccurs="0" maxOccurs="1" name="RowNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ColumnNo" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SeatStatus" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="SeatFare" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="priceId" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Width" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Height" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsLadies" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsUpper" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="Price" type="tns:PriceAccounts" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="BusSeatType">
+        <s:restriction base="s:string">
+          <s:enumeration value="NotSet" />
+          <s:enumeration value="seat" />
+          <s:enumeration value="sleeper" />
+          <s:enumeration value="seatCumSleeper" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="PriceAccounts">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CommissionType" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="AirlineTransFee" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="TdsCommission" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="TDSPLB" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="PriceId" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="PublishedFare" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="NetFare" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="Markup" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="SeviceTax" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="CessTax" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="OurCommission" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="OurPLB" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="AgentCommission" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="AgentPLB" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="OtherCharges" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="Tax" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="WhiteLabelDiscount" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="TransactionFee" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="Currency" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ChargeBU" type="tns:ArrayOfChargeBreakUp" />
+          <s:element minOccurs="1" maxOccurs="1" name="AccPriceType" type="tns:PriceType" />
+          <s:element minOccurs="1" maxOccurs="1" name="RateOfExchange" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="CurrencyCode" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="AdditionalTxnFee" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="WLCharge" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="Discount" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="ReverseHandlingCharge" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="YQTax" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsServiceTaxOnBaseFarePlusYQ" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="TdsRate" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="AgentMarkUpType" type="tns:AgentMarkUpType" />
+          <s:element minOccurs="1" maxOccurs="1" name="AgentMarkUp" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="ConvenienceCharges" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="PrfCurrency" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="PrfROE" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="ServiceTaxRate" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="SwachhBharatCessAmount" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="SwachhBharatCessRate" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="KrishiKalyanCessAmount" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="KrishiKalyanCessRate" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="EduCessRate" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="EduCessAmount" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="AgentCommissionRate" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="AgentPLBRate" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="AirlineBaggageCharges" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="AirlineMealCharges" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="AirlineSeatCharges" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="OurCommRate" type="s:float" />
+          <s:element minOccurs="1" maxOccurs="1" name="OurPLBRate" type="s:float" />
+          <s:element minOccurs="1" maxOccurs="1" name="OurIncentiveRate" type="s:float" />
+          <s:element minOccurs="1" maxOccurs="1" name="OurIncentiveAmt" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="SegmentFee" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="OurCommissionType" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="OurServiceTaxRate" type="s:float" />
+          <s:element minOccurs="1" maxOccurs="1" name="OurServiceTaxAmt" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="OurEduCessRate" type="s:float" />
+          <s:element minOccurs="1" maxOccurs="1" name="OurEduCessAmt" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="OurTdsRate" type="s:float" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsServiceChargeApplicable" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="OurTdsCommAmt" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="OurTdsPLBAmt" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsGPEnabled" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="TotalGP" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="CateringCharge" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="AgentIncentiveRate" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="AgentIncentiveAmt" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="TdsIncentive" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="DealId" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SupplierId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="StockType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TaxBreakup" type="tns:ArrayOfSerializableDictionary1OfStringDecimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsPaidByAgentCreditCard" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="AmountPaidByAgentCreditCard" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="OurTdsIncentiveAmt" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsOurServiceTaxOnComm" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsOurServiceTaxOnBaseFarePlusYQ" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="PlbType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OurPlbType" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfChargeBreakUp">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ChargeBreakUp" nillable="true" type="tns:ChargeBreakUp" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ChargeBreakUp">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="PriceId" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="ChargeType" type="tns:ChargeType" />
+          <s:element minOccurs="1" maxOccurs="1" name="Amount" type="s:decimal" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="ChargeType">
+        <s:restriction base="s:string">
+          <s:enumeration value="OtherCharges" />
+          <s:enumeration value="ServiceCharge" />
+          <s:enumeration value="CreditCardCharge" />
+          <s:enumeration value="TrainSuperFastCharge" />
+          <s:enumeration value="TrainReservationCharge" />
+          <s:enumeration value="TrainOtherCharge" />
+          <s:enumeration value="TrainBedRollCharge" />
+          <s:enumeration value="SupplierMarkup" />
+          <s:enumeration value="CurrencyConversionCharges" />
+          <s:enumeration value="TboMarkup" />
+          <s:enumeration value="BankHandlingCharges" />
+          <s:enumeration value="RevHandlingCharge" />
+        </s:restriction>
+      </s:simpleType>
+      <s:simpleType name="PriceType">
+        <s:restriction base="s:string">
+          <s:enumeration value="PublishedFare" />
+          <s:enumeration value="NetFare" />
+        </s:restriction>
+      </s:simpleType>
+      <s:simpleType name="AgentMarkUpType">
+        <s:restriction base="s:string">
+          <s:enumeration value="Percentage" />
+          <s:enumeration value="Fixed" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="ArrayOfSerializableDictionary1OfStringDecimal">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="SerializableDictionary1OfStringDecimal" nillable="true">
+            <s:complexType>
+              <s:sequence>
+                <s:element ref="s:schema" />
+                <s:any />
+              </s:sequence>
+            </s:complexType>
+          </s:element>
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfCancellationPolicies">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="CancellationPolicies" nillable="true" type="tns:CancellationPolicies" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="CancellationPolicies">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="BusId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="TimeBeforeDept" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="CancellationChargeType" type="tns:CancellationChargeType" />
+          <s:element minOccurs="1" maxOccurs="1" name="CancellationCharge" type="s:decimal" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="CancellationChargeType">
+        <s:restriction base="s:string">
+          <s:enumeration value="Fixed" />
+          <s:enumeration value="Percentage" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="PassengerDetails">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="BusId" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="PaxId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Title" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LastName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FirstName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Age" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="PhoneNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EMail" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Address" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Gender" type="tns:gender" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="gender">
+        <s:restriction base="s:string">
+          <s:enumeration value="male" />
+          <s:enumeration value="female" />
+        </s:restriction>
+      </s:simpleType>
+      <s:simpleType name="BusTicketStatus">
+        <s:restriction base="s:string">
+          <s:enumeration value="Tentative" />
+          <s:enumeration value="Confirmed" />
+          <s:enumeration value="Cancelled" />
+          <s:enumeration value="Failed" />
+          <s:enumeration value="Pending" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="GenerateInvoice">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="generateInvoiceRequest" type="tns:WSGenerateInvoiceRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WSGenerateInvoiceRequest">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="BusId" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="SeatId" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="AgencyId" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GenerateInvoiceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GenerateInvoiceResult" type="tns:WSGenerateInvoiceResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WSGenerateInvoiceResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="BusItinerary" type="tns:BusItinerary" />
+          <s:element minOccurs="0" maxOccurs="1" name="Invoice" type="tns:Invoice" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="tns:WSStatus" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Invoice">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="InvoiceNumber" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsDisputed" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="LeadPaxName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Itinerary" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="TotalPrice" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="TotalSupplierPrice" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="DocTypeCode" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="DocumentNumber" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="AgencyId" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Status" type="tns:InvoiceStatus" />
+          <s:element minOccurs="0" maxOccurs="1" name="PaymentMode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LineItem" type="tns:ArrayOfInvoiceLineItem" />
+          <s:element minOccurs="0" maxOccurs="1" name="Remarks" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="CreatedBy" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="CreatedOn" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="LastModifiedBy" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="LastModifiedOn" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="InvoiceDueDate" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="ManuallyUpdated" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="XONumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="StaffRemarks" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InvoiceDetail" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReferenceNumber" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="PartialPrice" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="AgentWriteOffAmt" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="SupplierWriteOffAmt" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="SupplierInvoiceStatus" type="tns:InvoiceStatus" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsDueInvoice" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsCurrentInvoice" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsPreviousInvoice" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="InvoiceStatus">
+        <s:restriction base="s:string">
+          <s:enumeration value="Raised" />
+          <s:enumeration value="PartiallyPaid" />
+          <s:enumeration value="Paid" />
+          <s:enumeration value="Inactive" />
+          <s:enumeration value="CreditNote" />
+          <s:enumeration value="Performa" />
+          <s:enumeration value="InvoicedPerforma" />
+          <s:enumeration value="DeletedPerforma" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="ArrayOfInvoiceLineItem">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="InvoiceLineItem" type="tns:InvoiceLineItem" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="InvoiceLineItem">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="InvoiceNumber" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="ItemReferenceNumber" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ItemDescription" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ItemTypeId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Price" type="tns:PriceAccounts" />
+          <s:element minOccurs="1" maxOccurs="1" name="CreatedBy" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="CreatedOn" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="LastModifiedBy" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="LastModifiedOn" type="s:dateTime" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetBusCreditNote">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="generateCreditNoteRequest" type="tns:WSBusCreditNoteRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WSBusCreditNoteRequest">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="BusId" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetBusCreditNoteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBusCreditNoteResult" type="tns:WSBusCreditNoteResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WSBusCreditNoteResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="BusItinerary" type="tns:BusItinerary" />
+          <s:element minOccurs="1" maxOccurs="1" name="CancellationCharges" type="tns:CancellationCharges" />
+          <s:element minOccurs="0" maxOccurs="1" name="Invoice" type="tns:Invoice" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="tns:WSStatus" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="CancellationCharges">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="PaymentDetailId" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="SupplierFee" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="AdminFee" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="ReferenceId" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="ProductType" type="tns:ProductType" />
+          <s:element minOccurs="1" maxOccurs="1" name="ItemTypeId" type="tns:InvoiceItemTypeId" />
+          <s:element minOccurs="1" maxOccurs="1" name="ServiceTaxRAF" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="SwachhBharatCessAmount" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="KrishiKalyanCessAmount" type="s:decimal" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="InvoiceItemTypeId">
+        <s:restriction base="s:string">
+          <s:enumeration value="Ticketed" />
+          <s:enumeration value="Offline" />
+          <s:enumeration value="HotelBooking" />
+          <s:enumeration value="ICCIInsuranceBooking" />
+          <s:enumeration value="TransferBooking" />
+          <s:enumeration value="SightseeingBooking" />
+          <s:enumeration value="TrainBooking" />
+          <s:enumeration value="Misc" />
+          <s:enumeration value="InsuranceBooking" />
+          <s:enumeration value="MobileRecharge" />
+          <s:enumeration value="Car" />
+          <s:enumeration value="Bus" />
+          <s:enumeration value="ManualDebitInvoice" />
+          <s:enumeration value="MarhabaBooking" />
+          <s:enumeration value="HotelAmendment" />
+          <s:enumeration value="SMSCharge" />
+          <s:enumeration value="AgentMemo" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="GetBusBooking">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="wsGetBusBookingRequest" type="tns:WSGetBusBookingRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WSGetBusBookingRequest">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="BusBookingId" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetBusBookingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBusBookingResult" type="tns:WSGetBusBookingResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WSGetBusBookingResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="BusItinerary" type="tns:BusItinerary" />
+          <s:element minOccurs="1" maxOccurs="1" name="ViewCreditNote" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="SavePendingBooking" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsOnBehalfBooking" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="tns:WSStatus" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetBusCreditNoteQueue">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="creditNoteQueueRequest" type="tns:WSBusCreditNoteQueueRequest" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WSBusCreditNoteQueueRequest">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="PageNumber" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="PaxName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="RecordsPerPage" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="TicketNumber" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetBusCreditNoteQueueResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBusCreditNoteQueueResult" type="tns:WSBusCreditNoteQueueResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WSBusCreditNoteQueueResponse">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="TotalRecords" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="BusCreditNoteQueueList" type="tns:ArrayOfBusCreditNoteQueue" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="tns:WSStatus" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfBusCreditNoteQueue">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="BusCreditNoteQueue" nillable="true" type="tns:BusCreditNoteQueue" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="BusCreditNoteQueue">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="AdminFee" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="SupplierFee" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="AgencyId" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="BookingId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="CreditNoteNumber" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PaxFullName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="BusId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="TicketNo" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="PublishedFare" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="CreatedOn" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="CreatedBy" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="LastModifiedOn" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="LastModifiedBy" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Remarks" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetAllCitiesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllCities" />
+  </wsdl:message>
+  <wsdl:message name="GetAllCitiesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllCitiesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllCitiesAuthenticationData">
+    <wsdl:part name="AuthenticationData" element="tns:AuthenticationData" />
+  </wsdl:message>
+  <wsdl:message name="GetAllSourceDestinationListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllSourceDestinationList" />
+  </wsdl:message>
+  <wsdl:message name="GetAllSourceDestinationListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllSourceDestinationListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllSourceDestinationListAuthenticationData">
+    <wsdl:part name="AuthenticationData" element="tns:AuthenticationData" />
+  </wsdl:message>
+  <wsdl:message name="GetAllBusSourceCitiesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllBusSourceCities" />
+  </wsdl:message>
+  <wsdl:message name="GetAllBusSourceCitiesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllBusSourceCitiesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllBusSourceCitiesAuthenticationData">
+    <wsdl:part name="AuthenticationData" element="tns:AuthenticationData" />
+  </wsdl:message>
+  <wsdl:message name="GetBusDestinationBySourceCityCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBusDestinationBySourceCityCode" />
+  </wsdl:message>
+  <wsdl:message name="GetBusDestinationBySourceCityCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBusDestinationBySourceCityCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBusDestinationBySourceCityCodeAuthenticationData">
+    <wsdl:part name="AuthenticationData" element="tns:AuthenticationData" />
+  </wsdl:message>
+  <wsdl:message name="CancelBookingSoapIn">
+    <wsdl:part name="parameters" element="tns:CancelBooking" />
+  </wsdl:message>
+  <wsdl:message name="CancelBookingSoapOut">
+    <wsdl:part name="parameters" element="tns:CancelBookingResponse" />
+  </wsdl:message>
+  <wsdl:message name="CancelBookingAuthenticationData">
+    <wsdl:part name="AuthenticationData" element="tns:AuthenticationData" />
+  </wsdl:message>
+  <wsdl:message name="SearchSoapIn">
+    <wsdl:part name="parameters" element="tns:Search" />
+  </wsdl:message>
+  <wsdl:message name="SearchSoapOut">
+    <wsdl:part name="parameters" element="tns:SearchResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearchAuthenticationData">
+    <wsdl:part name="AuthenticationData" element="tns:AuthenticationData" />
+  </wsdl:message>
+  <wsdl:message name="BookSoapIn">
+    <wsdl:part name="parameters" element="tns:Book" />
+  </wsdl:message>
+  <wsdl:message name="BookSoapOut">
+    <wsdl:part name="parameters" element="tns:BookResponse" />
+  </wsdl:message>
+  <wsdl:message name="BookAuthenticationData">
+    <wsdl:part name="AuthenticationData" element="tns:AuthenticationData" />
+  </wsdl:message>
+  <wsdl:message name="GetSeatLayOutSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSeatLayOut" />
+  </wsdl:message>
+  <wsdl:message name="GetSeatLayOutSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSeatLayOutResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSeatLayOutAuthenticationData">
+    <wsdl:part name="AuthenticationData" element="tns:AuthenticationData" />
+  </wsdl:message>
+  <wsdl:message name="GetBusRouteDetailSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBusRouteDetail" />
+  </wsdl:message>
+  <wsdl:message name="GetBusRouteDetailSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBusRouteDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBusRouteDetailAuthenticationData">
+    <wsdl:part name="AuthenticationData" element="tns:AuthenticationData" />
+  </wsdl:message>
+  <wsdl:message name="GetBusCancellationDetailSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBusCancellationDetail" />
+  </wsdl:message>
+  <wsdl:message name="GetBusCancellationDetailSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBusCancellationDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBusCancellationDetailAuthenticationData">
+    <wsdl:part name="AuthenticationData" element="tns:AuthenticationData" />
+  </wsdl:message>
+  <wsdl:message name="GetAgencyBalanceSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAgencyBalance" />
+  </wsdl:message>
+  <wsdl:message name="GetAgencyBalanceSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAgencyBalanceResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAgencyBalanceAuthenticationData">
+    <wsdl:part name="AuthenticationData" element="tns:AuthenticationData" />
+  </wsdl:message>
+  <wsdl:message name="GetBusBookingQueueSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBusBookingQueue" />
+  </wsdl:message>
+  <wsdl:message name="GetBusBookingQueueSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBusBookingQueueResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBusBookingQueueAuthenticationData">
+    <wsdl:part name="AuthenticationData" element="tns:AuthenticationData" />
+  </wsdl:message>
+  <wsdl:message name="GenerateInvoiceSoapIn">
+    <wsdl:part name="parameters" element="tns:GenerateInvoice" />
+  </wsdl:message>
+  <wsdl:message name="GenerateInvoiceSoapOut">
+    <wsdl:part name="parameters" element="tns:GenerateInvoiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="GenerateInvoiceAuthenticationData">
+    <wsdl:part name="AuthenticationData" element="tns:AuthenticationData" />
+  </wsdl:message>
+  <wsdl:message name="GetBusCreditNoteSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBusCreditNote" />
+  </wsdl:message>
+  <wsdl:message name="GetBusCreditNoteSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBusCreditNoteResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBusCreditNoteAuthenticationData">
+    <wsdl:part name="AuthenticationData" element="tns:AuthenticationData" />
+  </wsdl:message>
+  <wsdl:message name="GetBusBookingSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBusBooking" />
+  </wsdl:message>
+  <wsdl:message name="GetBusBookingSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBusBookingResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBusBookingAuthenticationData">
+    <wsdl:part name="AuthenticationData" element="tns:AuthenticationData" />
+  </wsdl:message>
+  <wsdl:message name="GetBusCreditNoteQueueSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBusCreditNoteQueue" />
+  </wsdl:message>
+  <wsdl:message name="GetBusCreditNoteQueueSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBusCreditNoteQueueResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBusCreditNoteQueueAuthenticationData">
+    <wsdl:part name="AuthenticationData" element="tns:AuthenticationData" />
+  </wsdl:message>
+  <wsdl:portType name="BusBookingAPISoap">
+    <wsdl:operation name="GetAllCities">
+      <wsdl:input message="tns:GetAllCitiesSoapIn" />
+      <wsdl:output message="tns:GetAllCitiesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllSourceDestinationList">
+      <wsdl:input message="tns:GetAllSourceDestinationListSoapIn" />
+      <wsdl:output message="tns:GetAllSourceDestinationListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllBusSourceCities">
+      <wsdl:input message="tns:GetAllBusSourceCitiesSoapIn" />
+      <wsdl:output message="tns:GetAllBusSourceCitiesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBusDestinationBySourceCityCode">
+      <wsdl:input message="tns:GetBusDestinationBySourceCityCodeSoapIn" />
+      <wsdl:output message="tns:GetBusDestinationBySourceCityCodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelBooking">
+      <wsdl:input message="tns:CancelBookingSoapIn" />
+      <wsdl:output message="tns:CancelBookingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Search">
+      <wsdl:input message="tns:SearchSoapIn" />
+      <wsdl:output message="tns:SearchSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Book">
+      <wsdl:input message="tns:BookSoapIn" />
+      <wsdl:output message="tns:BookSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSeatLayOut">
+      <wsdl:input message="tns:GetSeatLayOutSoapIn" />
+      <wsdl:output message="tns:GetSeatLayOutSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBusRouteDetail">
+      <wsdl:input message="tns:GetBusRouteDetailSoapIn" />
+      <wsdl:output message="tns:GetBusRouteDetailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBusCancellationDetail">
+      <wsdl:input message="tns:GetBusCancellationDetailSoapIn" />
+      <wsdl:output message="tns:GetBusCancellationDetailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAgencyBalance">
+      <wsdl:input message="tns:GetAgencyBalanceSoapIn" />
+      <wsdl:output message="tns:GetAgencyBalanceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBusBookingQueue">
+      <wsdl:input message="tns:GetBusBookingQueueSoapIn" />
+      <wsdl:output message="tns:GetBusBookingQueueSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerateInvoice">
+      <wsdl:input message="tns:GenerateInvoiceSoapIn" />
+      <wsdl:output message="tns:GenerateInvoiceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBusCreditNote">
+      <wsdl:input message="tns:GetBusCreditNoteSoapIn" />
+      <wsdl:output message="tns:GetBusCreditNoteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBusBooking">
+      <wsdl:input message="tns:GetBusBookingSoapIn" />
+      <wsdl:output message="tns:GetBusBookingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBusCreditNoteQueue">
+      <wsdl:input message="tns:GetBusCreditNoteQueueSoapIn" />
+      <wsdl:output message="tns:GetBusCreditNoteQueueSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BusBookingAPISoap" type="tns:BusBookingAPISoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAllCities">
+      <soap:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/GetAllCities" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetAllCitiesAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllSourceDestinationList">
+      <soap:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/GetAllSourceDestinationList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetAllSourceDestinationListAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllBusSourceCities">
+      <soap:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/GetAllBusSourceCities" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetAllBusSourceCitiesAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBusDestinationBySourceCityCode">
+      <soap:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/GetBusDestinationBySourceCityCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetBusDestinationBySourceCityCodeAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelBooking">
+      <soap:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/CancelBooking" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:CancelBookingAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Search">
+      <soap:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/Search" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SearchAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Book">
+      <soap:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/Book" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:BookAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSeatLayOut">
+      <soap:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/GetSeatLayOut" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetSeatLayOutAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBusRouteDetail">
+      <soap:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/GetBusRouteDetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetBusRouteDetailAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBusCancellationDetail">
+      <soap:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/GetBusCancellationDetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetBusCancellationDetailAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAgencyBalance">
+      <soap:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/GetAgencyBalance" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetAgencyBalanceAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBusBookingQueue">
+      <soap:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/GetBusBookingQueue" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetBusBookingQueueAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerateInvoice">
+      <soap:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/GenerateInvoice" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GenerateInvoiceAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBusCreditNote">
+      <soap:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/GetBusCreditNote" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetBusCreditNoteAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBusBooking">
+      <soap:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/GetBusBooking" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetBusBookingAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBusCreditNoteQueue">
+      <soap:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/GetBusCreditNoteQueue" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetBusCreditNoteQueueAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BusBookingAPISoap12" type="tns:BusBookingAPISoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAllCities">
+      <soap12:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/GetAllCities" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetAllCitiesAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllSourceDestinationList">
+      <soap12:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/GetAllSourceDestinationList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetAllSourceDestinationListAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllBusSourceCities">
+      <soap12:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/GetAllBusSourceCities" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetAllBusSourceCitiesAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBusDestinationBySourceCityCode">
+      <soap12:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/GetBusDestinationBySourceCityCode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetBusDestinationBySourceCityCodeAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelBooking">
+      <soap12:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/CancelBooking" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:CancelBookingAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Search">
+      <soap12:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/Search" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:SearchAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Book">
+      <soap12:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/Book" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:BookAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSeatLayOut">
+      <soap12:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/GetSeatLayOut" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetSeatLayOutAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBusRouteDetail">
+      <soap12:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/GetBusRouteDetail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetBusRouteDetailAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBusCancellationDetail">
+      <soap12:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/GetBusCancellationDetail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetBusCancellationDetailAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAgencyBalance">
+      <soap12:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/GetAgencyBalance" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetAgencyBalanceAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBusBookingQueue">
+      <soap12:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/GetBusBookingQueue" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetBusBookingQueueAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerateInvoice">
+      <soap12:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/GenerateInvoice" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GenerateInvoiceAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBusCreditNote">
+      <soap12:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/GetBusCreditNote" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetBusCreditNoteAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBusBooking">
+      <soap12:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/GetBusBooking" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetBusBookingAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBusCreditNoteQueue">
+      <soap12:operation soapAction="http://192.168.0.131/TT/BusBookingAPI/GetBusCreditNoteQueue" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:GetBusCreditNoteQueueAuthenticationData" part="AuthenticationData" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BusBookingAPI">
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Search and Book Bus API</wsdl:documentation>
+    <wsdl:port name="BusBookingAPISoap" binding="tns:BusBookingAPISoap">
+      <soap:address location="http://airapi.travelboutiqueonline.com/TBOBusAPI_V1/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="BusBookingAPISoap12" binding="tns:BusBookingAPISoap12">
+      <soap12:address location="http://airapi.travelboutiqueonline.com/TBOBusAPI_V1/Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

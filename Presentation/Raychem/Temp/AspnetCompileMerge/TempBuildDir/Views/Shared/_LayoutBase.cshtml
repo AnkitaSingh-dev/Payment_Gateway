@@ -1,0 +1,50 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="main">
+    <div class="container-fluid">
+        <div class="page-header">
+            <div class="pull-left">
+                <h3>@Page.Title</h3>
+            </div>
+            <div class="pull-right">
+                <ul class="stats">
+                    <li class="lightred">
+                        <i class="icon-calendar"></i>
+                        <div class="details">
+                            <span class="big">February 22, 2013</span>
+                            <span>Wednesday, 13:56</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="breadcrumbs">
+            <ul>
+                <li>
+                    <a href="@Url.Action("Index", "Home")">Home</a>
+                    <i class="icon-angle-right"></i>
+                </li>
+                <li>
+                    <a href="#">@ViewBag.MainMenu</a>
+                    <i class="icon-angle-right"></i>
+                </li>
+                <li>
+                    <a href="@Url.Action(ViewBag.SubmitAction, ViewBag.Controller)">@ViewBag.CurrentSitemap</a>
+                </li>
+            </ul>
+            <div class="close-bread">
+                <a href="#"><i class="icon-remove"></i></a>
+            </div>
+        </div>
+        @Html.ValidationSummary(false, "", new { style = "color: red" })
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="box">
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

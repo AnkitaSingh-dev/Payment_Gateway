@@ -1,0 +1,98 @@
+﻿@model Corno.Raychem.CustomerPortal.Areas.Admin.Models.RegisterViewModel
+
+@{
+    Layout = null;
+}
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <!-- Apple devices fullscreen -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- Apple devices fullscreen -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <title>Corno - Login</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css">
+    <!-- Bootstrap responsive -->
+    <link rel="stylesheet" href="~/Content/bootstrap-responsive.min.css">
+    <!-- icheck -->
+    <link rel="stylesheet" href="~/Content/plugins/icheck/all.css">
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="~/Content/style.css">
+    <!-- Color CSS -->
+    <link rel="stylesheet" href="~/Content/themes.css">
+
+    <!-- jQuery -->
+    <script src="~/Scripts/jquery.min.js"></script>
+
+    <!-- Nice Scroll -->
+    <script src="~/Scripts/plugins/nicescroll/jquery.nicescroll.min.js"></script>
+    <!-- Validation -->
+    <script src="~/Scripts/plugins/validation/jquery.validate.min.js"></script>
+    <script src="~/Scripts/plugins/validation/additional-methods.min.js"></script>
+    <!-- icheck -->
+    <script src="~/Scripts/plugins/icheck/jquery.icheck.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/eakroko.js"></script>
+    <script src="~/Scripts/plugins/validation/jquery.validate.min.js"></script>
+    <script src="~/Scripts/plugins/validation/additional-methods.min.js"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="~/img/favicon.ico" />
+    <!-- Apple devices Homescreen icon -->
+    <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-precomposed.png" />
+</head>
+<body class="login">
+    <div class="wrapper">
+        <h1><a href="#"><img src="~/img/logo_big.png" alt="" class="retina-ready" width="59" height="49">Corno</a></h1>
+        <div class="login-body">
+            <h2>SIGN Up</h2>
+            @using (Html.BeginForm("RegisterDirect", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post))
+            {
+                @Html.HiddenFor(m => m.FirstName)
+                @Html.HiddenFor(m => m.LastName)
+                @Html.HiddenFor(m => m.Email)
+
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary()
+
+                <div class="control-group">
+                    <label class="control-label">Mobile No. <span style="color: red">*</span>:</label>
+                    <div class="controls">
+                        @Html.TextBoxFor(m => m.UserName, new { id = "UserName", placeholder = "Enter Mobile No", @class = "input-xlarge", data_rule_required = "true", data_rule_number = "true", data_rule_maxlength = "10", data_rule_minlength = "10" })
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label">Password <span style="color: red">*</span>:</label>
+                    <div class="controls">
+                        @Html.TextBoxFor(m => m.Password, new { id = "Password", type = "password", placeholder = "Enter Password", @class = "input-xlarge", data_rule_required = "true", data_rule_minlength = "2" })
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label">Confirm Password <span style="color: red">*</span>:</label>
+                    <div class="controls">
+                        @Html.TextBoxFor(m => m.ConfirmPassword, new { id = "ConfirmPassword", type = "password", placeholder = "Enter Confirm Password", @class = "input-xlarge", data_rule_required = "true", data_rule_minlength = "2" })
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label">Email (Optional):</label>
+                    <div class="controls">
+                        @Html.TextBoxFor(m => m.Email, new { id = "Email", placeholder = "Enter Email", @class = "input-xlarge", data_rule_required = "true", data_rule_email = "true" })
+                    </div>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Register" class='btn btn-primary'>
+                </div>
+            }
+            <div class="forget">
+                <a href="#"><span></span></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

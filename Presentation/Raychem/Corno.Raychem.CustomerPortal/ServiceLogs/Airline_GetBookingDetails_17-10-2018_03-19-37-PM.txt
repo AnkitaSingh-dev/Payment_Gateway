@@ -1,0 +1,7 @@
+Initiated by : 
+
+{"EndUserIp":"104.211.179.239","TokenId":"86a1e8af-6390-4912-8727-2335948038af","TraceId":"55f5455a-d9aa-4d45-8627-f960897a5181","PNR":"QCWGGP","BookingId":29455338,"TripIndicator":1,"username":"+ctkwQRxUeNl/odbHv8yKw=="}
+
+
+{"status":true,"result":"Success","walletbalance":0.0,"transactionid":null,"addionalinfo":null,"datahtml":null,"response":{"Response":{"Error":{"ErrorCode":2,"ErrorMessage":"We couldn't process your request due to some technical issue. Please contact Your Agent / Sales representative for details."},"ResponseStatus":2,"TraceId":"55f5455a-d9aa-4d45-8627-f960897a5181"}},"userinfo":null,"isauthenticated":null,"sessionid":null,"conviniencecharges":null,"otp":null,"iskycsubmit":false,"ispansubmit":false,"isadhaarsubmit":false,"isemailconfirmed":false,"agentid":null,"otp_ref_number":null,"aadhaarno":null,"responsecode":null,"kitno":null,"iscarduser":false,"carddetails":null,"pcardid":null,"vcardid":null,"cardstatus":null,"cardlist":null,"cardamount":null,"beneficiarylist":null,"fcmtoken":null}
+

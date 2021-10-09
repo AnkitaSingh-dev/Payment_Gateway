@@ -1,0 +1,682 @@
+URL: http://api.tektravels.com/BusBookingAPI/Service.asmx
+
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:WSBusDetailRequest id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<wSBusSearchResultField href="#ref-4"/>
+<dateOfJourneyField>2017-11-19T00:00:00.0000000+05:30</dateOfJourneyField>
+<sessionIdField id="ref-5">1cd0a7a2-1ad2-4d63-a989-093ffd28cd04</sessionIdField>
+<agencyIdField>0</agencyIdField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSBusDetailRequest>
+<a1:WSBusSearchResult id="ref-4" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<routeIdField id="ref-6">1000003725140754388</routeIdField>
+<busTypeField id="ref-7">Volvo B9R Multi Axle Semi Sleeper (2+2)</busTypeField>
+<serviceNameField xsi:null="1"/>
+<travelNameField id="ref-8">MANISH TRAVELS MULTIAXLE VOLVO</travelNameField>
+<currencyField xsi:null="1"/>
+<departureTimeField>2017-11-19T17:00:00.0000000+05:30</departureTimeField>
+<arrivalTimeField>2017-11-20T06:30:00.0000000+05:30</arrivalTimeField>
+<busSourceField>RedBus</busSourceField>
+<availableSeatsField>0</availableSeatsField>
+<availableFaresField id="ref-9">299.25</availableFaresField>
+<cancelPolicyField xsi:null="1"/>
+<boardingPointsDetailsField href="#ref-10"/>
+<droppingPointsDetailsField href="#ref-11"/>
+<priceField xsi:null="1"/>
+<PropertyChanged xsi:null="1"/>
+</a1:WSBusSearchResult>
+<SOAP-ENC:Array id="ref-10" SOAP-ENC:arrayType="a1:WSCityPointdetails[20]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<item href="#ref-12"/>
+<item href="#ref-13"/>
+<item href="#ref-14"/>
+<item href="#ref-15"/>
+<item href="#ref-16"/>
+<item href="#ref-17"/>
+<item href="#ref-18"/>
+<item href="#ref-19"/>
+<item href="#ref-20"/>
+<item href="#ref-21"/>
+<item href="#ref-22"/>
+<item href="#ref-23"/>
+<item href="#ref-24"/>
+<item href="#ref-25"/>
+<item href="#ref-26"/>
+<item href="#ref-27"/>
+<item href="#ref-28"/>
+<item href="#ref-29"/>
+<item href="#ref-30"/>
+<item href="#ref-31"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-11" SOAP-ENC:arrayType="a1:WSCityPointdetails[4]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<item href="#ref-32"/>
+<item href="#ref-33"/>
+<item href="#ref-34"/>
+<item href="#ref-35"/>
+</SOAP-ENC:Array>
+<a1:WSCityPointdetails id="ref-12" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-36">Borivali West</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T16:45:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-13" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-37">Gokulanand Hotel</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T16:50:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-14" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-38">Borivali East</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T16:55:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-15" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-39">Kandivali East</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T17:00:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-16" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-40">Malad East</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T17:05:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-17" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-41">Goregaon East</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T17:15:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-18" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-42">Jogeshwari East Lal Building</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T17:20:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-19" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-43">Andheri East</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T17:25:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-20" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-44">Andheri Bisleri</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T17:30:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-21" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-45">Andheri East</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T17:35:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-22" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-46">Vile Parle E</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T17:40:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-23" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-47">Santacruz E</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T17:45:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-24" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-48">Bandra E</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T18:00:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-25" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-49">Sion Chunabhatti Highway</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T18:30:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-26" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-50">Chembur,Maitri Park</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T19:00:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-27" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-51">Vashi</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T19:30:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-28" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-52">Nerul (London Pilsner Company)</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T19:35:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-29" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-53">Belapur C.B.D</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T19:45:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-30" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-54">Kharghar</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T19:50:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-31" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-55">Kalamboli</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T20:00:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-32" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-56">Wakad Ginger Hotel</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-20T22:00:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-33" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-57">Chandni Chowk</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-20T22:10:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-34" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-58">Swargate</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-20T22:25:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-35" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-59">Katraj</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-20T22:45:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:WSNewSeatLayoutDetailResponse id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<wSNewSeatLayoutDetailsField xsi:null="1"/>
+<statusField href="#ref-4"/>
+<PropertyChanged xsi:null="1"/>
+</a1:WSNewSeatLayoutDetailResponse>
+<a1:WSStatus id="ref-4" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<statusCodeField id="ref-5">02</statusCodeField>
+<descriptionField id="ref-6">Error occurred while Retrieving SeatLayOut.</descriptionField>
+<categoryField id="ref-7">SL</categoryField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSStatus>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: http://api.tektravels.com/BusBookingAPI/Service.asmx
+
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:WSBusDetailRequest id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<wSBusSearchResultField href="#ref-4"/>
+<dateOfJourneyField>2017-11-19T00:00:00.0000000+05:30</dateOfJourneyField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSBusDetailRequest>
+<a1:WSBusSearchResult id="ref-4" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<routeIdField id="ref-5">1000003725140754388</routeIdField>
+<busTypeField id="ref-6">Volvo B9R Multi Axle Semi Sleeper (2+2)</busTypeField>
+<serviceNameField xsi:null="1"/>
+<travelNameField id="ref-7">MANISH TRAVELS MULTIAXLE VOLVO</travelNameField>
+<currencyField xsi:null="1"/>
+<departureTimeField>2017-11-19T17:00:00.0000000+05:30</departureTimeField>
+<arrivalTimeField>2017-11-20T06:30:00.0000000+05:30</arrivalTimeField>
+<busSourceField>RedBus</busSourceField>
+<availableSeatsField>0</availableSeatsField>
+<availableFaresField id="ref-8">299.25</availableFaresField>
+<cancelPolicyField xsi:null="1"/>
+<boardingPointsDetailsField href="#ref-9"/>
+<droppingPointsDetailsField href="#ref-10"/>
+<priceField xsi:null="1"/>
+<PropertyChanged xsi:null="1"/>
+</a1:WSBusSearchResult>
+<SOAP-ENC:Array id="ref-9" SOAP-ENC:arrayType="a1:WSCityPointdetails[20]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<item href="#ref-11"/>
+<item href="#ref-12"/>
+<item href="#ref-13"/>
+<item href="#ref-14"/>
+<item href="#ref-15"/>
+<item href="#ref-16"/>
+<item href="#ref-17"/>
+<item href="#ref-18"/>
+<item href="#ref-19"/>
+<item href="#ref-20"/>
+<item href="#ref-21"/>
+<item href="#ref-22"/>
+<item href="#ref-23"/>
+<item href="#ref-24"/>
+<item href="#ref-25"/>
+<item href="#ref-26"/>
+<item href="#ref-27"/>
+<item href="#ref-28"/>
+<item href="#ref-29"/>
+<item href="#ref-30"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-10" SOAP-ENC:arrayType="a1:WSCityPointdetails[4]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<item href="#ref-31"/>
+<item href="#ref-32"/>
+<item href="#ref-33"/>
+<item href="#ref-34"/>
+</SOAP-ENC:Array>
+<a1:WSCityPointdetails id="ref-11" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-35">Borivali West</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T16:45:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-12" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-36">Gokulanand Hotel</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T16:50:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-13" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-37">Borivali East</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T16:55:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-14" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-38">Kandivali East</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T17:00:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-15" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-39">Malad East</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T17:05:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-16" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-40">Goregaon East</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T17:15:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-17" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-41">Jogeshwari East Lal Building</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T17:20:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-18" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-42">Andheri East</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T17:25:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-19" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-43">Andheri Bisleri</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T17:30:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-20" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-44">Andheri East</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T17:35:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-21" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-45">Vile Parle E</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T17:40:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-22" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-46">Santacruz E</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T17:45:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-23" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-47">Bandra E</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T18:00:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-24" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-48">Sion Chunabhatti Highway</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T18:30:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-25" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-49">Chembur,Maitri Park</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T19:00:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-26" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-50">Vashi</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T19:30:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-27" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-51">Nerul (London Pilsner Company)</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T19:35:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-28" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-52">Belapur C.B.D</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T19:45:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-29" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-53">Kharghar</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T19:50:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-30" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-54">Kalamboli</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-19T20:00:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-31" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-55">Wakad Ginger Hotel</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-20T22:00:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-32" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-56">Chandni Chowk</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-20T22:10:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-33" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-57">Swargate</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-20T22:25:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+<a1:WSCityPointdetails id="ref-34" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<cityPointIdField>0</cityPointIdField>
+<busIdField>0</busIdField>
+<cityPointNameField id="ref-58">Katraj</cityPointNameField>
+<cityPointLocationField xsi:null="1"/>
+<cityPointLandmarkField xsi:null="1"/>
+<cityPointAddressField xsi:null="1"/>
+<cityPointContactNumberField xsi:null="1"/>
+<cityPointTimeField>2017-11-20T22:45:00.0000000+05:30</cityPointTimeField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSCityPointdetails>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:WSNewSeatLayoutDetailResponse id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<wSNewSeatLayoutDetailsField xsi:null="1"/>
+<statusField href="#ref-4"/>
+<PropertyChanged xsi:null="1"/>
+</a1:WSNewSeatLayoutDetailResponse>
+<a1:WSStatus id="ref-4" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Corno.Raychem.CustomerPortal.BusService/Corno.Raychem.CustomerPortal%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<statusCodeField id="ref-5">02</statusCodeField>
+<descriptionField id="ref-6">Error occurred while Retrieving SeatLayOut.</descriptionField>
+<categoryField id="ref-7">SL</categoryField>
+<PropertyChanged xsi:null="1"/>
+</a1:WSStatus>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------

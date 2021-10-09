@@ -1,0 +1,100 @@
+﻿@model Corno.Raychem.CustomerPortal.Areas.Wallet.Models.Mpos
+
+@{
+    ViewBag.Title = "Delete";
+
+}
+<div class="row">
+        <div id="breadcrumb" class="col-md-12">
+            <ol class="breadcrumb">
+                <li><a href="#">BookERP</a></li>
+                <li><a href="#">Masters</a></li>
+                <li><a href="#">Delete Country</a></li>
+            </ol>
+    </div>
+</div>
+@Html.ValidationSummary()
+<div class="row">
+    <div class="col-xs-12 col-sm-12">
+        <div class="box ui-draggable ui-droppable">
+            <div class="box-header">
+                <div class="box-name">
+                    <i class="fa fa-trash-o large"></i>
+                    <span>Masters/Country</span>
+                </div>
+                <div class="box-icons">
+                    <a class="collapse-link">
+                        <i class="fa fa-chevron-up"></i>
+                    </a>
+                    <a class="expand-link">
+                        <i class="fa fa-expand"></i>
+                    </a>
+                    <a class="close-link">
+                        <i class="fa fa-times"></i>
+                    </a>
+                </div>
+                <div class="no-move"></div>
+            </div>
+            <div class="box-content">
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary(true)
+                    <div class="form-horizontal">
+                        <div class="panel panel-danger">
+                            <div class="panel-heading"><strong>Country Details </strong></div>
+                            <div class="form-group has-success has-feedback">
+                                <label class="col-sm-2 control-label">Name</label>
+                                <div class="col-sm-4">
+                                    @Html.TextBoxFor(m => m.Name, new { @class = "form-control", data_toggle = "tooltip", data_placement = "bottom", title = "Name" })
+                                </div>
+                            </div>
+                            <div class="form-group has-success has-feedback">
+                                <label class="col-sm-2 control-label">Description :</label>
+                                <div class="col-sm-4">
+                                    @Html.TextAreaFor(m => m.Description, 5, 40, new { @id = "Description", @class = "form-control", value = "@Model.Description", placeholder = "Enter Description", data_toggle = "tooltip", data_placement = "bottom", title = "Description" })
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="form-group">
+                            <div class="col-sm-2">
+                                <button type="button" value="Index" class="btn btn-primary btn-label-left pull-left" onclick="location.href = '@Url.Action("Index", "Country")'">
+                                    <span><i class="fa fa-list-ul"></i></span>
+                                    Back to List
+                                </button>
+                            </div>
+                            <div class="col-sm-offset-8 col-sm-2">
+                                <button type="submit" value="Delete" onclick="return confirm('Are you sure you wish to delete this Country?')" title="save" class="btn btn-danger btn-label-left pull-right">
+                                    <span><i class="fa fa-trash-o"></i></span>
+                                    Delete
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    function DemoTimePicker() {
+        $('#InTime').timepicker({ setDate: new Date() });
+        $('#OutTime').timepicker({ setDate: new Date() });
+    }
+
+    $(document).ready(function () {
+        // Create Wysiwig editor for textare
+        //TinyMCEStart('#wysiwig_simple', null);
+        //TinyMCEStart('#Description', 'extreme');
+        //// Add tooltip to form-controls
+        $('.form-control').tooltip();
+
+        LoadSelect2Script(DemoSelect2);
+
+        //// Load example of form validation
+        LoadBootstrapValidatorScript(DemoFormValidator);
+    });
+</script>

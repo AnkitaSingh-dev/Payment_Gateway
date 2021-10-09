@@ -1,0 +1,6 @@
+Initiated by : 
+
+{"EndUserIp":"fe80::48a7:fcc1:a332:1dd4","TokenId":"a417d09c-e68c-4e64-a2ba-67069ec286e6","AdultCount":"2","ChildCount":"2","InfantCount":"1","DirectFlight":"false","OneStopFlight":"false","JourneyType":"2","PreferredAirlines":null,"Segments":[{"Origin":"BOM","Destination":"DXB","FlightCabinClass":"1","PreferredDepartureTime":"2018-03-02T00:00:00","PreferredArrivalTime":"2018-03-03T00: 00: 00"},{"Origin":"DXB","Destination":"BOM","FlightCabinClass":"1","PreferredDepartureTime":"2018-03-03T00: 00: 00","PreferredArrivalTime":"2018-03-04T00: 00: 00"}],"Sources":["SG"]}
+
+{"status":true,"result":"Success","walletbalance":0.0,"transactionid":null,"addionalinfo":null,"datahtml":null,"response":null,"userinfo":null,"isauthenticated":null,"sessionid":null,"conviniencecharges":null,"otp":null,"iskycsubmit":false,"ispansubmit":false,"isadhaarsubmit":false,"isemailconfirmed":false,"agentid":null,"otp_ref_number":null,"aadhaarno":null,"responsecode":null,"kitno":null,"iscarduser":false,"carddetails":null,"pcardid":null,"vcardid":null,"cardstatus":null,"cardlist":null,"cardamount":null,"beneficiarylist":null,"fcmtoken":null}
+

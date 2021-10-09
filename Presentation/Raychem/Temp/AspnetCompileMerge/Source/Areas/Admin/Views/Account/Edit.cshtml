@@ -1,0 +1,84 @@
+﻿@model Corno.Raychem.CustomerPortal.Areas.Admin.Models.EditUserViewModel
+
+@{
+    Layout = "~/Views/Shared/_LayoutEdit.cshtml";
+}
+
+@{
+    ViewBag.Index = "Index";
+    ViewBag.Create = "Create";
+    ViewBag.Edit = "Edit";
+    ViewBag.Details = "Details";
+    ViewBag.Delete = "Delete";
+}
+
+@{
+    Page.Title = "Edit User";
+    ViewBag.MainMenu = "Transactions";
+    ViewBag.CurrentSitemap = "User";
+    ViewBag.BoxTitle = "Edit User : " + Model.UserName;
+
+    ViewBag.Controller = "Account";
+
+    ViewBag.SubmitAction = ViewBag.Edit;
+
+    //var isLocked = ViewBag.IsLocked;
+}
+
+<div class="control-group">
+    <label class="control-label">User Name <span style="color: red">*</span>:</label>
+    <div class="controls">
+        @Html.TextBoxFor(m => m.UserName, new { id = "UserName", placeholder = "Enter User Name", @class = "input-xlarge", data_rule_required = "true", data_rule_minlength = "2" })
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label">First Name <span style="color: red">*</span>:</label>
+    <div class="controls">
+        @Html.TextBoxFor(m => m.FirstName, new { id = "FirstName", placeholder = "Enter First Name", @class = "input-xlarge", data_rule_required = "true", data_rule_minlength = "2" })
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label">Last Name <span style="color: red">*</span>:</label>
+    <div class="controls">
+        @Html.TextBoxFor(m => m.LastName, new { id = "LastName", placeholder = "Enter Last Name", @class = "input-xlarge", data_rule_required = "true", data_rule_minlength = "2" })
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label">Mobile <span style="color:red">*</span>:</label>
+    <div class="controls">
+        @Html.TextBoxFor(m => m.PhoneNumber, new { id = "PhoneNumber", placeholder = "Enter Mobile No", @class = "input-xlarge", data_rule_required = "true", data_rule_number = "true", data_rule_maxlength = "10" })
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label">Email <span style="color: red">*</span>:</label>
+    <div class="controls">
+        @Html.TextBoxFor(m => m.Email, new { id = "Email", placeholder = "Enter Email", @class = "input-xlarge", data_rule_required = "true", data_rule_minlength = "2" })
+    </div>
+</div>
+<div class="control-group">
+    <label class="control-label">Account No. :</label>
+    <div class="controls">
+        @Html.TextBoxFor(m => m.AccountNo, new { placeholder = "Enter Account No", @class = "input-xlarge" })
+    </div>
+</div>
+@*<div class="control-group">
+    <p>
+        @Html.Hidden(Model.UserName)
+        @if (isLocked == false)
+        {
+            <input type="submit" value="Lock User" onclick="location.href='@Url.Action("LockUnlockUser", "Account",new { userName = Model.UserName})'" />
+        }
+        else
+        {
+            <input type="submit" value="Unlock User" onclick="location.href='@Url.Action("LockUnlockUser", "Account",new { userName = Model.UserName})'" />
+        }
+    </p>
+</div>*@
+
+
+
+
+
+
+
+

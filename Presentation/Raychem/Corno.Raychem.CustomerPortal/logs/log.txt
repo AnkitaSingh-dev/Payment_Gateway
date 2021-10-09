@@ -1,0 +1,3 @@
+INFO  2017-07-05 19:01:10,378 130314ms Application            LogInfo            - 6
+ERROR 2017-07-05 19:01:25,400 145335ms Application            LogError           - Test
+System.Exception: Test

@@ -1,0 +1,110 @@
+﻿@model Corno.Raychem.CustomerPortal.Areas.Admin.Models.AspNetRole
+
+@{
+    Layout = "~/Views/Shared/_LayoutCreate.cshtml";
+}
+
+@{
+    ViewBag.Index = "Index";
+    ViewBag.Create = "Create";
+    ViewBag.Edit = "Edit";
+    ViewBag.Details = "Details";
+    ViewBag.Delete = "Delete";
+}
+
+@{
+    Page.Title = "Roles";
+    ViewBag.MainMenu = "Administration";
+    ViewBag.CurrentSitemap = "Roles";
+    ViewBag.BoxTitle = "Create New Role";
+
+    ViewBag.Controller = "AspNetRole";
+
+    ViewBag.SubmitAction = ViewBag.Create;
+}
+
+<div class="control-group">
+    <label class="control-label">Role Name <span style="color: red">*</span>:</label>
+    <div class="controls">
+        @Html.TextBoxFor(m => m.Name, new { id = "Name", placeholder = "Enter City Name", @class = "input-xlarge", data_rule_required = "true", data_rule_minlength = "2" })
+    </div>
+</div>
+
+@*@{
+    ViewBag.Title = "Create";
+}
+<div class="row">
+    <div id="breadcrumb" class="col-md-12">
+        <ol class="breadcrumb">
+            <li><a href="#">Admin</a></li>
+            <li><a href="#">Roles</a></li>
+            <li><a href="#">Create Roles</a></li>
+        </ol>
+    </div>
+</div>
+@Html.ValidationSummary()
+<div class="row">
+    <div class="col-xs-12 col-sm-12">
+        <div class="box ui-draggable ui-droppable">
+            <div class="box-header">
+                <div class="box-name">
+                    <i class="fa fa-plus-square large"></i>
+                    <span>Roles</span>
+                </div>
+                <div class="box-icons">
+                    <a class="collapse-link">
+                        <i class="fa fa-chevron-up"></i>
+                    </a>
+                    <a class="expand-link">
+                        <i class="fa fa-expand"></i>
+                    </a>
+                    <a class="close-link">
+                        <i class="fa fa-times"></i>
+                    </a>
+                </div>
+                <div class="no-move"></div>
+            </div>
+            <div class="box-content">
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary(true)
+                    <div class="form-horizontal">
+                        <div class="form-group has-success has-feedback">
+                            <label class="col-sm-2 control-label">Name</label>
+                            <div class="col-sm-4">
+                                <input type="text" id="Name" name="Name" value="@Model.Name" class="form-control" placeholder="Enter Role Name" data-toggle="tooltip" data-placement="bottom" title="Role Name">
+                                @Html.ValidationMessageFor(m => m.Name)
+                            </div>
+                        </div>
+                        <br />
+                        <div class="form-group">
+                            <div class="col-sm-2">
+                                <button type="button" value="Index" class="btn btn-primary btn-label-left pull-left" onclick="location.href = '@Url.Action("Index", "AspNetRole")'">
+                                    <span><i class="fa fa-list-ul"></i></span>
+                                    Back to List
+                                </button>
+                            </div>
+                            <div class="col-sm-offset-8 col-sm-2">
+                                <button type="submit" value="Create" title="Save" class="btn btn-primary btn-label-left pull-right">
+                                    <span><i class="fa fa-save"></i></span>
+                                    Create
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        //// Add tooltip to form-controls
+        $('.form-control').tooltip();
+        LoadSelect2Script(DemoSelect2);
+        //// Load example of form validation
+        LoadBootstrapValidatorScript(DemoFormValidator);
+    });
+</script>*@

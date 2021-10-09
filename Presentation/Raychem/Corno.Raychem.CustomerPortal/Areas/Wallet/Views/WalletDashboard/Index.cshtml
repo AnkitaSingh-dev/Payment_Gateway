@@ -1,0 +1,385 @@
+﻿@model Corno.Raychem.CustomerPortal.Areas.Wallet.Models.WalletDashboardViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="main">
+    <div class="container-fluid">
+    <div class="page-header">
+        <div class="pull-left">
+            <h3>@Model.FullName</h3>
+        </div>
+        <div class="pull-right">
+            <ul class="stats">
+                <li class='satgreen'>
+                    <i class="icon-money"></i>
+                    <div class="details">
+                        <span class="big">Rs. @Model.WalletBlance</span>
+                        <span>Balance</span>
+                    </div>
+                </li>
+                <li class="lightred">
+                    <i class="icon-calendar"></i>
+                    <div class="details">
+                        <span class="big">February 22, 2013</span>
+                        <span>Wednesday, 13:56</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+        @Html.ValidationSummary(false, "", new { style = "color: red" })
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="box">
+                    <div class="row-fluid">
+                        <div class="span6">
+                            <div class="box box-color box-bordered">
+                                <div class="box-title">
+                                    <h3>
+                                        <i class="icon-bar-chart"></i>
+                                        Services
+                                    </h3>
+                                    <div class="actions">
+                                        <a href="#" class="btn btn-mini content-refresh"><i class="icon-refresh"></i></a>
+                                        <a href="#" class="btn btn-mini content-remove"><i class="icon-remove"></i></a>
+                                        <a href="#" class="btn btn-mini content-slideUp"><i class="icon-angle-down"></i></a>
+                                    </div>
+                                </div>
+                                <div class="box-content">
+                                    <div class="statistic-big">
+                                        <div class="top">
+                                            <div class="left">
+                                                <div class="input-medium">
+                                                    @Html.DropDownList("services",new SelectList(Model.Services, "Service", "Service"), "All", new { @class = "chosen-select", style = "width:200px;" })
+                                                    <select id="serviceCategory" name="serviceCategory" class='chosen-select' data-nosearch="true">
+                                                        <option value="All">All</option>
+                                                        <option value="Successful">Successful</option>
+                                                        <option value="Failure">Failure</option>
+                                                        <option value="Refunded">Refunded</option>
+                                                        <option value="Cancelled">Cancelled</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="right">
+                                                <span id="serviceTotal"></span>
+                                                <span><i class="icon-circle-arrow-up"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="bottom">
+                                            <div class="flot medium" id="flot-services"></div>
+                                        </div>
+                                        @*<div class="bottom">
+                                            <ul class="stats-overview">
+                                                <li>
+                                                    <span class="name">
+                                                        Total
+                                                    </span>
+                                                    <span class="value" id="serviceTotal">
+                                                        @string.Format("{0:#,###0}", Model.PendingOrderCount + Model.CompletedOrderCount)
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </div>*@
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span6">
+                            <div class="box box-color box-bordered">
+                                <div class="box-title">
+                                    <h3>
+                                        <i class="icon-bar-chart"></i>
+                                        Operators
+                                    </h3>
+                                    <div class="actions">
+                                        <a href="#" class="btn btn-mini content-refresh"><i class="icon-refresh"></i></a>
+                                        <a href="#" class="btn btn-mini content-remove"><i class="icon-remove"></i></a>
+                                        <a href="#" class="btn btn-mini content-slideUp"><i class="icon-angle-down"></i></a>
+                                    </div>
+                                </div>
+                                <div class="box-content">
+                                    <div class="statistic-big">
+                                        <div class="top">
+                                            <div class="left">
+                                                <div class="input-medium">
+                                                    @Html.DropDownList("operators", new SelectList(Model.Operators, "Operator", "Operator"), "All", new { @class = "chosen-select", style = "width:200px;" })
+                                                    <select id="operatorCategory" name="operatorCategory" class='chosen-select' data-nosearch="true">
+                                                        <option value="All">All</option>
+                                                        <option value="Successful">Successful</option>
+                                                        <option value="Failure">Failure</option>
+                                                        <option value="Refunded">Refunded</option>
+                                                        <option value="Cancelled">Cancelled</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="right">
+                                                <span id="operatorTotal"></span>
+                                                @*@string.Format("{0:#,###0}", Model.TotalInvoiceValue)*@
+                                                <span><i class="icon-circle-arrow-up"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="bottom">
+                                            <div class="flot medium" id="flot-operators"></div>
+                                        </div>
+                                        @*<div class="bottom">
+                                            <ul class="stats-overview">
+                                                <li>
+                                                    <span class="name">
+                                                        Total
+                                                    </span>
+                                                    <span class="value" id="operatorTotal">
+                                                        @string.Format("{0:#,###0}", Model.PendingInvoiceCount + Model.CompletedInvoiceCount)
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </div>*@
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-fluid">
+                        <div class="span6">
+                            <div class="box box-color box-bordered">
+                                <div class="box-title">
+                                    <h3>
+                                        <i class="icon-bar-chart"></i>
+                                        Payment Modes
+                                    </h3>
+                                    <div class="actions">
+                                        <a href="#" class="btn btn-mini content-refresh"><i class="icon-refresh"></i></a>
+                                        <a href="#" class="btn btn-mini content-remove"><i class="icon-remove"></i></a>
+                                        <a href="#" class="btn btn-mini content-slideUp"><i class="icon-angle-down"></i></a>
+                                    </div>
+                                </div>
+                                <div class="box-content">
+                                    <div class="statistic-big">
+                                        <div class="top">
+                                            <div class="left">
+                                                <div class="input-medium">
+                                                    @Html.DropDownList("paymentModes", new SelectList(Model.PaymentModes, "PaymentMode", "PaymentMode"), "All", new { @class = "chosen-select", style = "width:200px;" })
+                                                    <select id="paymentModeCategory" name="paymentModeCategory" class='chosen-select' data-nosearch="true">
+                                                        <option value="All">All</option>
+                                                        <option value="Successful">Successful</option>
+                                                        <option value="Failure">Failure</option>
+                                                        <option value="Refunded">Refunded</option>
+                                                        <option value="Cancelled">Cancelled</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="right">
+                                                <span id="paymentModeTotal"></span>
+                                                @*@string.Format("{0:#,###0}", Model.TotalAccountReceivableValue)*@
+                                                <span><i class="icon-circle-arrow-up"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="bottom">
+                                            <div class="flot medium" id="flot-paymentmodes"></div>
+                                        </div>
+                                        @*<div class="bottom">
+                                <ul class="stats-overview">
+                                    <li>
+                                        <span class="name">
+                                            Total
+                                        </span>
+                                        <span class="value" id="paymentModeTotal">
+                                            @string.Format("{0:#,###0}", Model.PendingAccountReceivableCount + Model.CompletedAccountReceivableCount)
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>*@
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span6">
+                            <div class="box box-color box-bordered">
+                                <div class="box-title">
+                                    <h3>
+                                        <i class="icon-bar-chart"></i>
+                                        Users
+                                    </h3>
+                                    <div class="actions">
+                                        <a href="#" class="btn btn-mini content-refresh"><i class="icon-refresh"></i></a>
+                                        <a href="#" class="btn btn-mini content-remove"><i class="icon-remove"></i></a>
+                                        <a href="#" class="btn btn-mini content-slideUp"><i class="icon-angle-down"></i></a>
+                                    </div>
+                                </div>
+                                <div class="box-content">
+                                    <div class="statistic-big">
+                                        <div class="top">
+                                            <div class="left">
+                                                <div class="input-medium">
+                                                    @Html.DropDownList("users", new SelectList(Model.Users, "UserName", "UserName"), "All", new { @class = "chosen-select", style = "width:200px;" })
+                                                    <select id="userCategory" name="operatorCategory" class='chosen-select' data-nosearch="true">
+                                                        <option value="All">All</option>
+                                                        <option value="Successful">Successful</option>
+                                                        <option value="Failure">Failure</option>
+                                                        <option value="Refunded">Refunded</option>
+                                                        <option value="Cancelled">Cancelled</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="right">
+                                                <span id="userTotal"></span>
+                                                @*@string.Format("{0:#,###0}", Model.TotalInvoiceValue)*@
+                                                <span><i class="icon-circle-arrow-up"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="bottom">
+                                            <div class="flot medium" id="flot-users"></div>
+                                        </div>
+                                        @*<div class="bottom">
+                            <ul class="stats-overview">
+                                <li>
+                                    <span class="name">
+                                        Total
+                                    </span>
+                                    <span class="value" id="operatorTotal">
+                                        @string.Format("{0:#,###0}", Model.PendingInvoiceCount + Model.CompletedInvoiceCount)
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>*@
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<script type="text/javascript">
+    $('#services').on('change',
+        function () {
+            DrawServicesChart(this.value, $("#serviceCategory option:selected").text());
+        });
+    $('#serviceCategory').on('change',
+       function () {
+           DrawServicesChart($("#services option:selected").text(), this.value);
+       });
+
+    $('#operators').on('change',
+       function () {
+           DrawOperatorsChart(this.value, $("#operatorCategory option:selected").text());
+       });
+    $('#operatorCategory').on('change',
+       function () {
+           DrawOperatorsChart($("#operators option:selected").text(), this.value);
+       });
+
+    $('#paymentModes').on('change',
+       function () {
+           DrawPaymentModesChart(this.value, $("#paymentModeCategory option:selected").text());
+       });
+    $('#paymentModeCategory').on('change',
+       function () {
+           DrawPaymentModesChart($("#paymentModes option:selected").text(), this.value);
+       });
+
+    $('#users').on('change',
+       function () {
+           DrawUsersChart(this.value, $("#userCategory option:selected").text());
+       });
+    $('#userCategory').on('change',
+       function () {
+           DrawUsersChart($("#users option:selected").text(), this.value);
+       });
+
+    function PlotChart(placeholder, data, label) {
+        $.plot($(placeholder),
+                [
+                    {
+                        label: label,
+                        data: data,
+                        color: "#3a8ce5"
+                    }
+                ],
+                {
+                    xaxis: { ticks: [[1, "Jan"], [2, "Feb"], [3, "Mar"], [4, "Apr"], [5, "May"], [6, "Jun"], [7, "Jul"], [8, "Aug"], [9, "Sep"], [10, "Oct"], [11, "Nov"], [12, "Dec"]] },
+                    series: {
+                        lines: {
+                            show: true,
+                            fill: true
+                        },
+                        points: {
+                            show: true
+                        }
+                    },
+                    grid: { hoverable: true, clickable: true },
+                    legend: {
+                        show: false
+                    }
+                }
+            );
+        $(placeholder)
+            .bind("plothover",
+                function (event, pos, item) {
+                    var previousPoint;
+                    if (item) {
+                        if (previousPoint !== item.dataIndex) {
+                            previousPoint = item.dataIndex;
+                            $("#tooltip").remove();
+                            var y = item.datapoint[1].toFixed();
+
+                            showTooltip(item.pageX,
+                                item.pageY,
+                                item.series.label + " = " + y);
+                        }
+                    } else {
+                        $("#tooltip").remove();
+                        previousPoint = null;
+                    }
+                });
+    }
+
+    function getTotal(data) {
+        var finalValue = 0;
+        for (var i = 0; i < data.length; i++) {
+            finalValue += parseInt(data[i][1]);
+        }
+        return finalValue;
+    }
+
+    function DrawServicesChart(service, transactionStatus) {
+        //alert(service + ", " + transactionStatus);
+        $.getJSON('@Url.Action("GetServiceDeta", new {area = "Wallet", controller = "WalletDashboard" })', { service, transactionStatus }, function (data) {
+            $("#serviceTotal").text(getTotal(data));
+            PlotChart('#flot-services', data, "Services Data");
+        });
+    }
+
+    function DrawOperatorsChart(operatorName, transactionStatus) {
+        $.getJSON('@Url.Action("GetOperatorDeta", new {area = "Wallet", controller = "WalletDashboard" })', { operatorName, transactionStatus }, function (data) {
+            $("#operatorTotal").text(getTotal(data));
+            PlotChart('#flot-operators', data, "Operators Data");
+        });
+    }
+
+    function DrawPaymentModesChart(paymentMode, transactionStatus) {
+        //alert("service wise data  : " + paymentMode + ", " + transactionStatus);
+        $.getJSON('@Url.Action("GetPaymentModeDeta", new {area = "Wallet", controller = "WalletDashboard" })', { paymentMode, transactionStatus }, function (data) {
+            $("#paymentModeTotal").text(getTotal(data));
+            PlotChart('#flot-paymentmodes', data, "Payment Modes Data");
+        });
+    }
+
+    function DrawUsersChart(userName, transactionStatus) {
+        $.getJSON('@Url.Action("GetUserData", new {area = "Wallet", controller = "WalletDashboard" })', { userName, transactionStatus }, function (data) {
+            $("#userTotal").text(getTotal(data));
+            PlotChart('#flot-users', data, "User Data");
+        });
+    }
+
+    $(function () {
+        DrawServicesChart("All", "All");
+        DrawOperatorsChart("All", "All");
+        DrawPaymentModesChart("All", "All");
+        DrawUsersChart("All", "All");
+    });
+</script>

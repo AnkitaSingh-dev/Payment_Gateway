@@ -1,0 +1,205 @@
+﻿@model Corno.Raychem.CustomerPortal.Areas.Wallet.Models.RequestModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    ViewBag.Index = "Index";
+    ViewBag.Create = "Create";
+    ViewBag.Edit = "Edit";
+    ViewBag.Details = "Details";
+    ViewBag.Delete = "Delete";
+}
+
+@{
+    Page.Title = "Card Transactions";
+    ViewBag.MainMenu = "Masters";
+    ViewBag.CurrentSitemap = "Card Transactions";
+    ViewBag.BoxTitle = "Make Card Transaction";
+
+    ViewBag.Controller = "CardTransaction";
+
+    ViewBag.SubmitAction = ViewBag.Create;
+}
+
+@if (TempData["Success"] != null)
+{
+    <script type="text/javascript">
+        bootbox.alert("@TempData["Success"]")
+    </script>
+}
+
+<div id="main">
+    <div class="container-fluid">
+        <div class="page-header">
+            <div class="pull-left">
+                <h3>@Page.Title</h3>
+            </div>
+            <div class="pull-right">
+                <ul class="stats">
+                    <li class="satgreen">
+                        <i class="icon-money"></i>
+                        <div class="details">
+                            <span class="big">@ViewBag.Balance</span>
+                            <span>Balance</span>
+                        </div>
+                    </li>
+                    <li class="lightred">
+                        <i class="icon-calendar"></i>
+                        <div class="details">
+                            <span class="big">February 22, 2013</span>
+                            <span>Wednesday, 13:56</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="breadcrumbs">
+            <ul>
+                <li>
+                    <a href="@Url.Action("Index", "Home")">Home</a>
+                    <i class="icon-angle-right"></i>
+                </li>
+                <li>
+                    <a href="#">@ViewBag.MainMenu</a>
+                    <i class="icon-angle-right"></i>
+                </li>
+                <li>
+                    <a href="@Url.Action(ViewBag.SubmitAction, ViewBag.Controller)">@ViewBag.CurrentSitemap</a>
+                </li>
+            </ul>
+            <div class="close-bread">
+                <a href="#"><i class="icon-remove"></i></a>
+            </div>
+        </div>
+        @Html.ValidationSummary(false, "", new { style = "color: red" })
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="box">
+                    @using (Html.BeginForm("Create", "CardTransaction", null, FormMethod.Post, new { id = "form", @class = "form-horizontal form-validate" }))
+                    {
+                        @Html.AntiForgeryToken()
+
+                        <div class="box box-bordered">
+                            <div class="box-title">
+                                <h3>
+                                    <i class="icon-reorder"></i>
+                                    Card
+                                </h3>
+                                <ul class="tabs">
+                                    <li class="active">
+                                        <a href="#t1" data-toggle="tab">Load / Revoke Wallet</a>
+                                    </li>
+                                    @*<li>
+                                            <a href="#t2" data-toggle="tab">Revoke Wallet</a>
+                                        </li>*@
+                                </ul>
+                            </div>
+                            <div class="box-content">
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="t1">
+                                        <h4>Load / Revoke Card</h4>
+                                        <div class="control-group">
+                                            <label class="control-label">Mobile <span style="color:red">*</span>:</label>
+                                            <div class="controls">
+                                                @Html.TextBoxFor(m => m.UserName, new { id = "UserName", placeholder = "Enter Mobile No", @class = "input-xlarge", data_rule_required = "true", data_rule_maxlength = "10" })
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">Amount <span style="color:red">*</span>:</label>
+                                            <div class="controls">
+                                                @Html.TextBoxFor(m => m.Amount, new { id = "Amount", placeholder = "Enter Amount", @class = "input-xlarge", data_rule_required = "true", data_rule_number = "true", data_rule_minlength = "1" })
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">Reason <span style="color:red">*</span>:</label>
+                                            <div class="controls">
+                                                @Html.TextBoxFor(m => m.BookingId, new { id = "Reason", placeholder = "Enter Reason", @class = "input-xlarge", data_rule_required = "true", data_rule_minlength = "1", data_rule_maxlength = "49" })
+                                            </div>
+                                        </div>
+                                        @*<div class="control-group" id="OTP" style="display:none">
+            <label class="control-label">OTP <span style="color:red">*</span>:</label>
+            <div class="controls">
+                @Html.TextBoxFor(m => m.OneTimePassword, new { id = "OneTimePassword", placeholder = "Enter OTP", @class = "input-xlarge", data_rule_required = "true", data_rule_number = "true", data_rule_minlength = "1" })
+            </div>
+        </div>*@
+                                        @*<div class="control-group">
+        <div class="controls">
+            <input type="submit" id="otpSend" value="Request OTP" class="btn btn-default" />
+            </div>
+        </div>*@
+                                        <div class="control-group" id="ButtonBox">
+                                            <div class="controls">
+                                                <a href="#" onclick="$('<input />').attr('type', 'hidden')
+                                                                .attr('name', 'submitType')
+                                                                .attr('value', 'LoadWallet')
+                                                                .appendTo('#form');
+                                                                $('#ButtonBox').hide();
+                                                                $(this).closest('form').submit();"
+                                                   rel="tooltip" title="Load Card" class="btn btn-teal">
+                                                    <i class="icon-plus"></i><span> Load</span>
+                                                </a>
+                                                <a href="#" onclick="$('<input />') .attr('type', 'hidden')
+                                                                    .attr('name', 'submitType')
+                                                                    .attr('value', 'RevokeWallet')
+                                                                    .appendTo('#form');
+                                                                    $('#ButtonBox').hide();
+                                                                    $(this).closest('form').submit();"
+                                                   rel="tooltip" title="Revoke Card" class="btn btn-red">
+                                                    <i class="icon-minus"></i><span> Revoke</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    @*<div class="tab-pane" id="t2">
+                                            <h4>Revoke Wallet</h4>
+                                            <div class="control-group">
+                                                <label class="control-label">Mobile <span style="color:red">*</span>:</label>
+                                                <div class="controls">
+                                                    @Html.TextBoxFor(m => m.UserName, new { id = "UserName", placeholder = "Enter Mobile No", @class = "input-xlarge", data_rule_required = "true", data_rule_number = "true", data_rule_minlength = "10", data_rule_maxlength = "10" })
+                                                </div>
+                                            </div>
+                                            <div class="control-group">
+                                                <label class="control-label">Amount <span style="color:red">*</span>:</label>
+                                                <div class="controls">
+                                                    @Html.TextBoxFor(m => m.Amount, new { id = "Amount", placeholder = "Enter Amount", @class = "input-xlarge", data_rule_required = "true", data_rule_number = "true", data_rule_minlength = "1" })
+                                                    <a href="#" onclick="$('<input />') .attr('type', 'hidden')
+                                                                        .attr('name', 'submitType')
+                                                                        .attr('value', 'RevokeWallet')
+                                                                        .appendTo('#form');
+                                                                        $(this).closest('form').submit();"
+                                                       rel="tooltip" title="Revoke Wallet" class="btn btn-red">
+                                                        <i class="icon-minus"></i><span> Revoke</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>*@
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    //$("#otpSend").on("click", function (eve) {
+    //    var viewModel = {
+    //        "UserName": "VyjXHl/SXJqu6o4RAQDxrw=="
+    //    };
+       // $("#ButtonBox").show();
+        //$("#OTP").show();
+       // $("#otpSend").hide();
+        $.ajax({
+            url: '/CardTransaction/ResendOtp',
+            type: "POST",
+            dataType: 'application/json; charset=utf-8',
+            data: viewModel,
+            success: function (data, status, jqXHR) {
+
+            }
+        });
+   // });
+</script>

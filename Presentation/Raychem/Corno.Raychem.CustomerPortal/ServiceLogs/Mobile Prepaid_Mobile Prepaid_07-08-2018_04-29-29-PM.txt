@@ -1,0 +1,73 @@
+SD=332185
+AP=332435
+OP=332436
+SESSION=07292018162928
+NUMBER=8087691911
+ACCOUNT=
+Authenticator3=
+AMOUNT=5
+AMOUNT_ALL=
+TERM_ID=
+COMMENT=
+AID=
+routingType=
+transRefId=
+otc=
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+benBankName=
+benMobile=
+benId=
+Type=
+Category_id=
+Product_id=
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=
+PlanOffer=
+KeyKycStatus=
+Rcode=
+RequestFor=
+originalmerchantTranId=
+transFrom=
+transTo=
+
+
+0000044501SM000000920000009200000217
+inist_in            00000040
+                    00000000
+BEGIN
+DATE=07.08.2018 16:28:54
+SESSION=07292018162928
+ERROR=0
+RESULT=0
+TRANSID=1001552917461
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFtpe24BAbpLBACh4x6 r55/5h15l/BzuoRhbkr2JY3tqdaLDY0a
+FaQVqt7/V/ QuTanTpAnyn/MGh8R dQDKB6oDPKOyAXzMrn7e8 aw213iiu9RfZL
+jaWI6W4qModvW6mex7EGwqeYz34ubb74FEPEF/i45mOcJJNSn5eFKUvMtEEylIIc
+gE8rzbABxw==
+=nNQe
+END SIGNATURE
+

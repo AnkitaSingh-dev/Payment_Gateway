@@ -1,0 +1,92 @@
+﻿@model IEnumerable<Corno.Raychem.CustomerPortal.Areas.Wallet.Models.JugadUserSafexUserRT>
+
+@{
+    Layout = "~/Views/Shared/_LayoutIndex.cshtml";
+}
+
+@{
+    ViewBag.Index = "Index";
+    ViewBag.Details = "Details";
+}
+@{
+    Page.Title = "Safex Users";
+
+    ViewBag.MainHeader = "Safex Users";
+    ViewBag.MainMenu = "Transactons";
+    ViewBag.Controller = "SafexWallet";
+    ViewBag.CurrentLink = "Safex Users";
+}
+
+<table class="table table-bordered dataTable dataTable-scroll-x @*dataTable-grouping*@ dataTable-tools dataTable-colvis">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ModifiedBy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ModifiedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DeletedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PKitNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsCardUser)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsVCardBlock)
+            </th>           
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreatedDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ModifiedBy)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ModifiedDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DeletedDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CustId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PKitNo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IsCardUser)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IsVCardBlock)
+                </td>                
+            </tr>
+        }
+    </tbody>
+</table>

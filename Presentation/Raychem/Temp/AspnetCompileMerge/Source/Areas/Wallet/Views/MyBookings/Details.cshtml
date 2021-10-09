@@ -1,0 +1,70 @@
+﻿@model Corno.Raychem.CustomerPortal.Areas.Transactions.Models.Order
+@{
+    Layout = "~/Views/Shared/_LayoutDetails.cshtml";
+}
+
+@{
+    ViewBag.Index = "Index";
+    ViewBag.Create = "Create";
+    ViewBag.Edit = "Edit";
+    ViewBag.Details = "Details";
+    ViewBag.Delete = "Delete";
+}
+
+@{
+    Page.Title = "Orders";
+    ViewBag.MainMenu = "Transactions";
+    ViewBag.CurrentSitemap = "Orders";
+    ViewBag.BoxTitle = "View Order : " + Model.Id;
+
+    ViewBag.Controller = "Order";
+
+    ViewBag.SubmitAction = ViewBag.Details;
+}
+
+<div class="span6">
+    <div class="control-group">
+        <label class="control-label text-info">Account No : </label>
+        <label class="control-label">@Model.AccountNo </label>
+    </div>
+    <div class="control-group">
+        <label class="control-label text-info">P.O. No : </label>
+        <label class="control-label">@Model.PoNo </label>
+    </div>
+    <div class="control-group">
+        <label class="control-label text-info">Order No. : </label>
+        <label class="control-label">@Model.OrderNo </label>
+    </div>
+    <div class="control-group">
+        <label class="control-label text-info">Product : </label>
+        <label class="control-label">@Model.ProductDescription </label>
+    </div>
+    <div class="control-group">
+        <label class="control-label text-info">Price : </label>
+        <label class="control-label">@Model.Price </label>
+    </div>
+</div>
+<div class="span6">
+    <div class="control-group">
+        <label class="control-label text-info">P.O. Date : </label>
+        <label class="control-label">@Model.PoDate </label>
+    </div>
+    <div class="control-group">
+        <label class="control-label text-info">Promise Date : </label>
+        <label class="control-label">@Model.PromiseDate </label>
+    </div>
+    <div class="control-group">
+        <label class="control-label text-info">Quantity :</label>
+        <label class="control-label">@Model.QuantityOrdered </label>
+    </div>
+    <div class="control-group">
+        <label class="control-label text-info">Value :</label>
+        <label class="control-label">@Model.Value </label>
+    </div>
+    <div class="control-group">
+        <label class="control-label text-info">Current Status :</label>
+        <label class="control-label">@Model.CurrentStatus </label>
+    </div>
+</div>
+
+

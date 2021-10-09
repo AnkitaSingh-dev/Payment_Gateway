@@ -1,0 +1,4 @@
+{"IsDomestic":true,"deviceId":"KubpyEaY5wRGYUO+wccdlmNjGMReJfH+GTs56zej+RE=\n","query":"mum","type":"Flight","username":"lMBvDfpQgqwMQYIpWQN6pw==\n"}
+
+[{"airportname":"Mumbai","airportcode":"BOM","cityname":"Mumbai","citycode":"BOM","countryname":"India","countrycode":"IN","nationalty":"Indian","currency":"INR"}]
+

@@ -1,0 +1,70 @@
+﻿@model List<Corno.Raychem.CustomerPortal.Areas.Wallet.Models.Mpos>
+
+@{
+	Layout = "~/Views/Shared/_LayoutIndex.cshtml";
+}
+
+@{
+	ViewBag.Index = "Index";
+	ViewBag.Create = "Create";
+	ViewBag.Edit = "Edit";
+	ViewBag.Details = "Details";
+	ViewBag.Delete = "Delete";
+}
+
+@{
+	Page.Title = "MPOS Devices";
+
+	ViewBag.MainHeader = "Devices";
+	ViewBag.MainMenu = "Masters";
+	ViewBag.Controller = "Mpos";
+	ViewBag.AddNewMethod = "Create";
+	ViewBag.CurrentLink = "Devices";
+}
+
+<table class="table table-hover table-nomargin dataTable table-bordered dataTable-scroll-y dataTable-scroll-x">
+	<thead>
+		<tr>
+			<th class="text-center span1 sorting_desc">Id</th>
+		    <th class="text-center span10">Serial No</th>
+		    <th class="text-center span10">MID</th>
+		    <th class="text-center span10">TID</th>
+            <th class="text-center span10">Version</th>
+			<th class="text-center span1"></th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td class="text-center">@item.Id</td>
+			    <td class="text-left">@item.MposSerialNo</td>
+			    <td class="text-left">@item.Mid</td>
+			    <td class="text-left">@item.Tid</td>
+                <td class="text-left">@item.Version</td>
+				<td class="text-center">
+					<div class="btn-group">
+						<a href="#" data-toggle="dropdown" class="btn btn-danger dropdown-toggle"><i class="icon-cog"></i> <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="@Url.Action("Edit", "Mpos", new { id = item.Id })">
+									<i class="icon-edit "></i><span>  Edit</span>
+								</a>
+							</li>
+							<li>
+								<a href="@Url.Action("Details", "Mpos", new { id = item.Id })">
+									<i class="icon-file-text"></i><span>  View</span>
+								</a>
+							</li>
+							<li>
+								<a href="@Url.Action("Delete", "Mpos", new { id = item.Id })">
+									<i class="icon-remove-circle"></i><span>  Delete</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>

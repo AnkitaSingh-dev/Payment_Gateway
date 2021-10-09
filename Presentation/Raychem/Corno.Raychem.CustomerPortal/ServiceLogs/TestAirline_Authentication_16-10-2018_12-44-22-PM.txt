@@ -1,0 +1,6 @@
+Initiated by : 
+
+{"ClientId": "ApiIntegrationNew", "UserName": "ever4", "Password": "ever4@123", "EndUserIp": "104.211.179.239" }
+
+{"status":false,"result":"Invalid Application Version. Kindly update from Google Play Store.","walletbalance":0.0,"transactionid":null,"addionalinfo":"Invalid Application Version. Kindly update from Google Play Store.","datahtml":null,"response":{"Status":2,"TokenId":null,"Error":{"ErrorCode":1,"ErrorMessage":"You are not authorized to access TBO API"}},"userinfo":null,"isauthenticated":null,"sessionid":null,"conviniencecharges":null,"otp":null,"iskycsubmit":false,"ispansubmit":false,"isadhaarsubmit":false,"isemailconfirmed":false,"agentid":null,"otp_ref_number":null,"aadhaarno":null,"responsecode":null,"kitno":null,"iscarduser":false,"carddetails":null,"pcardid":null,"vcardid":null,"cardstatus":null,"cardlist":null,"cardamount":null,"beneficiarylist":null,"fcmtoken":null}
+

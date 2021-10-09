@@ -1,0 +1,18 @@
+﻿@using Microsoft.AspNet.Identity
+
+<li>
+    @if (Request.IsAuthenticated)
+    {
+        using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" }))
+@*        using (Html.BeginForm("LogOff", "Account", new { ReturnUrl = ViewBag.ReturnUrl, id = "logoutForm" }, FormMethod.Post))*@
+        {
+            @Html.AntiForgeryToken()
+            <div class="box">
+                <a href="javascript:document.getElementById('logoutForm').submit()">
+                    <i class="fa fa-power-off"></i>
+                    <span class="hidden-sm text">Logout</span>
+                </a>
+            </div>
+        }
+    }
+</li>

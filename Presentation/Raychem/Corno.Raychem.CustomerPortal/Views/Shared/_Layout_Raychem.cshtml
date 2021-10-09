@@ -1,0 +1,287 @@
+﻿@using Corno.Globals
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <title>Customer Portal - @Page.Title</title>
+
+    @Styles.Render("~/Content/css")
+
+    <script src="~/Scripts/jquery-2.2.0.min.js"></script>
+    <script src="~/Scripts/plugins/flot/jquery.flot.min.js"></script>
+
+    <link rel="shortcut icon" href="~/img/favicon.ico" />
+
+    <!-- Apple devices Homescreen icon -->
+    <link rel="apple-touch-icon-precomposed" href="~/img/logo-big.png" />
+</head>
+<body>
+    <div id="navigation">
+        <div class="container-fluid">
+            <a href="@Url.Action("Index", new {controller = "Home" })" id="brand">Corno</a>
+            <a href="#" class="toggle-nav" rel="tooltip" data-placement="bottom" title="Toggle navigation"><i class="icon-reorder"></i></a>
+            <ul class="main-nav">
+                <li>
+                        <a href="@Url.Action("Index", new {area = "Transactions", controller = "Dashboard" })">
+                            <i class="icon-dashboard"></i> <span> Dashboard </span>
+                        </a>
+                    </li>
+                    @*<li>
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                            <span>Masters</span>
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li> @Html.ActionLink("Specialities", "Index", new { area = "Masters", Controller = "Specialty" }) </li>
+                            <li> @Html.ActionLink("Doctors", "Index", new { area = "Masters", Controller = "Doctor" }) </li>
+                            <li> @Html.ActionLink("Doctor Slots", "Index", new { area = "Masters", Controller = "DoctorSlot" }) </li>
+                        </ul>
+                    </li>*@
+                <li>
+                        <a href="@Url.Action("Create", new {area = "cWallet", controller = "WalletTransaction"})">
+                            <i class="icon-money"></i> <span> Wallet </span>
+                        </a>
+                    </li>
+                <li>
+                    <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                        <i class="icon-list-alt"></i>
+                        <span>Transactions</span>
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="@Url.Action("Index", new {area = "Transactions", controller = "Order" })">
+                                <i class="icon-paper-clip"></i> <span> Orders </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("Index", new {area = "Transactions", controller = "Invoice" })">
+                                <i class="icon-file-alt"></i> <span> Invoices </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("Index", new {area = "Transactions", controller = "AccountReceivable" })">
+                                <i class="icon-money"></i> <span> Account Receivables </span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                @if (HttpContext.Current.User.IsInRole("Admin"))
+                {
+                    <li>
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                            <i class="icon-briefcase"></i>
+                            <span>Administration</span>
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="@Url.Action("Index", new {area = "Admin", controller = "Account"})">
+                                    <i class="icon-user"></i> <span> Users </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Index", new {area = "Admin", controller = "AspNetRole"})">
+                                    <i class="icon-pencil"></i> <span> Roles </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                }
+            </ul>
+            <div class="user">
+                <ul class="icon-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-cog"></i></a>
+                        <ul class="dropdown-menu pull-right theme-settings">
+                            <li>
+                                <span>Layout-width</span>
+                                <div class="version-toggle">
+                                    <a href="#" class="set-fixed">Fixed</a>
+                                    <a href="#" class="active set-fluid">Fluid</a>
+                                </div>
+                            </li>
+                            <li>
+                                <span>Topbar</span>
+                                <div class="topbar-toggle">
+                                    <a href="#" class="set-topbar-fixed">Fixed</a>
+                                    <a href="#" class="active set-topbar-default">Default</a>
+                                </div>
+                            </li>
+                            <li>
+                                <span>Sidebar</span>
+                                <div class="sidebar-toggle">
+                                    <a href="#" class="set-sidebar-fixed">Fixed</a>
+                                    <a href="#" class="active set-sidebar-default">Default</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown colo">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-tint"></i></a>
+                        <ul class="dropdown-menu pull-right theme-colors">
+                            <li class="subtitle">
+                                Predefined colors
+                            </li>
+                            <li>
+                                <span class="red"></span>
+                                <span class="orange"></span>
+                                <span class="green"></span>
+                                <span class="brown"></span>
+                                <span class="blue"></span>
+                                <span class="lime"></span>
+                                <span class="teal"></span>
+                                <span class="purple"></span>
+                                <span class="pink"></span>
+                                <span class="magenta"></span>
+                                <span class="grey"></span>
+                                <span class="darkblue"></span>
+                                <span class="lightred"></span>
+                                <span class="lightgrey"></span>
+                                <span class="satblue"></span>
+                                <span class="satgreen"></span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        @if (Request.IsAuthenticated)
+                        {
+                            <span class="welcome" style="color: white">Welcome,</span>
+                            <span style="color: white">@User.Identity.Name</span>
+                            <img src="~/img/user-avatar.jpg" alt="">
+                        }
+                    </a>
+                    <ul class="dropdown-menu pull-right">
+                        <li>
+                            <a href="@Url.Action("Edit", new {area = "Admin", controller = "Account", id = GlobalVariables.UserId})">
+                                <i class="icon-power-off"></i> <span> Edit profile </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("Edit", new {area = "Admin", controller = "Account", id = GlobalVariables.UserId})">
+                                <i class="icon-cog"></i> <span> Account settings </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("LogOff", new { area = "Admin", controller = "Account" })">
+                                <i class="icon-power-off"></i> <span> Sign out </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="content">
+        <div id="left">
+            @*<form action="search-results.html" method="GET" class='search-form'>
+                    <div class="search-pane">
+                        <input type="text" name="search" placeholder="Search here...">
+                        <button type="submit"><i class="icon-search"></i></button>
+                    </div>
+                </form>*@
+            @*<div class="subnav">
+                    <div class="subnav-title">
+                        <a href="#" class="toggle-subnav"><i class="icon-angle-down"></i><span>Portal</span></a>
+                    </div>
+                    <ul class="subnav-menu">
+                        <li>
+                            <a href="@Url.Action("Index", new {controller = "Home"})">
+                                <i class="icon-dashboard"></i> <span> Dashboard </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>*@
+            @*<div class="subnav">
+                    <div class="subnav-title">
+                        <a href="#" class="toggle-subnav"><i class="icon-angle-down"></i><span>Portal</span></a>
+                    </div>
+                    <ul class="subnav-menu">
+                        <li>
+                            <a href="@Url.Action("Create", new {area = "cWallet", controller = "WalletTransaction"})">
+                                <i class="icon-money"></i> <span> Wallet </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>*@
+            <div class="subnav">
+                <div class="subnav-title">
+                    <a href="#" class="toggle-subnav"><i class="icon-angle-down"></i><span>Dashboard</span></a>
+                </div>
+                <ul class="subnav-menu">
+                    <li>
+                        <a href="@Url.Action("Index", new { area = "Transactions", controller = "Dashboard" })">
+                            <i class="icon-dashboard"></i> <span> Dashboard </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="subnav">
+                <div class="subnav-title">
+                    <a href="#" class="toggle-subnav"><i class="icon-angle-down"></i><span>Transactions</span></a>
+                </div>
+                <ul class="subnav-menu">
+                    <li>
+                        <a href="@Url.Action("Index", new {area = "Transactions", controller = "Order" })">
+                            <i class="icon-paper-clip"></i> <span> Orders </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Index", new {area = "Transactions", controller = "Invoice" })">
+                            <i class="icon-file-alt"></i> <span> Invoices </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Index", new {area = "Transactions", controller = "AccountReceivable" })">
+                            <i class="icon-money"></i> <span> Account Receivables </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            @if (HttpContext.Current.User.IsInRole("Admin"))
+            {
+                <div class="subnav">
+                    <div class="subnav-title">
+                        <a href="#" class="toggle-subnav"><i class="icon-angle-down"></i><span>Administration</span></a>
+                    </div>
+                    <ul class="subnav-menu">
+
+                        <li>
+                            <a href="@Url.Action("Index", new {area = "Admin", controller = "Account"})">
+                                <i class="icon-user"></i> <span> Users </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("Index", new {area = "Admin", controller = "AspNetRole"})">
+                                <i class="icon-pencil"></i> <span> Roles </span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            }
+        </div>
+        <div>
+
+            @RenderBody()
+        </div>
+        <div id="footer">
+            <p>&copy; @DateTime.Now.Year - <a href="http://www.concsystems.com">Concept Systems </a></p>
+        </div>
+    </div>
+
+    @*<footer class="ow-server-footer">
+            <p>&copy; @DateTime.Now.Year - <a href="www.concsystems.com"> Concept Systems </a></p>
+        </footer>*@
+
+    @Scripts.Render("~/bundles/plugins")
+    @Scripts.Render("~/bundles/bootstrap")
+</body>
+</html>

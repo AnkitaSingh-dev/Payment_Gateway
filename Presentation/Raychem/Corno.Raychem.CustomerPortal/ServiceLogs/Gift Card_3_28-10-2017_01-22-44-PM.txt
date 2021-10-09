@@ -1,0 +1,62 @@
+SD=332185
+AP=332435
+OP=332436
+SESSION=28212017132117
+NUMBER=
+ACCOUNT=
+Authenticator3=
+AMOUNT=1
+AMOUNT_ALL=1
+TERM_ID=
+COMMENT=
+routingType=
+transRefId=
+otc=
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+Type=3
+Category_id=
+Product_id=85
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=3
+PlanOffer=
+
+
+0000042301SM000000700000007000000217
+inist_in            00000040
+                    00000000
+BEGIN
+ERROR=24
+RESULT=1
+DATE=28.10.2017 07:52:39
+SESSION=28212017132117
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFn0N0cBAWr6BAC5AF8vFjg/g5n3J0rokRgSsXIyD7OMYfOSU/sg
+9rybkwCiw2Q 4kH6pcWIsNwVO5Wd8E/9WvQlKlHiv 0VMOZMWVVacBV28cg5I53c
+zdoyw7pjaoAm9B1fF5XANynJnSU7w9O2Upwd0Fbv 1NI5EhdgH6NAQhYWx8roM5g
+Foh2orABxw==
+=qVKl
+END SIGNATURE
+

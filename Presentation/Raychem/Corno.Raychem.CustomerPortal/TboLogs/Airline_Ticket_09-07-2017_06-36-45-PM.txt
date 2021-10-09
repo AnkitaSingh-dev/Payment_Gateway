@@ -1,0 +1,161 @@
+{
+  "PreferredCurrency": "GBP",
+  "IsBaseCurrencyRequired": "true",
+  "EndUserIp": "192.168.11.58",
+  "TokenId": "f062ef5c-f85f-42ea-a965-fd5befbd17a0",
+  "TraceId": "9ab23646-b170-4c25-b03e-29a428c73fe0",
+  "ResultIndex": "OB20",
+  "Passengers": [
+    {
+      "Title": "Mr",
+      "FirstName": "JRIBHYQAX",
+      "LastName": "Re",
+      "PaxType": 1,
+      "DateOfBirth": "1982-12-06T00:00:00",
+      "Gender": 1,
+      "PassportNo": "KJHHJKHKJH",
+      "PassportExpiry": "2020-12-06T00:00:00",
+      "AddressLine1": "123, Test",
+      "AddressLine2": "",
+      "City": "Gurgaon",
+      "CountryCode": "IN",
+      "CountryName": "India",
+      "ContactNo": "9879879877",
+      "Email": "harsh@tbtq.in",
+      "IsLeadPax": true,
+      "FFAirline": "",
+      "FFNumber": "",
+      "Fare": {
+        "BaseFare": 1,
+        "Tax": 1,
+        "TransactionFee": 1,
+        "YQTax": 1,
+        "AdditionalTxnFeeOfrd": 0,
+        "AdditionalTxnFeePub": 1,
+        "AirTransFee": 1
+      },
+      "MealDynamic": [
+        {
+          "WayType": 2,
+          "Code": "VGML",
+          "Description": 2,
+          "AirlineDescription": "VEG MEAL",
+          "Quantity": 1,
+          "Price": 250,
+          "Currency": "INR",
+          "Origin": "DEL",
+          "Destination": "BOM"
+        }
+      ],
+      "Baggage": [
+        {
+          "WayType": 2,
+          "Code": "XBPA",
+          "Description": 2,
+          "Weight": 5,
+          "Currency": "INR",
+          "Price": 1000,
+          "Origin": "DE L",
+          "Destination": "BOM"
+        }
+      ]
+    },
+    {
+      "Title": "Mr",
+      "FirstName": "Rajvecuf",
+      "LastName": "Singh",
+      "PaxType": 2,
+      "DateOfBirth": "2011-12-06T00:00:00",
+      "Gender": 1,
+      "PassportNo": "KJHHJKHKJH",
+      "PassportExpiry": "2020-12-06T00:00:00",
+      "AddressLine1": "123, Test",
+      "AddressLine2": "",
+      "City": "Gurgaon",
+      "CountryCode": "IN",
+      "CountryName": "India",
+      "ContactNo": "9879879877",
+      "Email": "harsh@tbtq.in",
+      "IsLeadPax": true,
+      "FFAirline": "",
+      "FFNumber": "",
+      "Fare": {
+        "BaseFare": 1,
+        "Tax": 1,
+        "TransactionFee": 1,
+        "YQTax": 1,
+        "AdditionalTxnFeeOfrd": 0,
+        "AdditionalTxnFeePub": 1,
+        "AirTransFee": 1
+      },
+      "MealDynamic": [
+        {
+          "WayType": 2,
+          "Code": "VGML",
+          "Description": 2,
+          "AirlineDescription": "VEG MEAL",
+          "Quantity": 1,
+          "Price": 250,
+          "Currency": "INR",
+          "Origin": "DEL",
+          "Destination": "BOM"
+        }
+      ],
+      "Baggage": [
+        {
+          "WayType": 2,
+          "Code": "XBPA",
+          "Description": 2,
+          "Weight": 5,
+          "Currency": "INR",
+          "Price": 1000,
+          "Origin": "DE L",
+          "Destination": "BOM"
+        }
+      ]
+    },
+    {
+      "Title": "Mr",
+      "FirstName": "R",
+      "LastName": "Si",
+      "PaxType": 3,
+      "DateOfBirth": "2014-12-06T00:00:00",
+      "Gender": 1,
+      "PassportNo": "KJHHJKHKJH",
+      "PassportExpiry": "2020-12-06T00:00:00",
+      "AddressLine1": "123, Test",
+      "AddressLine2": "",
+      "City": "Gurgaon",
+      "CountryCode": "IN",
+      "CountryName": "India",
+      "ContactNo": "9879879877",
+      "Email": "harsh@tbtq.in",
+      "IsLeadPax": true,
+      "FFAirline": "",
+      "FFNumber": "",
+      "Fare": {
+        "BaseFare": 1,
+        "Tax": 1,
+        "TransactionFee": 1,
+        "YQTax": 1,
+        "AdditionalTxnFeeOfrd": 0,
+        "AdditionalTxnFeePub": 1,
+        "AirTransFee": 1
+      }
+    }
+  ]
+}
+
+{
+  "Response": {
+    "B2B2BStatus": false,
+    "Error": {
+      "ErrorCode": 6,
+      "ErrorMessage": "Your session (TraceId) is expired."
+    },
+    "ResponseStatus": 4,
+    "TraceId": "9ab23646-b170-4c25-b03e-29a428c73fe0",
+    "Response": null
+  }
+}
+

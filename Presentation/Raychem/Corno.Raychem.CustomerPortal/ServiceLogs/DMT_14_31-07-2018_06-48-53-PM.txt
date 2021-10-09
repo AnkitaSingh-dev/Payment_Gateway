@@ -1,0 +1,73 @@
+SD=332185
+AP=332435
+OP=332436
+SESSION=31472018184740
+NUMBER=8839970825
+ACCOUNT=
+Authenticator3=
+AMOUNT=100
+AMOUNT_ALL=106
+TERM_ID=
+COMMENT=
+AID=BGOPJ9215R
+routingType=
+transRefId=
+otc=9779
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+benBankName=
+benMobile=
+benId=
+Type=14
+Category_id=
+Product_id=
+billing_email=
+benfName=
+benlName=
+Email=
+price=20
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=14
+PlanOffer=
+KeyKycStatus=
+Rcode=315068
+RequestFor=CUSTREFUND
+originalmerchantTranId=
+transFrom=01-01-2018
+transTo=31-07-2018
+
+
+0000060601SM000002530000025300000217
+inist_in            00000040
+                    00000000
+BEGIN
+ERROR=0
+RESULT=0
+ADDINFO={"RESP_CODE":200,"RESPONSE":"EPMONEY_LIST_TRANSACTION_SUCCESS","RESP_MSG":"Transaction fetch successfully.","DATA":{"TRANSACTION_DETAILS":[]}}
+DATE=31.07.2018 13:17:58
+SESSION=31472018184740
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFtgYYYBAQcoA/9jTvwviLKE87cK1popKdIrkBNUtifbNp5aHVxd
+g4SPyCPrH9SchQEpCojaadZpzLZPpPIpWSRgmn0TD3rN6VYtUYh1Bqie75M/p2CG
+ YfzuxhjbcIASNWZszKXNh3k5aEw95bYUMCkqtTw9/Qg1/TxVYNrZ7dEWxb8Wvrg
+p38fArABxw==
+=E/8H
+END SIGNATURE
+

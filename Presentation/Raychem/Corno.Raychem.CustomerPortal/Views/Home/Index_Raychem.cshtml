@@ -1,0 +1,21 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="main">
+    <ul class="tiles">
+        <li class="orange high long">
+            <a href="@Url.Action("Index", new { area = "Transactions", controller = "Dashboard" })"><span class="count"><i class="icon-1x icon-dashboard"></i> </span><span class="name">Dashboard</span></a>
+        </li>
+        <li class="blue high long">
+            <a href="@Url.Action("Index", new {area = "Transactions", controller = "Order" })"><span><i class="icon-shopping-cart"></i></span><span class="name">Orders</span></a>
+        </li>
+        <li class="red high long">
+            <a href="@Url.Action("Index", new {area = "Transactions", controller = "Invoice" })"><span class="count"><i class="icon-th"></i> </span><span class="name">Invoices</span></a>
+        </li>
+        <li class="lime high long">
+            <a href="@Url.Action("Index", new {area = "Transactions", controller = "AccountReceivable" })"><span class="count"><i class="icon-money"></i> </span><span class="name">Account Receivables</span></a>
+        </li>
+    </ul>
+</div>

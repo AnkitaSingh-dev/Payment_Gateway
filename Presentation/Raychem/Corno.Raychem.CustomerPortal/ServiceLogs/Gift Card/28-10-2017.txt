@@ -1,0 +1,1173 @@
+URL: https://in.cyberplat.com/cgi-bin/qc/qc_pay_check.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=28212017132117
+NUMBER=
+ACCOUNT=
+Authenticator3=
+AMOUNT=1
+AMOUNT_ALL=1
+TERM_ID=
+COMMENT=
+routingType=
+transRefId=
+otc=
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+Type=3
+Category_id=
+Product_id=85
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=3
+PlanOffer=
+
+
+0000041801SM000000650000006500000217
+inist_in            00000040
+                    00000000
+BEGIN
+DATE=28.10.2017 13:22:24
+SESSION=
+ERROR=0
+RESULT=0
+TRANSID=
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFn0NzgBAdmfA/9WKJM7XFUip v8KPJhGLkw4DRGWYhbE1nNMbQT
+0Rbvjl4y Q7YiitvG1267fMnq/W3X7O/2JsSfJ5q1ulDY kzCztw/Cv8QiKEKkMo
+AQfvKzAVW 9D7RwzAs0kr0S3lkGj QpjjVCwQv6Jw oD/i8kdvpUoQUF7l/vA/8K
+efAVJrABxw==
+=WJrR
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://in.cyberplat.com/cgi-bin/qc/qc_pay.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=28212017132117
+NUMBER=
+ACCOUNT=
+Authenticator3=
+AMOUNT=1
+AMOUNT_ALL=1
+TERM_ID=
+COMMENT=
+routingType=
+transRefId=
+otc=
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+Type=3
+Category_id=
+Product_id=85
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=3
+PlanOffer=
+
+
+0000042301SM000000700000007000000217
+inist_in            00000040
+                    00000000
+BEGIN
+ERROR=24
+RESULT=1
+DATE=28.10.2017 07:52:39
+SESSION=28212017132117
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFn0N0cBAWr6BAC5AF8vFjg/g5n3J0rokRgSsXIyD7OMYfOSU/sg
+9rybkwCiw2Q 4kH6pcWIsNwVO5Wd8E/9WvQlKlHiv 0VMOZMWVVacBV28cg5I53c
+zdoyw7pjaoAm9B1fF5XANynJnSU7w9O2Upwd0Fbv 1NI5EhdgH6NAQhYWx8roM5g
+Foh2orABxw==
+=qVKl
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://in.cyberplat.com/cgi-bin/qc/qc_pay_check.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=28232017132341
+NUMBER=
+ACCOUNT=
+Authenticator3=
+AMOUNT=1
+AMOUNT_ALL=1
+TERM_ID=
+COMMENT=
+routingType=
+transRefId=
+otc=
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+Type=3
+Category_id=
+Product_id=85
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=3
+PlanOffer=
+
+
+0000041801SM000000650000006500000217
+inist_in            00000040
+                    00000000
+BEGIN
+DATE=28.10.2017 13:23:48
+SESSION=
+ERROR=0
+RESULT=0
+TRANSID=
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFn0N4wBAVntA/9lmJoMxNfQwE9uTPBzkYA3OzZAiVcW5FlVC7il
+YSwMoP2r5g5QRCOvWXsYn885Nvynwmg8LV6P4jlKB8nAC0AN1gvMwifedSvBE6VF
+d9sAFvJUgjt6Cjj9f5wrur2a6sYTTVVXIvvlW3uv5DIihxWTH CrVuyI7QSFgNI2
+Ki URrABxw==
+=huY7
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://in.cyberplat.com/cgi-bin/qc/qc_pay.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=28232017132341
+NUMBER=
+ACCOUNT=
+Authenticator3=
+AMOUNT=1
+AMOUNT_ALL=1
+TERM_ID=
+COMMENT=
+routingType=
+transRefId=
+otc=
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+Type=3
+Category_id=
+Product_id=85
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=3
+PlanOffer=
+
+
+0000042301SM000000700000007000000217
+inist_in            00000040
+                    00000000
+BEGIN
+ERROR=24
+RESULT=1
+DATE=28.10.2017 07:55:12
+SESSION=28232017132341
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFn0N ABAc4CBACuxM3UCxkQ6sxaz9bluZGnsHBbFCyn6qiFEno8
+oPuzA9wD gHGTv2zOkhiMme3HsvUfGfXN/A7YEavbY0omcPhZZMR80ag7fuSZNiv
+oB/2Lbrj6kczdXOJ7KozaVoZKcWGFUhCsvkUE1E6Hb3cszSbyDh5FYGGT s95ao 
+39R5D7ABxw==
+=mSM 
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://in.cyberplat.com/cgi-bin/qc/qc_pay_check.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=28252017132556
+NUMBER=
+ACCOUNT=
+Authenticator3=
+AMOUNT=10
+AMOUNT_ALL=10
+TERM_ID=
+COMMENT=
+routingType=
+transRefId=
+otc=
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+Type=3
+Category_id=
+Product_id=85
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=3
+PlanOffer=
+
+
+0000041801SM000000650000006500000217
+inist_in            00000040
+                    00000000
+BEGIN
+DATE=28.10.2017 13:26:17
+SESSION=
+ERROR=0
+RESULT=0
+TRANSID=
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFn0OCEBAcecBACBGnrSC8uyXXzTDZriWy1uljsIq7mD4/FZFyob
+V/SRK9vbUw6 HHw7EnM3NZDS8Pk7N5ecidogWNo45/Xy1i7/nFF8qJFiVEc nr3x
+Wcv4/ KHtkXZiS6OxTuj7cmHRF8zrg9/8nXIJkgkoSOOvyiSwk66WablyLQUeKnE
+fPLEubABxw==
+=o6Wz
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://in.cyberplat.com/cgi-bin/qc/qc_pay.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=28252017132556
+NUMBER=
+ACCOUNT=
+Authenticator3=
+AMOUNT=10
+AMOUNT_ALL=10
+TERM_ID=
+COMMENT=
+routingType=
+transRefId=
+otc=
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+Type=3
+Category_id=
+Product_id=85
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=3
+PlanOffer=
+
+
+0000042301SM000000700000007000000217
+inist_in            00000040
+                    00000000
+BEGIN
+ERROR=24
+RESULT=1
+DATE=28.10.2017 07:56:30
+SESSION=28252017132556
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFn0OC4BATQUA/wOmyrlg7646XA ypNBYj2Gy7DbqQwd8uU63AaV
+n0CfM0r27J vnCQJxwMkILAX4JefX7rqEWPrpVrahsFnYj2IHiZ/EOMtfjuBnxq0
+H5LNClH1yJRl0LAaAnNgrmDIERzzJ8C3aHWQPC/5f/dmhAuujAgetj98qyQSKc5H
+FFCulrABxw==
+=dsSQ
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://in.cyberplat.com/cgi-bin/qc/qc_pay_check.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=28272017132719
+NUMBER=
+ACCOUNT=
+Authenticator3=
+AMOUNT=10
+AMOUNT_ALL=10
+TERM_ID=
+COMMENT=
+routingType=
+transRefId=
+otc=
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+Type=3
+Category_id=
+Product_id=249
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=3
+PlanOffer=
+
+
+0000041801SM000000650000006500000217
+inist_in            00000040
+                    00000000
+BEGIN
+DATE=28.10.2017 13:27:50
+SESSION=
+ERROR=0
+RESULT=0
+TRANSID=
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFn0OH4BAbMQA/0eouYXEled7Zpk0rTxnW6jYHQEoL7 IJjzNWvD
+qruGTgQtC6DeF0bA5EsDVRibJLAq64kUEsE7q8rZciNiLobxixiqNr77RU7iEPUP
+u1uPfJEWAkRHvag29rqsTtx7Vrvwsnn4A4KPDU4zb5qXlbS6y6rwiyTaYQJBwCAS
+t6kHwLABxw==
+=WgLW
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://in.cyberplat.com/cgi-bin/qc/qc_pay.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=28272017132719
+NUMBER=
+ACCOUNT=
+Authenticator3=
+AMOUNT=10
+AMOUNT_ALL=10
+TERM_ID=
+COMMENT=
+routingType=
+transRefId=
+otc=
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+Type=3
+Category_id=
+Product_id=249
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=3
+PlanOffer=
+
+
+0000042301SM000000700000007000000217
+inist_in            00000040
+                    00000000
+BEGIN
+ERROR=24
+RESULT=1
+DATE=28.10.2017 07:57:57
+SESSION=28272017132719
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFn0OIUBAT5UBACorTicV5vxenOv2w5Eubki86tp9c fmcrNi4SB
+05myjhtvELH42p5QTvgGE8kbkMyOBd9a yGM9uo7MbdVh0o2WLF65Ek7FLmruiu4
+iqKrUtz6gzztDaXpB iCOEZ1gc0uTDVhZ1RN8wrtp7jy93UX TTx6EIkxXaf9jlF
+iCfOyLABxw==
+=skdb
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://in.cyberplat.com/cgi-bin/qc/qc_pay_check.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=28282017132855
+NUMBER=
+ACCOUNT=
+Authenticator3=
+AMOUNT=10
+AMOUNT_ALL=10
+TERM_ID=
+COMMENT=
+routingType=
+transRefId=
+otc=
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+Type=3
+Category_id=
+Product_id=249
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=3
+PlanOffer=
+
+
+0000041801SM000000650000006500000217
+inist_in            00000040
+                    00000000
+BEGIN
+DATE=28.10.2017 13:29:11
+SESSION=
+ERROR=0
+RESULT=0
+TRANSID=
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFn0OM8BAX0jBADApA1LCNV6YRHAsQ 7Ggx43fQN/3E0Ma/1fGIb
+gb38bvqVNYFn6w89mL/UXQ4se4COyBQllWBDnK3AUB2cUvh/FKkuW7tFaKiVJyvF
+WAt79leJPmnOhBtr/L2hWU2W9dSl4AUHbJYBpa73O6WQ3LOf81e/WyUPWLyVnz 0
+wmMOwbABxw==
+=pvO 
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://in.cyberplat.com/cgi-bin/qc/qc_pay.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=28282017132855
+NUMBER=
+ACCOUNT=
+Authenticator3=
+AMOUNT=10
+AMOUNT_ALL=10
+TERM_ID=
+COMMENT=
+routingType=
+transRefId=
+otc=
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+Type=3
+Category_id=
+Product_id=249
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+PlanOffer=
+
+
+0000042301SM000000700000007000000217
+inist_in            00000040
+                    00000000
+BEGIN
+ERROR=24
+RESULT=1
+DATE=28.10.2017 08:01:47
+SESSION=28282017132855
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFn0OWsBARW8A/4xLlBZ7jFNB6BuiLU2xecsUEMpoKOFwXf8F57w
+syz0VHCmn0wJ7YYFlndypoJwy9fbaSYkDOZbKSMBzWkoTBqKUsMO305AwDfjHqiF
+2JRCvzkyI1qQwx5r6L/99sFjjDbyPKAJ82/w/ CjOytpPLoRputLVe7EilHidnz3
+X YTMrABxw==
+=4aQz
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://in.cyberplat.com/cgi-bin/qc/qc_pay_check.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=28322017133237
+NUMBER=
+ACCOUNT=
+Authenticator3=
+AMOUNT=10
+AMOUNT_ALL=10
+TERM_ID=
+COMMENT=
+routingType=
+transRefId=
+otc=
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+Type=3
+Category_id=
+Product_id=249
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+PlanOffer=
+
+
+0000041801SM000000650000006500000217
+inist_in            00000040
+                    00000000
+BEGIN
+DATE=28.10.2017 13:32:58
+SESSION=
+ERROR=0
+RESULT=0
+TRANSID=
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFn0ObIBAb37A/wMTPyAvYjc07wZa7N654nT2XJA21OGg/fsAQmH
+y8/H3JxowJhbJQiyA a5VO5akxJvwx7lSp0gyXm5WYzPnGM6DMsTkuAOf6I6GOH3
+2cAg6ncgbCnUZDl1EJmtVr/7rkbGz6AbmKowIwB94XB7FcUFLrYpEhoduW/IBkFc
+ykDq2LABxw==
+=eaVu
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://in.cyberplat.com/cgi-bin/qc/qc_pay.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=28332017133302
+NUMBER=
+ACCOUNT=
+Authenticator3=
+AMOUNT=10
+AMOUNT_ALL=10
+TERM_ID=
+COMMENT=
+routingType=
+transRefId=
+otc=
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+Type=3
+Category_id=
+Product_id=249
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+PlanOffer=
+
+
+0000042301SM000000700000007000000217
+inist_in            00000040
+                    00000000
+BEGIN
+ERROR=24
+RESULT=1
+DATE=28.10.2017 08:03:14
+SESSION=28332017133302
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFn0OcIBAZvFA/wO9gJ2kCRjg6pLXSVfXr9GYi9zBuRCAi7RWmBG
+OKhiRmIixWAyeJ7Gr rlauCx/41j1/z7NxdCFeej44DV2kc42VhkfV7ZGe4968PG
+g7ql9WK2um4LS4J6KPHDMX uXIziT0R9iAYkusur9SFEKThwBJEv8Rs7Ch2CSdW/
+umhnCLABxw==
+=Eka6
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://in.cyberplat.com/cgi-bin/qc/qc_pay_check.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=28352017133508
+NUMBER=
+ACCOUNT=
+Authenticator3=
+AMOUNT=10
+AMOUNT_ALL=10
+TERM_ID=
+COMMENT=
+routingType=
+transRefId=
+otc=
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+Type=3
+Category_id=
+Product_id=249
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=3
+PlanOffer=
+
+
+0000041801SM000000650000006500000217
+inist_in            00000040
+                    00000000
+BEGIN
+DATE=28.10.2017 13:35:19
+SESSION=
+ERROR=0
+RESULT=0
+TRANSID=
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFn0Oj8BAUp0A/90ZOBNJa3N2yGZBG60v73b/wWUX8c/ndKDaI0T
+8XHDPkt56qkZbtOSvnPkiQtqjhU38Q9FkTPAhFJ9AJ/D09ZWYzh5Vjup3Nb1qf/x
+LLmo25iZboJMEK0Ou2Ne3SPrRqMwgVGwf5HtEnKOoDedEo8/vq6CUKFf1CKYq7jH
+BG XSrABxw==
+=5lMx
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://in.cyberplat.com/cgi-bin/qc/qc_pay.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=28352017133531
+NUMBER=
+ACCOUNT=
+Authenticator3=
+AMOUNT=10
+AMOUNT_ALL=10
+TERM_ID=
+COMMENT=
+routingType=
+transRefId=
+otc=
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+Type=3
+Category_id=
+Product_id=249
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=3
+PlanOffer=
+
+
+0000042301SM000000700000007000000217
+inist_in            00000040
+                    00000000
+BEGIN
+ERROR=24
+RESULT=1
+DATE=28.10.2017 08:05:40
+SESSION=28352017133531
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFn0OlQBAd6ZA/9Fanyfzh0C5b6Ahf0Cox2y02s29od0RT/vIYRj
+CzlMNIfTsKogLj2gOwt979IiVISkevkbPvZwh9GkYTHUawUGQHwZgs1Pf7C7t9fa
+eS2aD3H6kUTgzKPjYnOYIQSkmTr5r5eqNeQ/4N 0qbImQxOfJL004e/fJO akvG5
+FsozFLABxw==
+= NbZ
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://in.cyberplat.com/cgi-bin/qc/qc_pay_check.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=28362017133625
+NUMBER=
+ACCOUNT=
+Authenticator3=
+AMOUNT=10
+AMOUNT_ALL=10
+TERM_ID=
+COMMENT=
+routingType=
+transRefId=
+otc=
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+Type=3
+Category_id=
+Product_id=249
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=3
+PlanOffer=
+
+
+0000041801SM000000650000006500000217
+inist_in            00000040
+                    00000000
+BEGIN
+DATE=28.10.2017 13:36:37
+SESSION=
+ERROR=0
+RESULT=0
+TRANSID=
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFn0Oo0BAaYDA/9jY4HKvL5ii0Xu1/ axqzv0O/oGW0TNwJnAlT3
+xJJdOm9Bty5ngGnHwIBk8D6aQLHmtq9s Wxwbea3eXLogMI7Y0nrLxr34/g13UDf
+z1e9MwMNBmojH T/RS8drv0n BAvrhhPqWzLM GeHqD0XslnjmesvM5Mo02aC765
+yTNG LABxw==
+=Li81
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://in.cyberplat.com/cgi-bin/qc/qc_pay.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=28362017133625
+NUMBER=
+ACCOUNT=
+Authenticator3=
+AMOUNT=10
+AMOUNT_ALL=10
+TERM_ID=
+COMMENT=
+routingType=
+transRefId=
+otc=
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+Type=3
+Category_id=
+Product_id=249
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=3
+PlanOffer=
+
+
+0000042301SM000000700000007000000217
+inist_in            00000040
+                    00000000
+BEGIN
+ERROR=24
+RESULT=1
+DATE=28.10.2017 08:07:52
+SESSION=28362017133625
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFn0OtgBAZ7UA/9AFSU5FXgsChb7Dg/Wp6uh5Auo6TuzqiLU/Ij6
+zfbFn4peLGlAIwa1aFXDgtzXpaZblFpRUseQlPYbxa424drkxuuyC4iRZkndeEMl
+ri4BFf/XCi4OR8g2/eVekBx6ycs9uXvJUXd8U7viitCR8mCtWiP8SpJT6dayX DG
+2tEbZ7ABxw==
+=Xqc7
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://in.cyberplat.com/cgi-bin/qc/qc_pay_check.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=28382017133843
+NUMBER=
+ACCOUNT=
+Authenticator3=
+AMOUNT=10
+AMOUNT_ALL=10
+TERM_ID=
+COMMENT=
+routingType=
+transRefId=
+otc=
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+Type=3
+Category_id=
+Product_id=249
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=3
+PlanOffer=
+
+
+0000041801SM000000650000006500000217
+inist_in            00000040
+                    00000000
+BEGIN
+DATE=28.10.2017 13:38:58
+SESSION=
+ERROR=0
+RESULT=0
+TRANSID=
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFn0OxoBAWglA/4wNI7MmmBlYVuu1wjG8F6PqG3faOibGp9Bi/zO
+HetDsrJgHhEba6tvGcG/wPMyMClcsIzGA1V7eb44frVeWQM3LeKzZSvh 0w UID/
+eUkLS3WuzAKmsijWE62/jyCxxrcaQFYsoH/dgVPrukod9fbhE/II2h7mGOuYIM0f
+NK4FOrABxw==
+=VtLp
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: https://in.cyberplat.com/cgi-bin/qc/qc_pay.cgi
+
+SD=332185
+AP=332435
+OP=332436
+SESSION=28382017133843
+NUMBER=
+ACCOUNT=
+Authenticator3=
+AMOUNT=10
+AMOUNT_ALL=10
+TERM_ID=
+COMMENT=
+routingType=
+transRefId=
+otc=
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+Type=3
+Category_id=
+Product_id=249
+billing_email=
+benfName=
+benlName=
+Email=
+price=
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=3
+PlanOffer=
+
+
+0000042301SM000000700000007000000217
+inist_in            00000040
+                    00000000
+BEGIN
+ERROR=24
+RESULT=1
+DATE=28.10.2017 08:17:45
+SESSION=28382017133843
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFn0PSkBAbQvBAC9pvScuM7sWKm15pFrSGijsRKrn2udk J1V/Xo
+L412zrN2Gbg0Xr288tpGdpxfSsXrZS9exq34hQxfhPSCcYGcHuZMAEcPiddORS7H
+mvYGywwvrVbh3Pm0wZwSLCKeb3dSC8mLkbme48XQyeYCTn/pnSwTEMbGpbzx8vZo
+Py4tXbABxw==
+=bq/w
+END SIGNATURE
+
+-----------------------------------------------------------------------------------------------------------------------------------------------

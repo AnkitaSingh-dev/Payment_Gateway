@@ -1,0 +1,22 @@
+URL: http://api.tektravels.com/SharedServices/SharedData.svc/rest/Authenticate
+
+{
+  "username":"9373333210",
+  "deviceId":"XX1236575758493473",
+}
+
+
+{"status":false,"result":"Object reference not set to an instance of an object.","walletbalance":0.0,"transactionid":null,"addionalinfo":null,"response":{"Status":1,"TokenId":"e1b8e880-931f-438b-9633-88b784e12bf0","Error":{"ErrorCode":0,"ErrorMessage":""},"Member":{"FirstName":"Sudhanshu","LastName":"Godbole","Email":"ceo@4everpayment.com","MemberId":826,"AgencyId":886,"LoginName":"ever4","LoginDetails":"Login Success at#@ 7/19/2017 9:38:20 PM #@ IPAddress: 111.91.75.164","isPrimaryAgent":false}}}
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: http://api.tektravels.com/SharedServices/SharedData.svc/rest/Authenticate
+
+{
+  "username":"9373333210",
+  "deviceId":"XX1236575758493473",
+}
+
+
+{"status":false,"result":"Invalid Application Version. Kindly update from Google Play Store.","walletbalance":0.0,"transactionid":null,"addionalinfo":"Invalid Application Version. Kindly update from Google Play Store.","response":{"Status":1,"TokenId":"47eb6974-3640-427e-b468-52ee9ce922f1","Error":{"ErrorCode":1,"ErrorMessage":""},"Member":{"FirstName":"Sudhanshu","LastName":"Godbole","Email":"ceo@4everpayment.com","MemberId":826,"AgencyId":886,"LoginName":"ever4","LoginDetails":"Login Success at#@ 7/19/2017 9:38:20 PM #@ IPAddress: 111.91.75.164","isPrimaryAgent":false}}}
+
+-----------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,153 @@
+﻿@model Corno.Raychem.CustomerPortal.Areas.Wallet.Models.Notification
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    ViewBag.Create = "Create";
+    ViewBag.Details = "Details";
+}
+
+@{
+    Page.Title = "Notification";
+    ViewBag.MainMenu = "Masters";
+    ViewBag.CurrentSitemap = "Notification";
+    ViewBag.BoxTitle = "Send Notification";
+
+    ViewBag.Controller = "Notification";
+
+    ViewBag.SubmitAction = ViewBag.Create;
+}
+
+@if (TempData["Success"] != null)
+{
+    <script type="text/javascript">
+        bootbox.alert("@TempData["Success"]")
+    </script>
+}
+
+<div id="main">
+    <div class="container-fluid">
+        <div class="page-header">
+            <div class="pull-left">
+                <h3>@Page.Title</h3>
+            </div>
+            <div class="pull-right">
+                <ul class="stats">
+                    <li class="satgreen">
+                        <i class="icon-money"></i>
+                        <div class="details">
+                            <span class="big">@ViewBag.Balance</span>
+                            <span>Balance</span>
+                        </div>
+                    </li>
+                    <li class="lightred">
+                        <i class="icon-calendar"></i>
+                        <div class="details">
+                            <span class="big">February 22, 2013</span>
+                            <span>Wednesday, 13:56</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="breadcrumbs">
+            <ul>
+                <li>
+                    <a href="@Url.Action("Index", "Home")">Home</a>
+                    <i class="icon-angle-right"></i>
+                </li>
+                <li>
+                    <a href="#">@ViewBag.MainMenu</a>
+                    <i class="icon-angle-right"></i>
+                </li>
+                <li>
+                    <a href="@Url.Action(ViewBag.SubmitAction, ViewBag.Controller)">@ViewBag.CurrentSitemap</a>
+                </li>
+            </ul>
+            <div class="close-bread">
+                <a href="#"><i class="icon-remove"></i></a>
+            </div>
+        </div>
+        @Html.ValidationSummary(false, "", new { style = "color: red" })
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="box">
+                    @using (Html.BeginForm("Create", "Notification", null, FormMethod.Post, new { id = "form", @class = "form-horizontal form-validate" }))
+                    {
+                        @Html.AntiForgeryToken()
+
+                        <div class="box box-bordered">
+                            <div class="box-title">
+                                <h3>
+                                    <i class="icon-reorder"></i>
+                                    Notification
+                                </h3>
+                                <ul class="tabs">
+                                    <li class="active">
+                                        <a href="#t1" data-toggle="tab">Send Notification</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="box-content">
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="t1">
+                                        <h4>Send Notification</h4>
+                                        <div class="control-group">
+                                            <label class="control-label">Title <span style="color:red">*</span>:</label>
+                                            <div class="controls">
+                                                @Html.TextBoxFor(m => m.Title, new { id = "Title", placeholder = "Title", @class = "input-xlarge", data_rule_required = "true" })
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">Message <span style="color:red">*</span>:</label>
+                                            <div class="controls">
+                                                @Html.TextAreaFor(m => m.Message, 10, 80, new { id = "Message", placeholder = "Enter message", @class = "input-xlarge", data_rule_required = "true" })
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">Image URL  :</label>
+                                            <div class="controls">
+                                                @Html.TextBoxFor(m => m.ImageUrl, new { id = "ImageUrl", placeholder = "URL", @class = "input-xlarge", data_rule_required = "false" })
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <div class="controls">
+                                                <a href="#" onclick="$('<input />') .attr('type', 'hidden')
+                                                                .attr('name', 'sendType')
+                                                                .attr('value', 'All')
+                                                                .appendTo('#form');
+                                                                $(this).closest('form').submit();"
+                                                   rel="tooltip" title="Send" class="btn btn-teal">
+                                                    <span> Send to All</span>
+                                                </a>
+                                                <a href="#" onclick="$('<input />') .attr('type', 'hidden')
+                                                                .attr('name', 'sendType')
+                                                                .attr('value', 'Merchant')
+                                                                .appendTo('#form');
+                                                                $(this).closest('form').submit();"
+                                                   rel="tooltip" title="Send" class="btn btn-teal">
+                                                    <span> Send to Merchant</span>
+                                                </a>
+                                                <a href="#" onclick="$('<input />') .attr('type', 'hidden')
+                                                                .attr('name', 'sendType')
+                                                                .attr('value', 'Customer')
+                                                                .appendTo('#form');
+                                                                $(this).closest('form').submit();"
+                                                   rel="tooltip" title="Send" class="btn btn-teal">
+                                                    <span> Send to Customer</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

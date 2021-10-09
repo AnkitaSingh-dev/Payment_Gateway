@@ -1,0 +1,79 @@
+﻿@model Corno.Raychem.CustomerPortal.Areas.Admin.Models.UserProfileViewModel
+@{
+    ViewBag.Title = "UserProfile";
+}
+<div class="row">
+    <div id="breadcrumb" class="col-md-12">
+        <ol class="breadcrumb">
+           
+            <li><a href="#">Admin</a></li>
+            <li><a href="#">My Profile</a></li>
+        </ol>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12">
+        <div class="box ui-draggable ui-droppable">
+            <div class="box-header">
+                <div class="box-name">
+                    <i class="fa fa-plus-square large"></i>
+                    <span>My Profile</span>
+                </div>
+                <div class="box-icons">
+                    <a class="collapse-link">
+                        <i class="fa fa-chevron-up"></i>
+                    </a>
+                    <a class="expand-link">
+                        <i class="fa fa-expand"></i>
+                    </a>
+                    <a class="close-link">
+                        <i class="fa fa-times"></i>
+                    </a>
+                </div>
+                <div class="no-move"></div>
+            </div>
+            <div class="box-content">
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary(true)
+                    <div class="form-horizontal">
+                        <div class="box-content">
+                            <div class="panel panel-info">
+                                <div class="panel-heading"><strong>My Info</strong></div>
+                                <div class="form-group  has-feedback">
+                                    <label class="col-sm-2 control-label">First Name :</label>
+                                    <div class="col-sm-4">
+                                        @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control", placeholder = "Edit First Name", data_toggle = "tooltip", data_placement = "bottom", title = "First Name" })
+                                    </div>
+                                </div>
+                                <div class="form-group  has-feedback">
+                                    <label class="col-sm-2 control-label">Last Name :</label>
+                                    <div class="col-sm-4">
+                                        @Html.TextBoxFor(m => m.LastName, new { @class = "form-control", placeholder = "Edit Last Name", data_toggle = "tooltip", data_placement = "bottom", title = "Last Name" })
+                                    </div>
+                                </div>
+                                <div class="form-group  has-feedback">
+                                    <label class="col-sm-2 control-label">Email :</label>
+                                    <div class="col-sm-4">
+                                        @Html.TextBoxFor(m => m.Email, new { @class = "form-control", placeholder = "Edit Email", data_toggle = "tooltip", data_placement = "bottom", title = "Email" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-8 col-sm-2">
+                                    @*<button type="submit" value="Create" title="Save" class="btn btn-primary btn-label-left pull-right" onclick="location.href='@Url.Action("Register", "Account")'">*@
+                                    <button type="button" value="Index" class="btn btn-primary btn-label-left pull-left" onclick="location.href = '@Url.Action("Index", "Home")'">
+                                        <span><i class="fa fa-save"></i></span>
+                                        Submit
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,171 @@
+﻿@model IEnumerable<Corno.Raychem.CustomerPortal.Areas.Wallet.Models.SafexWalletTransaction>
+
+@{
+    Layout = "~/Views/Shared/_LayoutIndex.cshtml";
+}
+
+@{
+    ViewBag.Index = "Index";
+    ViewBag.Details = "Details";
+}
+
+@{
+    Page.Title = "Safex Wallet";
+
+    ViewBag.MainHeader = "Safex Wallet";
+    ViewBag.MainMenu = "Transactons";
+    ViewBag.Controller = "SafexWallet";
+    ViewBag.CurrentLink = "Safex Wallet";
+}
+
+<table class="table table-bordered dataTable dataTable-scroll-x @*dataTable-grouping*@ dataTable-tools dataTable-colvis">
+    <thead>
+        <tr>
+            @*<th>
+            @Html.DisplayNameFor(model => model.Status)
+        </th>*@
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedDate)
+            </th>
+            @*<th>
+            @Html.DisplayNameFor(model => model.ModifiedDate)
+        </th>*@
+            <th>
+                @Html.DisplayNameFor(model => model.AggId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SafexRefId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SwitchRefId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Amount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SafexTxnType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SwitchMCC)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SwitchMerchId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SwitchMerchName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SwitchChannel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.KitNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Network)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SwitchTerminalId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SwitchTraceNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SwitchInstitutionCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CardCurrencyCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PosTxnType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+            @Html.DisplayNameFor(model => model.DeviceId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EndUserIp)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.WalletTransactionId)
+        </th>       
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AggId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SafexRefId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SwitchRefId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Amount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SafexTxnType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SwitchMCC)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SwitchMerchId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SwitchMerchName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SwitchChannel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KitNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Network)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SwitchTerminalId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SwitchTraceNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SwitchInstitutionCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CardCurrencyCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PosTxnType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+            @Html.DisplayFor(modelItem => item.DeviceId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EndUserIp)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.WalletTransactionId)
+        </td>       
+        </tr>
+        }
+    </tbody>
+</table>

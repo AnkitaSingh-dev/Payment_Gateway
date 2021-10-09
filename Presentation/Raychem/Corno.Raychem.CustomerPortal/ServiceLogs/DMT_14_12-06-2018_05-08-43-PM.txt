@@ -1,0 +1,73 @@
+SD=332185
+AP=332435
+OP=332436
+SESSION=12082018170838
+NUMBER=8273044153
+ACCOUNT=
+Authenticator3=
+AMOUNT=100
+AMOUNT_ALL=106
+TERM_ID=
+COMMENT=
+AID=ADMPL0183G
+routingType=
+transRefId=
+otc=9779
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+benBankName=
+benMobile=
+benId=
+Type=14
+Category_id=
+Product_id=
+billing_email=
+benfName=
+benlName=
+Email=
+price=20
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=14
+PlanOffer=
+KeyKycStatus=
+Rcode=315068
+RequestFor=CUSTREFUND
+originalmerchantTranId=
+transFrom=01-01-2018
+transTo=06-12-2018
+
+
+0000041801SM000000650000006500000217
+inist_in            00000040
+                    00000000
+BEGIN
+DATE=12.06.2018 17:08:41
+SESSION=
+ERROR=0
+RESULT=0
+TRANSID=
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFsfsMEBAeZzA/9D67H1kGo6jjj lKkPfw/sF00w0bgXUVPhR8mF
+x3rObiGYLnUuqWjGC5kBseRgErNQqaGXNVAkqg8BLSaFZiX5D1dxk81wUZQb2Q2j
+C/V8azO6lXJwOJdMSGwYfOqomes5SeDjFq/H4Q63KGKM5IGxgmxb9PFrkLDLIzkh
+nlZaB7ABxw==
+=lK93
+END SIGNATURE
+

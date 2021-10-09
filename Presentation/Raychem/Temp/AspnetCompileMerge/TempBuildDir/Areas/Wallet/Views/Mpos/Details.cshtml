@@ -1,0 +1,45 @@
+﻿@model Corno.Raychem.CustomerPortal.Areas.Wallet.Models.Mpos
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.BootstrapEditorTemplates.cshtml";
+}
+
+<div class="container-fluid">
+    <div class="row" style="background-color: darkred; color: white">
+        <div class="col-md-6">
+            <h4>Country</h4>
+        </div>
+        <div class="col-md-6">
+            <h4>Country Details</h4>
+        </div>
+    </div>
+</div>
+
+<div class="form-horizontal well">
+    @Html.ValidationSummary(true)
+
+    <div class="row">
+        <div class="col-md-4 column">
+            @Html.EditorFor(model => model.Code)
+        </div>
+
+        <div class="col-md-4 column">
+            @Html.EditorFor(model => model.Name)
+        </div>
+        <div class="col-md-4 column">
+            @Html.EditorFor(model => model.SerialNo)
+        </div>
+
+    </div>
+
+    @Html.EditorFor(model => model.Description, "Multiline")
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            @Html.ActionLink("Back to List", "Index", null, new { @Class = "btn btn-small btn-primary" })
+        </div>
+    }
+</div>

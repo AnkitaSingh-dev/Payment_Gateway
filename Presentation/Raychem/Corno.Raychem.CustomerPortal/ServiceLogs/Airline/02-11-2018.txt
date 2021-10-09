@@ -1,0 +1,20 @@
+URL: http://api.tektravels.com/BookingEngineService_Air/AirService.svc/rest/GetBookingDetails
+
+Initiated by : 
+
+{"EndUserIp": "43.252.195.170", "TokenId": "e2cf052b-7999-476d-9c50-c602efcab681", "TraceId": "55f5455a-d9aa-4d45-8627-f960897a5181", "PNR": "E7CHJZ", "BookingId": "1407134", "TripIndicator": "1" ,"username":"+ctkwQRxUeNl/odbHv8yKw==\n","CabinClass":"2"}
+
+
+{"status":true,"result":"Success","walletbalance":0.0,"transactionid":null,"addionalinfo":null,"datahtml":null,"response":{"Response":{"Error":{"ErrorCode":3,"ErrorMessage":"InValid Session"},"ResponseStatus":3,"TraceId":"55f5455a-d9aa-4d45-8627-f960897a5181"}},"userinfo":null,"isauthenticated":null,"sessionid":null,"conviniencecharges":null,"otp":null,"iskycsubmit":false,"ispansubmit":false,"isadhaarsubmit":false,"isemailconfirmed":false,"agentid":null,"otp_ref_number":null,"aadhaarno":null,"responsecode":null,"kitno":null,"iscarduser":false,"carddetails":null,"cardstatus":null,"cardlist":null,"cardamount":null,"beneficiarylist":null,"fcmtoken":null,"electricitydetails":null}
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+URL: http://api.tektravels.com/BookingEngineService_Air/AirService.svc/rest/GetBookingDetails
+
+Initiated by : 
+
+{"EndUserIp": "43.252.195.170", "TokenId": "e2cf052b-7999-476d-9c50-c602efcab681", "TraceId": "55f5455a-d9aa-4d45-8627-f960897a5181", "PNR": "E7CHJZ", "BookingId": "1407134", "TripIndicator": "1" ,"username":"+ctkwQRxUeNl/odbHv8yKw==\n","CabinClass":"2"}
+
+
+{"status":true,"result":"Success","walletbalance":0.0,"transactionid":null,"addionalinfo":null,"datahtml":null,"response":{"Response":{"Error":{"ErrorCode":3,"ErrorMessage":"InValid Session"},"ResponseStatus":3,"TraceId":"55f5455a-d9aa-4d45-8627-f960897a5181"}},"userinfo":null,"isauthenticated":null,"sessionid":null,"conviniencecharges":null,"otp":null,"iskycsubmit":false,"ispansubmit":false,"isadhaarsubmit":false,"isemailconfirmed":false,"agentid":null,"otp_ref_number":null,"aadhaarno":null,"responsecode":null,"kitno":null,"iscarduser":false,"carddetails":null,"cardstatus":null,"cardlist":null,"cardamount":null,"beneficiarylist":null,"fcmtoken":null,"electricitydetails":null}
+
+-----------------------------------------------------------------------------------------------------------------------------------------------

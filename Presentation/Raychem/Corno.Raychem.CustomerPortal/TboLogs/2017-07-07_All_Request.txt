@@ -1,0 +1,28 @@
+{"ClientId": "ApiIntegrationNew", "UserName": "ever4", "Password": "ever4@123", "EndUserIp": "192.168.0.1" }
+
+{  "AdultCount": 1,  "ChildCount": 0,  "DirectFlight": false,  "EndUserIp": "104.131.0.138",  "InfantCount": 0,  "IsDomestic": true,  "JourneyType": "1",  "OneStopFlight": false,  "Segments": [    {      "Destination": "GOI",      "FlightCabinClass": 1,      "Origin": "BOM",      "PreferredArrivalTime": "2017-07-07",      "PreferredDepartureTime": "2017-07-07"    }  ],  "TokenId": "bcc4fce1-0511-4ed6-9af8-2f5833c33fef"}
+
+{"ClientId": "ApiIntegrationNew", "UserName": "ever4", "Password": "ever4@123", "EndUserIp": "192.168.0.1" }
+
+{"ClientId": "ApiIntegrationNew", "TokenAgencyId": 886, "TokenMemberId": 826, "TokenId": "1140e21a-a327-489f-b5ca-0231c7f14bd6", "EndUserIp": "192.168.0.1" }
+
+{  "EndUserIp": "104.131.0.138",  "ResultIndex": "OB1",  "TokenId": "bcc4fce1-0511-4ed6-9af8-2f5833c33fef",  "TraceId": "b228676a-b6fd-49b9-8608-bc1e42e81bbb"}
+
+{  "EndUserIp": "104.131.0.138",  "IsBaseCurrencyRequired": true,  "Passengers": [    {      "AddressLine1": "Mumbai",      "AddressLine2": "Mumbai",      "City": "Mumbai",      "ContactNo": "9373333210",      "CountryCode": "IN",      "CountryName": "India",      "DateOfBirth": "",      "Email": "umesh.kale@concsystems.com",      "FFNumber": "",      "Fare": {        "AdditionalTxnFeeOfrd": 0.0,        "AdditionalTxnFeePub": 0.0,        "BaseFare": 1399.0,        "CommissionEarned": 35.67,        "Currency": "INR",        "Discount": 0.0,        "IncentiveEarned": 23.18,        "OfferedFare": 1727.37,        "OtherCharges": 0.0,        "PLBEarned": 22.78,        "PublishedFare": 1909.0,        "ServiceFee": 100.0,        "Tax": 410.0,        "TdsOnCommission": 7.13,        "TdsOnIncentive": 4.64,        "TdsOnPLB": 4.56,        "YQTax": 0.0      },      "FirstName": "gray",      "Gender": 1,      "IsLeadPax": true,      "LastName": "hugs",      "PassportExpiry": "",      "PassportNo": "",      "PaxType": 1,      "Title": "Mr"    }  ],  "PreferredCurrency": "INR",  "ResultIndex": "OB1",  "TokenId": "bcc4fce1-0511-4ed6-9af8-2f5833c33fef",  "TraceId": "b228676a-b6fd-49b9-8608-bc1e42e81bbb"}
+
+{  "AdultCount": 1,  "ChildCount": 0,  "DirectFlight": false,  "EndUserIp": "104.131.0.138",  "InfantCount": 0,  "IsDomestic": true,  "JourneyType": "1",  "OneStopFlight": false,  "Segments": [    {      "Destination": "GOI",      "FlightCabinClass": 1,      "Origin": "BOM",      "PreferredArrivalTime": "2017-07-07",      "PreferredDepartureTime": "2017-07-07"    }  ],  "TokenId": "bcc4fce1-0511-4ed6-9af8-2f5833c33fef"}
+
+{"ClientId": "ApiIntegrationNew", "UserName": "ever4", "Password": "ever4@123", "EndUserIp": "192.168.0.1" }
+
+{"ClientId": "ApiIntegrationNew", "TokenAgencyId": 886, "TokenMemberId": 826, "TokenId": "0456a617-9b85-417c-bab4-551ac62bc38e", "EndUserIp": "192.168.0.1" }
+
+{  "AdultCount": 1,  "ChildCount": 0,  "DirectFlight": false,  "EndUserIp": "104.131.0.138",  "InfantCount": 0,  "IsDomestic": true,  "JourneyType": "1",  "OneStopFlight": false,  "Segments": [    {      "Destination": "GOI",      "FlightCabinClass": 1,      "Origin": "BOM",      "PreferredArrivalTime": "2017-07-07",      "PreferredDepartureTime": "2017-07-07"    }  ],  "TokenId": "bcc4fce1-0511-4ed6-9af8-2f5833c33fef"}
+
+{"ClientId": "ApiIntegrationNew", "UserName": "ever4", "Password": "ever4@123", "EndUserIp": "192.168.0.1" }
+
+{  "CheckInDate": "08/07/2017",  "CheckOutDate": "10/07/2017",  "CityId": 144306,  "CityName": "Mumbai",  "CountryCode": "IN",  "EndUserIp": "104.131.0.138",  "GuestNationality": "IN",  "IsNearBySearchAllowed": false,  "IsTBOMapped": false,  "MaxRating": 5,  "MinRating": 1,  "NoOfNights": 2,  "NoOfRooms": 1,  "PreferredCurrency": "INR",  "PreferredHotel": "",  "ResultCount": 0,  "ReviewScore": 0,  "RoomGuests": [    {      "ChildAge": [],      "NoOfAdults": 1,      "NoOfChild": 0    }  ],  "TokenId": "5ee6f5fc-f3fb-4597-b9f4-18d89cae5ebe"}
+
+{  "CheckInDate": "08/07/2017",  "CheckOutDate": "10/07/2017",  "CityId": 119805,  "CityName": "Goa",  "CountryCode": "IN",  "EndUserIp": "104.131.0.138",  "GuestNationality": "IN",  "IsNearBySearchAllowed": false,  "IsTBOMapped": false,  "MaxRating": 5,  "MinRating": 1,  "NoOfNights": 2,  "NoOfRooms": 1,  "PreferredCurrency": "INR",  "PreferredHotel": "",  "ResultCount": 0,  "ReviewScore": 0,  "RoomGuests": [    {      "ChildAge": [],      "NoOfAdults": 1,      "NoOfChild": 0    }  ],  "TokenId": "5ee6f5fc-f3fb-4597-b9f4-18d89cae5ebe"}
+
+{  "CheckInDate": "08/07/2017",  "CheckOutDate": "10/07/2017",  "CityId": 10409,  "CityName": "Delhi",  "CountryCode": "IN",  "EndUserIp": "104.131.0.138",  "GuestNationality": "IN",  "IsNearBySearchAllowed": false,  "IsTBOMapped": false,  "MaxRating": 5,  "MinRating": 1,  "NoOfNights": 2,  "NoOfRooms": 1,  "PreferredCurrency": "INR",  "PreferredHotel": "",  "ResultCount": 0,  "ReviewScore": 0,  "RoomGuests": [    {      "ChildAge": [],      "NoOfAdults": 1,      "NoOfChild": 0    }  ],  "TokenId": "5ee6f5fc-f3fb-4597-b9f4-18d89cae5ebe"}
+

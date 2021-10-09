@@ -1,0 +1,73 @@
+SD=332185
+AP=332435
+OP=332436
+SESSION=12082018170838
+NUMBER=8273044153
+ACCOUNT=
+Authenticator3=
+AMOUNT=100
+AMOUNT_ALL=106
+TERM_ID=
+COMMENT=
+AID=ADMPL0183G
+routingType=
+transRefId=
+otc=9779
+otcRefCode=
+fName=
+lName=
+mothersMaidenName=
+address=
+birthday=
+state=
+gender=
+benAccount=
+benMobile=
+benIFSC=
+benName=
+benCode=
+benBankName=
+benMobile=
+benId=
+Type=14
+Category_id=
+Product_id=
+billing_email=
+benfName=
+benlName=
+Email=
+price=20
+qty=
+giftmessage=
+theme=
+Producttype=
+AgentTransId=
+REQ_TYPE=14
+PlanOffer=
+KeyKycStatus=
+Rcode=315068
+RequestFor=CUSTREFUND
+originalmerchantTranId=
+transFrom=01-01-2018
+transTo=06-12-2018
+
+
+0000045401SM000001010000010100000217
+inist_in            00000040
+                    00000000
+BEGIN
+ERROR=224
+RESULT=1
+DATE=12.06.2018 11:38:47
+errmsg=No transaction found.
+SESSION=12082018170838
+
+END
+BEGIN SIGNATURE
+iQCRAwkBAAAAKFsfsMcBAR/BA/wPpTQqNrWYLFar9tduXJZXU3nm5REzPC33GqEr
+t3Oi0tCS6h/XZVXCdq8eLb6zVidR de6 nDm/NaDPM9r84JDgny c8USgaqxZMlI
+uUuk63rXXXJIfgpsRU7qKg1Gn/IsezfPoKCZjmbcdI/UyAL4Q02BrGHhZXaZtyzi
+3fNdObABxw==
+=Ynxs
+END SIGNATURE
+

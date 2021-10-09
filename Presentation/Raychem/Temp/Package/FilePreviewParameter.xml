@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="JugadPayInternal" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^F:\\Jugad\ Web\ Services\\Presentation\\Raychem\\Temp\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^F:\\Jugad\ Web\ Services\\Presentation\\Raychem\\Temp\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Corno.Data.Context.BaseContext-Web.config Connection String" description="" value="Corno.Data.Context.BaseContext_ConnectionString" tags="">
+    <parameterEntry kind="XmlFile" scope="F:\\Jugad\ Web\ Services\\Presentation\\Raychem\\Temp\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Corno.Data.Context.BaseContext']/@connectionString" />
+  </parameter>
+  <parameter name="Corno.Data.Context.CornoContext-Web.config Connection String" description="" value="Corno.Data.Context.CornoContext_ConnectionString" tags="">
+    <parameterEntry kind="XmlFile" scope="F:\\Jugad\ Web\ Services\\Presentation\\Raychem\\Temp\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Corno.Data.Context.CornoContext']/@connectionString" />
+  </parameter>
+  <parameter name="Corno.Data.Login.ApplicationDbContext-Web.config Connection String" description="" value="Corno.Data.Login.ApplicationDbContext_ConnectionString" tags="">
+    <parameterEntry kind="XmlFile" scope="F:\\Jugad\ Web\ Services\\Presentation\\Raychem\\Temp\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Corno.Data.Login.ApplicationDbContext']/@connectionString" />
+  </parameter>
+  <parameter name="CornoContext-Web.config Connection String" description="" value="Data Source=tcp:cornodb.database.windows.net,1433;Initial Catalog=CornoDBInternal;Integrated Security=False;User Id=cornoadmin;Password=Corno@4ever;Encrypt=True;TrustServerCertificate=False;MultipleActiveResultSets=True" tags="">
+    <parameterEntry kind="XmlFile" scope="F:\\Jugad\ Web\ Services\\Presentation\\Raychem\\Temp\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CornoContext']/@connectionString" />
+  </parameter>
+</parameters>

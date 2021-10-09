@@ -1,0 +1,558 @@
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\log4net.config
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Raychem.CustomerPortal.dll.config
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Raychem.CustomerPortal.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Raychem.CustomerPortal.pdb
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Antlr3.Runtime.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\AutoMapper.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Data.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Forms.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Globals.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Logger.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Services.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\EntityFramework.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\EntityFramework.SqlServer.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\LinqKit.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\log4net.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Security.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Security.Google.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Practices.Unity.Configuration.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Practices.Unity.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Practices.Unity.WebApi.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Web.Infrastructure.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Newtonsoft.Json.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Owin.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\PagedList.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Net.Http.Formatting.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Extensions.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Helpers.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Http.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Http.WebHost.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Mvc.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Optimization.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Razor.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.WebPages.Deployment.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.WebPages.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.WebPages.Razor.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.Reporting.Services.WebApi.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.ReportViewer.WebForms.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\WebActivatorEx.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\WebGrease.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.WinControls.UI.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.WinControls.RadDock.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.WinControls.Themes.TelerikMetroBlue.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.WinControls.Themes.Material.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.Reporting.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.WinControls.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\NModbus4.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.WinControls.GridView.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\TelerikData.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.ReportViewer.WinForms.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.SqlServer.SmoExtended.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.SqlServer.Smo.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Images.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.SqlServer.ConnectionInfo.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.SqlServer.SqlEnum.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Advantech.Adam.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Unity.Mvc5.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\TelerikCommon.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.SqlServer.RegSvrEnum.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.SqlServer.Dmf.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.SqlServer.ServiceBrokerEnum.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Advantech.Common.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Advantech.Protocol.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Antlr3.Runtime.pdb
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\AutoMapper.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\EntityFramework.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\EntityFramework.SqlServer.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\LinqKit.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\log4net.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Security.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Security.Google.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Practices.Unity.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Practices.Unity.Configuration.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Practices.Unity.WebApi.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Newtonsoft.Json.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\PagedList.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Net.Http.Formatting.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Helpers.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Http.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Http.WebHost.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Mvc.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Optimization.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Razor.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.WebPages.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.WebPages.Deployment.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.WebPages.Razor.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.Reporting.Services.WebApi.pdb
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.Reporting.Services.WebApi.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.ReportViewer.WebForms.pdb
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.ReportViewer.WebForms.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.WinControls.UI.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.WinControls.RadDock.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.Reporting.pdb
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.Reporting.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.WinControls.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\NModbus4.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.WinControls.GridView.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\TelerikData.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.ReportViewer.WinForms.pdb
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.ReportViewer.WinForms.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Temp\Corno.Raychem.CustomerPortal.csprojResolveAssemblyReference.cache
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Temp\Corno.Raychem.CustomerPortal.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Temp\Corno.Raychem.CustomerPortal.pdb
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Eneter.Messaging.Framework.dll
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Eneter.Messaging.Framework.pdb
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Eneter.Messaging.Framework.xml
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Logger.pdb
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Data.pdb
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Forms.pdb
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Globals.pdb
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Services.pdb
+D:\Working Directory\Corno\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Images.pdb
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Temp\Corno.Raychem.CustomerPortal.csprojResolveAssemblyReference.cache
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\log4net.config
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Raychem.CustomerPortal.dll.config
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Raychem.CustomerPortal.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Raychem.CustomerPortal.pdb
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Antlr3.Runtime.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\AutoMapper.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Data.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Globals.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Logger.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Services.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\EntityFramework.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\EntityFramework.SqlServer.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\LinqKit.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\log4net.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Security.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Security.Google.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Practices.Unity.Configuration.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Practices.Unity.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Practices.Unity.WebApi.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Web.Infrastructure.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Newtonsoft.Json.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Owin.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\PagedList.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Net.Http.Formatting.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Extensions.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Helpers.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Http.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Http.WebHost.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Mvc.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Optimization.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Razor.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.WebPages.Deployment.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.WebPages.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.WebPages.Razor.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.Reporting.Services.WebApi.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.ReportViewer.WebForms.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\WebActivatorEx.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\WebGrease.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.WinControls.UI.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.Reporting.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Unity.Mvc5.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.WinControls.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\TelerikCommon.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Data.pdb
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Globals.pdb
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Logger.pdb
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Services.pdb
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Antlr3.Runtime.pdb
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\AutoMapper.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\EntityFramework.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\EntityFramework.SqlServer.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\LinqKit.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\log4net.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Security.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Security.Google.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Practices.Unity.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Practices.Unity.Configuration.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Practices.Unity.WebApi.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Newtonsoft.Json.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\PagedList.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Net.Http.Formatting.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Helpers.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Http.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Http.WebHost.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Mvc.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Optimization.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Razor.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.WebPages.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.WebPages.Deployment.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.WebPages.Razor.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.Reporting.Services.WebApi.pdb
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.Reporting.Services.WebApi.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.ReportViewer.WebForms.pdb
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.ReportViewer.WebForms.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.WinControls.UI.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.Reporting.pdb
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.Reporting.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.WinControls.xml
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Temp\Corno.Raychem.CustomerPortal.dll
+D:\Working Directory\4Ever Payments\Development\Source\Presentation\Raychem\Temp\Corno.Raychem.CustomerPortal.pdb
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\log4net.config
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Raychem.CustomerPortal.dll.config
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Raychem.CustomerPortal.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Raychem.CustomerPortal.pdb
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Antlr3.Runtime.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\AutoMapper.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Data.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Globals.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Logger.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Services.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\EntityFramework.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\EntityFramework.SqlServer.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\IronRuby.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\IronRuby.Libraries.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\IronRuby.Libraries.Yaml.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Jurassic.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\LinqKit.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\log4net.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Dynamic.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Security.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Security.Google.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Practices.Unity.Configuration.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Practices.Unity.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Practices.Unity.WebApi.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Scripting.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Scripting.Metadata.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Web.Infrastructure.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Newtonsoft.Json.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Owin.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\PagedList.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\SassAndCoffee.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Net.Http.Formatting.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Extensions.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Helpers.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Http.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Http.WebHost.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Mvc.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Optimization.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Razor.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.WebPages.Deployment.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.WebPages.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.WebPages.Razor.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.Web.Mvc.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\WebActivatorEx.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\WebGrease.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.WinControls.UI.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.Reporting.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Unity.Mvc5.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.WinControls.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\TelerikCommon.dll
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Data.pdb
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Data.dll.config
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Globals.pdb
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Globals.dll.config
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Logger.pdb
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Logger.dll.config
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Services.pdb
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Services.dll.config
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Antlr3.Runtime.pdb
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\AutoMapper.xml
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\EntityFramework.xml
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\EntityFramework.SqlServer.xml
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\LinqKit.xml
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\log4net.xml
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.xml
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Security.xml
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Security.Google.xml
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Practices.Unity.xml
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Practices.Unity.Configuration.xml
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Practices.Unity.WebApi.xml
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Newtonsoft.Json.xml
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\PagedList.xml
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Net.Http.Formatting.xml
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Helpers.xml
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Http.xml
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Http.WebHost.xml
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Mvc.xml
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Optimization.xml
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Razor.xml
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.WebPages.xml
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.WebPages.Deployment.xml
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.WebPages.Razor.xml
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.WinControls.UI.xml
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.Reporting.pdb
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.Reporting.xml
+F:\Jugad Web Services\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.WinControls.xml
+F:\Jugad Web Services\Presentation\Raychem\Temp\Corno.Raychem.CustomerPortal.csprojResolveAssemblyReference.cache
+F:\Jugad Web Services\Presentation\Raychem\Temp\Corno.Raychem.CustomerPortal.csproj.CoreCompileInputs.cache
+F:\Jugad Web Services\Presentation\Raychem\Temp\Corno.Raychem.CustomerPortal.dll
+F:\Jugad Web Services\Presentation\Raychem\Temp\Corno.Raychem.CustomerPortal.pdb
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\log4net.config
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Raychem.CustomerPortal.dll.config
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Raychem.CustomerPortal.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Raychem.CustomerPortal.pdb
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Antlr3.Runtime.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\AutoMapper.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Data.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Globals.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Logger.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Services.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\EntityFramework.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\EntityFramework.SqlServer.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\IronRuby.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\IronRuby.Libraries.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\IronRuby.Libraries.Yaml.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\itextsharp.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Jurassic.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\LinqKit.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\log4net.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\MCPG.CCA.Util.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Dynamic.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Security.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Security.Google.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Practices.Unity.Configuration.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Practices.Unity.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Practices.Unity.WebApi.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Scripting.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Scripting.Metadata.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Web.Infrastructure.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Newtonsoft.Json.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Owin.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\PagedList.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\RestSharp.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\SassAndCoffee.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Select.Pdf.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Net.Http.Formatting.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Helpers.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Http.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Http.WebHost.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Mvc.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Optimization.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Razor.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.WebPages.Deployment.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.WebPages.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.WebPages.Razor.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.Web.Mvc.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\WebActivatorEx.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\WebGrease.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.WinControls.UI.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.Reporting.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Unity.Mvc5.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\agAes.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\jose-jwt.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.WinControls.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\TelerikCommon.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\IKVM.Runtime.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\IKVM.OpenJDK.Core.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\IKVM.OpenJDK.Security.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\IKVM.OpenJDK.Util.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\IKVM.Runtime.JNI.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\IKVM.OpenJDK.Management.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\IKVM.OpenJDK.Text.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\IKVM.OpenJDK.Naming.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\IKVM.OpenJDK.SwingAWT.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\IKVM.OpenJDK.XML.API.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\IKVM.OpenJDK.Corba.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\IKVM.OpenJDK.Remoting.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\IKVM.OpenJDK.Beans.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\IKVM.OpenJDK.Media.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\IKVM.AWT.WinForms.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\IKVM.OpenJDK.Charsets.dll
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Data.pdb
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Data.dll.config
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Globals.pdb
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Globals.dll.config
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Logger.pdb
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Logger.dll.config
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Services.pdb
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Services.dll.config
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Antlr3.Runtime.pdb
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\AutoMapper.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\EntityFramework.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\EntityFramework.SqlServer.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\itextsharp.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\LinqKit.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\log4net.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Security.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Security.Google.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Practices.Unity.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Practices.Unity.Configuration.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Practices.Unity.WebApi.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Newtonsoft.Json.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\PagedList.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Select.Pdf.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Net.Http.Formatting.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Helpers.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Http.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Http.WebHost.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Mvc.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Optimization.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Razor.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.WebPages.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.WebPages.Deployment.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.WebPages.Razor.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.WinControls.UI.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.Reporting.pdb
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.Reporting.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.WinControls.xml
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Select.Html.dep
+F:\Projects\Jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Select.Tools.dep
+F:\Projects\Jugad\Presentation\Raychem\Temp\Corno.Raychem.CustomerPortal.csprojResolveAssemblyReference.cache
+F:\Projects\Jugad\Presentation\Raychem\Temp\Corno.Raychem.CustomerPortal.csproj.CoreCompileInputs.cache
+F:\Projects\Jugad\Presentation\Raychem\Temp\Corno.Raychem.CustomerPortal.dll
+F:\Projects\Jugad\Presentation\Raychem\Temp\Corno.Raychem.CustomerPortal.pdb
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\log4net.config
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\libeay32.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\libgcc_s_dw2-1.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\mingwm10.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\ssleay32.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\wkhtmltox0.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Raychem.CustomerPortal.dll.config
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Raychem.CustomerPortal.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Raychem.CustomerPortal.pdb
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Antlr3.Runtime.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\AutoMapper.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Data.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Globals.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Logger.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Services.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\EntityFramework.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\EntityFramework.SqlServer.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\IronRuby.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\IronRuby.Libraries.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\IronRuby.Libraries.Yaml.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\itextsharp.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Jurassic.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\LinqKit.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\log4net.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.AspNet.Identity.Core.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Dynamic.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Security.Cookies.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Security.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Security.Google.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Practices.Unity.Configuration.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Practices.Unity.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Practices.Unity.WebApi.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Scripting.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Scripting.Metadata.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Web.Infrastructure.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Newtonsoft.Json.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Owin.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\PagedList.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\RestSharp.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\SassAndCoffee.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Select.Pdf.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Net.Http.Formatting.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Helpers.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Http.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Http.WebHost.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Mvc.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Optimization.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Razor.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.WebPages.Deployment.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.WebPages.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.WebPages.Razor.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.Web.Mvc.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\WebActivatorEx.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\WebGrease.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.WinControls.UI.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.Reporting.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Unity.Mvc5.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\jose-jwt.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.WinControls.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\TelerikCommon.dll
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Data.pdb
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Data.dll.config
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Globals.pdb
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Globals.dll.config
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Logger.pdb
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Logger.dll.config
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Services.pdb
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Corno.Services.dll.config
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Antlr3.Runtime.pdb
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\AutoMapper.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\EntityFramework.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\EntityFramework.SqlServer.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\itextsharp.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\LinqKit.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\log4net.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.AspNet.Identity.Core.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Security.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Security.Cookies.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Owin.Security.Google.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Practices.Unity.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Practices.Unity.Configuration.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Microsoft.Practices.Unity.WebApi.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Newtonsoft.Json.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\PagedList.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Select.Pdf.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Net.Http.Formatting.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Helpers.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Http.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Http.WebHost.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Mvc.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Optimization.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.Razor.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.WebPages.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.WebPages.Deployment.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\System.Web.WebPages.Razor.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.WinControls.UI.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.Reporting.pdb
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.Reporting.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Telerik.WinControls.xml
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Select.Html.dep
+E:\jugad\Presentation\Raychem\Corno.Raychem.CustomerPortal\bin\Select.Tools.dep
+E:\jugad\Presentation\Raychem\Temp\Corno.Raychem.CustomerPortal.csprojAssemblyReference.cache
+E:\jugad\Presentation\Raychem\Temp\Corno.Raychem.CustomerPortal.csproj.CoreCompileInputs.cache
+E:\jugad\Presentation\Raychem\Temp\Corno.Raychem.CustomerPortal.csproj.CopyComplete
+E:\jugad\Presentation\Raychem\Temp\Corno.Raychem.CustomerPortal.dll
+E:\jugad\Presentation\Raychem\Temp\Corno.Raychem.CustomerPortal.pdb

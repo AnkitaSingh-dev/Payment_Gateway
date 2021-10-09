@@ -1,0 +1,62 @@
+{
+  "EndUserIp": "104.131.0.138",
+  "IsBaseCurrencyRequired": true,
+  "Passengers": [
+    {
+      "AddressLine1": "Mumbai",
+      "AddressLine2": "Mumbai",
+      "City": "Mumbai",
+      "ContactNo": "8767572614",
+      "CountryCode": "IN",
+      "CountryName": "India",
+      "DateOfBirth": "",
+      "Email": "manoj.I.prasad@gmail.com",
+      "FFNumber": "",
+      "Fare": {
+        "AdditionalTxnFeeOfrd": 0.0,
+        "AdditionalTxnFeePub": 0.0,
+        "BaseFare": 2691.0,
+        "CommissionEarned": 68.62,
+        "Currency": "INR",
+        "Discount": 0.0,
+        "IncentiveEarned": 44.58,
+        "OfferedFare": 3484.98,
+        "OtherCharges": 0.0,
+        "PLBEarned": 43.82,
+        "PublishedFare": 3742.0,
+        "ServiceFee": 100.0,
+        "Tax": 951.0,
+        "TdsOnCommission": 13.72,
+        "TdsOnIncentive": 8.92,
+        "TdsOnPLB": 8.76,
+        "YQTax": 0.0
+      },
+      "FirstName": "sgegd",
+      "Gender": 1,
+      "IsLeadPax": true,
+      "LastName": "fwwgw",
+      "PassportExpiry": "",
+      "PassportNo": "",
+      "PaxType": 1,
+      "Title": "Mr"
+    }
+  ],
+  "PreferredCurrency": "INR",
+  "ResultIndex": "OB5",
+  "TokenId": "9ec15885-3405-4005-9f54-dfe9b52f2450",
+  "TraceId": "c0cfa961-100c-422a-baa9-fa2762ba12d9"
+}
+
+{
+  "Response": {
+    "B2B2BStatus": false,
+    "Error": {
+      "ErrorCode": 6,
+      "ErrorMessage": "Your session (TraceId) is expired."
+    },
+    "ResponseStatus": 4,
+    "TraceId": "c0cfa961-100c-422a-baa9-fa2762ba12d9",
+    "Response": null
+  }
+}
+

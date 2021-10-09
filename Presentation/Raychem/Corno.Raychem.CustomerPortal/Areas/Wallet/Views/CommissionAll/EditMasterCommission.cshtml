@@ -1,0 +1,114 @@
+﻿@model Corno.Raychem.CustomerPortal.Areas.Wallet.Models.MasterTransaction
+
+@{
+    Layout = "~/Views/Shared/_LayoutIndex.cshtml";
+}
+
+@{
+    ViewBag.Index = "Index";
+    ViewBag.Create = "Edit";
+    ViewBag.Details = "Details";
+}
+
+@{
+    Page.Title = "Edit Commission";
+
+    ViewBag.MainHeader = "Master Commission";
+    ViewBag.MainMenu = "Masters";
+    ViewBag.Controller = "CommissionAll";
+    ViewBag.AddNewMethod = "Edit";
+    ViewBag.CurrentLink = "MasterTransaction";
+ }
+
+@using (Html.BeginForm("EditMasterCommission","CommissionAll",null,FormMethod.Post,new { id = "form", @class = "form-horizontal form-validate" }))
+{
+    @Html.AntiForgeryToken()
+
+
+    @*@Html.ValidationSummary(true, "", new { @class = "text-danger" })*@
+
+<div class="control-group">
+    @*@Html.LabelFor(model => model.Service, htmlAttributes: new { @class = "control-label" })*@
+    <label class="control-label">Service <span style="color: red">*</span> :</label>
+    <div class="span1" style="margin-left: 5px;margin-right: -85px;">:</div>
+    <div class="controls">
+        @Html.TextBoxFor(model => model.Service, new { id = "Service", @class = "form-control", placeholder = "Enter Service.", data_rule_required = "true" })
+        @*@Html.ValidationMessageFor(model => model.Service, "", new { @class = "text-danger" })*@
+    </div>
+</div>
+
+    <div class="control-group">
+        <label class="control-label">Operator <span style="color: red">*</span> :</label>
+        <div class="span1" style="margin-left: 5px;margin-right: -85px;">:</div>
+        @*@Html.LabelFor(model => model.Operator, htmlAttributes: new { @class = "control-label col-md-2" })*@
+        <div class="controls">
+            @Html.TextBoxFor(model => model.Operator, new { id = "Operator", @class = "form-control", placeholder = "Enter Operator.", data_rule_required = "true" })
+            @*@Html.ValidationMessageFor(model => model.Operator, "", new { @class = "text-danger" })*@
+        </div>
+    </div>
+
+    <div class="control-group">
+        <label class="control-label">Merchant Credit <span style="color: red">*</span> :</label>
+        <div class="span1" style="margin-left: 5px;margin-right: -85px;">:</div>
+        @*@Html.LabelFor(model => model.MerchantCredit, htmlAttributes: new { @class = "control-label col-md-2" })*@
+        <div class="controls">
+            @Html.TextBoxFor(model => model.MerchantCredit, new { id = "MerchantCredit", @class = "form-control", placeholder = "Enter Merchant Credit Amount.", data_rule_required = "true" })
+            @*@Html.ValidationMessageFor(model => model.MerchantCredit, "", new { @class = "text-danger" })*@
+        </div>
+    </div>
+
+    <div class="control-group">
+        <label class="control-label">Merchant Debit <span style="color: red">*</span> :</label>
+        <div class="span1" style="margin-left: 5px;margin-right: -85px;">:</div>
+        @*@Html.LabelFor(model => model.MerchantDebit, htmlAttributes: new { @class = "control-label col-md-2" })*@
+        <div class="controls">
+            @Html.TextBoxFor(model => model.MerchantDebit, new { id = "MerchantDebit", @class = "form-control", placeholder = "Enter  Merchant Debit Amount.", data_rule_required = "true" })
+            @*@Html.ValidationMessageFor(model => model.MerchantDebit, "", new { @class = "text-danger" })*@
+        </div>
+    </div>
+
+    <div class="control-group">
+        <label class="control-label">Convinience Charges <span style="color: red">*</span> :</label>
+        <div class="span1" style="margin-left: 5px;margin-right: -85px;">:</div>
+        @*@Html.LabelFor(model => model.ConvinienceCharges, htmlAttributes: new { @class = "control-label col-md-2" })*@
+        <div class="controls">
+            @Html.TextBoxFor(model => model.ConvinienceCharges, new { id = "ConvinienceCharges", @class = "form-control", placeholder = "Enter Convinience Charges.", data_rule_required = "true" })
+            @*@Html.ValidationMessageFor(model => model.ConvinienceCharges, "", new { @class = "text-danger" })*@
+        </div>
+    </div>
+
+    <div class="control-group">
+        <label class="control-label">TDS <span style="color: red">*</span> :</label>
+        <div class="span1" style="margin-left: 5px;margin-right: -85px;">:</div>
+        @*@Html.LabelFor(model => model.TDS, htmlAttributes: new { @class = "control-label col-md-2" })*@
+        <div class="controls">
+            @Html.TextBoxFor(model => model.TDS, new { id = "TDS", @class = "form-control", placeholder = "Enter TDS.", data_rule_required = "true" })
+            @*@Html.ValidationMessageFor(model => model.TDS, "", new { @class = "text-danger" })*@
+        </div>
+    </div>
+
+    <div class="control-group">
+        <label class="control-label">GST <span style="color: red">*</span> :</label>
+        <div class="span1" style="margin-left: 5px;margin-right: -85px;">:</div>
+        @*@Html.LabelFor(model => model.GST, htmlAttributes: new { @class = "control-label col-md-2" })*@
+        <div class="controls">
+            @Html.TextBoxFor(model => model.GST, new { id = "GST", @class = "form-control", placeholder = "Enter GST.", data_rule_required = "true" })
+            @*@Html.ValidationMessageFor(model => model.GST, "", new { @class = "text-danger" })*@
+        </div>
+    </div>
+
+    <div class="control-group">
+        <div style="margin-left: 160px;">
+            <input type="submit" value="Update" rel="tooltip" class="btn btn-teal" />
+        </div>
+    </div>
+   
+}
+
+    <div>
+        @Html.ActionLink("Back to List", "GetCommissionDetails")
+    </div>
+
+@*@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}*@

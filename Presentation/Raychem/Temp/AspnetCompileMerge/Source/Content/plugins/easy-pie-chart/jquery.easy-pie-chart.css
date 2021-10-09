@@ -1,0 +1,10 @@
+.easyPieChart {
+    position: relative;
+    text-align: center;
+}
+
+.easyPieChart canvas {
+    left: 0;
+    position: absolute;
+    top: 0;
+}

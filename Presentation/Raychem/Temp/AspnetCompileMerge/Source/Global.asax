@@ -1,0 +1,1 @@
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="Corno.Raychem.CustomerPortal.MvcApplication" Language="C#" %>

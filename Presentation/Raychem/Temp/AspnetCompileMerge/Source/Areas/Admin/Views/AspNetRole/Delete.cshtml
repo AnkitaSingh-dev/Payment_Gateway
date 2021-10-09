@@ -1,0 +1,31 @@
+﻿@model Corno.Raychem.CustomerPortal.Areas.Admin.Models.AspNetRole
+
+@{
+    Layout = "~/Views/Shared/_LayoutDelete.cshtml";
+}
+
+@{
+    ViewBag.Index = "Index";
+    ViewBag.Create = "Create";
+    ViewBag.Edit = "Edit";
+    ViewBag.Details = "Details";
+    ViewBag.Delete = "Delete";
+}
+
+@{
+    Page.Title = "Roles";
+    ViewBag.MainMenu = "Administration";
+    ViewBag.CurrentSitemap = "Roles";
+    ViewBag.BoxTitle = "Delete Role : " + Model.Name;
+
+    ViewBag.Controller = "AspNetRole";
+
+    ViewBag.SubmitAction = ViewBag.Delete;
+}
+
+<div class="control-group">
+    <label class="control-label">Role Name :</label>
+    <div class="controls">
+        @Html.DisplayFor(m => m.Name)
+    </div>
+</div>
